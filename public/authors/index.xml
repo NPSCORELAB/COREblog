@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Authors | Academic</title>
+    <link>/authors/</link>
+      <atom:link href="/authors/index.xml" rel="self" type="application/rss+xml" />
+    <description>Authors</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sun, 07 Apr 2019 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/img/corelogo-big.png</url>
+      <title>Authors</title>
+      <link>/authors/</link>
+    </image>
+    
+    <item>
+      <title></title>
+      <link>/authors/admin/</link>
+      <pubDate>Sun, 07 Apr 2019 00:00:00 +0000</pubDate>
+      <guid>/authors/admin/</guid>
+      <description>
+
+&lt;h2 id=&#34;our-mission&#34;&gt;Our Mission&lt;/h2&gt;
+
+&lt;p&gt;Embedded within the Defense Analysis Department at the Naval Postgraduate School, the Common Operational Research Environment (CORE) Lab&amp;rsquo;s mission is to research and develop practitioner knowledge and ability in data collection and analysis of the human domain. Our research is primarily focused on social network, geospatial, and temporal analyses along with social media exploitation. The application of these methodologies and techniques, and the analytical software tools associated with them, enables academics, our students, and operational practitioners to collect, manage, and fuse data to create a more complete picture of the common operational environment. Our niche is bridging the gap between theory and operational capability.&lt;/p&gt;
+
+&lt;h2 id=&#34;our-goals&#34;&gt;Our Goals&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Collaborate with community of partners.&lt;/li&gt;
+&lt;li&gt;Operationalize advanced analytic methodologies and techniques.&lt;/li&gt;
+&lt;li&gt;Research new tools, techniques, and methodologies.&lt;/li&gt;
+&lt;li&gt;Educate operational practitioners.&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Robert Ford</title>
+      <link>/authors/robert-ford/</link>
+      <pubDate>Tue, 01 Sep 2015 00:00:00 +0000</pubDate>
+      <guid>/authors/robert-ford/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
