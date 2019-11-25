@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>R | Academic</title>
+    <link>/tags/r/</link>
+      <atom:link href="/tags/r/index.xml" rel="self" type="application/rss+xml" />
+    <description>R</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Thu, 24 Oct 2019 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/img/corelogo-big.png</url>
+      <title>R</title>
+      <link>/tags/r/</link>
+    </image>
+    
+    <item>
+      <title>R Learning Materials</title>
+      <link>/project/cttso-r-education/</link>
+      <pubDate>Thu, 24 Oct 2019 00:00:00 +0000</pubDate>
+      <guid>/project/cttso-r-education/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

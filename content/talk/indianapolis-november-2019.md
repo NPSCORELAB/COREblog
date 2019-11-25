@@ -4,35 +4,32 @@ abstract: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere 
   faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien
   eu, pulvinar tempor diam.
 address:
-  city: Stanford
-  country: United States
-  postcode: "94305"
-  region: CA
-  street: 450 Serra Mall
-all_day: false
+  city: Indianapolis
+  region: IN
+all_day: true
 authors: []
-date: "2030-06-01T13:00:00Z"
-date_end: "2030-06-01T15:00:00Z"
-event: Academic Theme Conference
-event_url: https://example.org
+date: "2019-11-18"
+date_end: "2019-11-22"
+event: SNA for LE
+# event_url: https://example.org
 featured: false
 image:
   caption: 'Image credit: [**Unsplash**](https://unsplash.com/photos/bzdhc5b3Bxs)'
   focal_point: Right
-links:
-- icon: twitter
-  icon_pack: fab
-  name: Follow
-  url: https://twitter.com/georgecushen
-location: Source Themes HQ
+# links:
+# - icon: twitter
+  # icon_pack: fab
+  # name: Follow
+  # url: https://twitter.com/georgecushen
+# location: Source Themes HQ
 math: true
 projects:
-- internal-project
+  - internal-project
 publishDate: "2017-01-01T00:00:00Z"
 slides: example
 summary: An example talk using Academic's Markdown slides feature.
 tags: []
-title: Example Talk
+title: SNA for LE, Indianapolis
 url_code: ""
 url_pdf: ""
 url_slides: ""

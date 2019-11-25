@@ -19,17 +19,22 @@
   
   <url>
     <loc>/</loc>
-    <lastmod>2030-06-01T13:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/talk/example/</loc>
-    <lastmod>2030-06-01T13:00:00+00:00</lastmod>
+    <lastmod>2020-03-16T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>/talk/</loc>
-    <lastmod>2030-06-01T13:00:00+00:00</lastmod>
+    <lastmod>2020-03-16T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/talk/bragg-march-2020/</loc>
+    <lastmod>2020-03-16T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/talk/indianapolis-november-2019/</loc>
+    <lastmod>2019-11-18T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -43,7 +48,17 @@
   </url>
   
   <url>
+    <loc>/tags/education-materials/</loc>
+    <lastmod>2019-10-24T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/project/</loc>
+    <lastmod>2019-10-24T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/project/cttso-r-education/</loc>
     <lastmod>2019-10-24T00:00:00+00:00</lastmod>
   </url>
   
@@ -195,6 +210,10 @@
   <url>
     <loc>/publication/conference-paper/</loc>
     <lastmod>2013-07-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/authors/sean-everton/</loc>
   </url>
   
   <url>

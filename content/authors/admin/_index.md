@@ -43,15 +43,4 @@ superuser: true
 # - Visitors
 ---
 
-## Our Mission
-
-Embedded within the Defense Analysis Department at the Naval Postgraduate School, the Common Operational Research Environment (CORE) Lab's mission is to research and develop practitioner knowledge and ability in data collection and analysis of the human domain. Our research is primarily focused on social network, geospatial, and temporal analyses along with social media exploitation. The application of these methodologies and techniques, and the analytical software tools associated with them, enables academics, our students, and operational practitioners to collect, manage, and fuse data to create a more complete picture of the common operational environment. Our niche is bridging the gap between theory and operational capability.
-
-## Our Goals
-
-- Collaborate with community of partners.
-- Operationalize advanced analytic methodologies and techniques.
-- Research new tools, techniques, and methodologies.
-- Educate operational practitioners.
-
-
+The Department of Defense Analysis is home to the CORE (Common Operational Research Environment) Lab. CORE was established at the Naval Postgraduate School (NPS) in 2007 with the mission to support U.S. and International field operatives in the analytical craft of integrating geospatial, cultural, relational, and temporal data.
