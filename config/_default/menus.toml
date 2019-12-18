@@ -17,7 +17,7 @@
   
 [[main]]
    name = "Training"
-   url = "#talks"
+   url = "training/"
    weight = 30
    
 [[main]]
@@ -25,20 +25,20 @@
   url = "#posts"
   weight = 40
 
-[[main]]
-  name = "Publications"
-  url = "#featured"
-  weight = 50
+# [[main]]
+#   name = "Publications"
+#   url = "#featured"
+#   weight = 50
 
-[[main]]
-   name = "Courses"
-   url = "courses/"
-   weight = 60
+# [[main]]
+#    name = "Courses"
+#    url = "courses/"
+#    weight = 60
 
-[[main]]
-  name = "Our Team"
-  url = "#people"
-  weight = 70
+# [[main]]
+#   name = "Our Team"
+#   url = "#people"
+#   weight = 70
 
 [[main]]
   name = "Contact"

@@ -1,0 +1,419 @@
+---
+title: "R Basics"
+author: "Christopher Callaghan"
+date: "2019-12-17"
+output: 
+  html_document:
+    toc: true
+    toc_depth: 4
+bibliography: refs.bib
+categories: ["R"]
+---
+
+
+
+<div id="introduction" class="section level2">
+<h2>Introduction</h2>
+<p>The goal of this document is to provide you with a basic understanding of R that will empower you to further your data analysis skill set. If you are asking yourself, “Why R?” Consider that R is hot! While R is not the only free software environment for data analysis, and perhaps not the most intuitive if your frame of reference is pretty much any other programming language, it is among one of the fastest growing programming languages world-wide. Notably, only behind Python, Java, and Java Script <span class="citation">(“Python Has Brought Computer Programming to a Vast New Audience” 2018)</span>.</p>
+<p>Arguably, the key features for R are:</p>
+<ol style="list-style-type: decimal">
+<li>The community: With <a href="https://www.meetup.com/topics/r-project-for-statistical-computing/">450+ user groups</a> worldwide, close to <a href="https://stackoverflow.com/questions/tagged/r">300,000 questions asked on Stackoverflow</a>, and a <a href="https://twitter.com/hashtag/rstats?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Ehashtag">popular hashtag (#rstats) on Twitter</a>. In short, R provides an open-source route for users to participate and share research, tools, etc.</li>
+<li>Highly extensible: A positive side-effect of the open-source nature of the R community is the large, and ever growing, universe of add-on packages. The <a href="https://cran.r-project.org/">Comprehensive R Archive Network (CRAN)</a> is a network that stores up-to-date versions of R alongside code and documentation developed by other users. As of July 2019, there were over 14,500 packages available on the CRAN. In addition to the large number of packages, the variety among these is one of the reasons R is so successful; this is to say, chances are that someone has already solved a problem that you are working on and has made that code available for you to use by downloading their package <span class="citation">(Wickham 2015b)</span>.</li>
+<li>RStudio: If you have any coding experience, you may have already come across any number of integrated development environments (IDE). However, if you have not, these are software applications that provide features for programmers to edit code, automate certain tasks, and even debug. RStudio is the premier IDE for R programming! It is a free and open tool for developers and teams working on data science. While it is not a requirement for working in R, using it will make your life easier.</li>
+</ol>
+<p>Now that you are sold on using R, let’s walk through the goals of this tutorial. In short, this document is designed to get you somewhat comfortable with the basics, such as:</p>
+<ol style="list-style-type: decimal">
+<li>Getting you familiarized with R objects and data types (along the way we will cover some crucial jargon)</li>
+<li>Exploring some of the base functions of R</li>
+<li>Exploring how to expand R’s base capabilities through user defined functions</li>
+</ol>
+<p>Keep in mind that this document does not assume that you have a deep background in programming or data analysis. As such, it is intended to be comprehensive. Don’t let this over-specificity on “the basics” discourage you. The fact that you are curious about programming signals that you have some type of data need, whether that may be to gather, summarize, transform, tidy, explore, visualize, model, or present your data. This document will not cover most of those topics. Rather, this document is meant to serve as a primer for those eager to go down the “R rabbit hole”.</p>
+<p>Finally, this document is one in a plethora of tutorials available to new users. If you have the opportunity, consult as many of these online resources as you can. Among some of the notable resources introducing R to new users are:</p>
+<ul>
+<li><em><a href="https://www.statmethods.net/r-tutorial/index.html">Quick-R</a></em> by <a href="https://www.datacamp.com/">Data Camp</a></li>
+<li><em><a href="https://datascienceplus.com/a-general-and-basic-introduction-to-r-programming/">A general and basic introduction to R programming</a></em> by Poormina Thakur at datascience+</li>
+<li>The <em><a href="https://www.computerworld.com/article/2497143/business-intelligence-beginner-s-guide-to-r-introduction.html">Beginner’s guide to R: Introduction</a></em> and <em><a href="https://www.computerworld.com/article/2497319/business-intelligence-beginner-s-guide-to-r-syntax-quirks-you-ll-want-to-know.html#tk.ctw-eos">Learn to use R: Your hands-on guide</a></em> by Sharon Machalis at Computerworld</li>
+</ul>
+</div>
+<div id="what-is-r" class="section level2">
+<h2>What is R?</h2>
+<p>R is a free, open-source, and highly extensible language and environment for statistical computing and graphics <span class="citation">(R Core Team 2018)</span>. In layman terms, this is to say that R is a software suite primarily designed for data analysis, visualization, and communication much like other tools (e.g., SPSS, SAS, etc.); however, R is crucially free and open-source. This means that the source code is made available to all who wish to access it. This distribution typically occurs through the <strong>c</strong>omprehensive <strong>R</strong> <strong>a</strong>rchive <strong>n</strong>etwork (the aforementioned CRAN), which is a series of servers distributed around the world and used to facilitate the free distribution of the software. The latest version of R, as well as older versions, are archived and freely distributed through the CRAN website, <a href="https://cran.r-project.org/">here</a>. The free distribution of the software includes a basic graphic user interface (GUI) were you can type commands and get results of executing these commands immediately (see Figure 1).</p>
+<div class="figure">
+<img src="/r-basics/R_Basics_files/Rconsole.png" alt="Figure 1. R Console" />
+<p class="caption">Figure 1. R Console</p>
+</div>
+<p>In addition to the R software, the CRAN hosts a variety of open-source packages, which are bundles of share-able code, data, documentation, and tests intended to facilitate different types of tasks (e.g., clean, structure, and graph data). While R exists as a base environment with a reasonable amount of functionality, packages allow you to quickly expand the functionality and even interface with other programming languages, such as Python. To recap, packages are fundamental units of shareable code created by other R users intended to solve a common problem <span class="citation">(Wickham 2015b)</span>.</p>
+<div id="conventions-used-in-this-tutorial" class="section level3">
+<h3>Conventions Used in This Tutorial</h3>
+<p>Before moving forward, let’s set up some basic typographical conventions.</p>
+<p><em>Italic</em> - Indicating new terms, URLs, email addresses, file names, and file extensions.</p>
+<p><strong>Bold</strong> - Indicating the names of R packages.</p>
+<p><code>Constant width</code> - Used for program listings, as well as within paragraphs to refer to elements such as variable or function names, databases, data types, etc. In other words, it denotes code listing that should be typed as is or previously defined objects.</p>
+<p><em><code>Constant width italic</code></em> - Text that should be replaced with user-supplied values or determined by context.</p>
+<p><strong><code>Constant width bold</code></strong> - Shows commands or other text that users should type literally.</p>
+<p>These conventions come from <em>R for Data Science</em> <span class="citation">(Wickham and Grolemund 2017)</span> and are included in order to help guide you through reading this documentation.</p>
+</div>
+</div>
+<div id="the-r-environment-creating-understanding-and-using-objects" class="section level2">
+<h2>The R Environment: Creating, Understanding, and Using Objects</h2>
+<p>In this section we will cover a variety of jargon and programming principles crucial to R. Table 1 is a summary of the terms covered in the following subsections, this material was adapted from the <a href="https://cran.r-project.org/doc/manuals/r-release/R-lang.html#Functions">R Language Definitions site</a>.</p>
+<table>
+<thead>
+<tr class="header">
+<th align="left">Term</th>
+<th align="left">Definition</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">Object</td>
+<td align="left">An object is a data structure having some features that define it and how it will act (attributes and methods which act on ints attributes). In R, all data types and functions are considered objects.</td>
+</tr>
+<tr class="even">
+<td align="left">Function</td>
+<td align="left">A set of organized statements that perform a specific task.</td>
+</tr>
+<tr class="odd">
+<td align="left">Vector</td>
+<td align="left">A kind of data storage made of contiguous cells containing data.</td>
+</tr>
+<tr class="even">
+<td align="left">Atomic Vector</td>
+<td align="left">A vector were all values are the same data type.</td>
+</tr>
+<tr class="odd">
+<td align="left">List</td>
+<td align="left">Another kind of contiguous data storage were each element can contain any type of R object.</td>
+</tr>
+<tr class="even">
+<td align="left">Matrix</td>
+<td align="left">A two-dimmensional data storage structure were all elements must contain the same type of R object.</td>
+</tr>
+<tr class="odd">
+<td align="left">Data Frame</td>
+<td align="left">A two-dimmensional data storage structure which can contain any variety of data types in vectors or matrices of the same length.</td>
+</tr>
+<tr class="even">
+<td align="left">Logical</td>
+<td align="left">A data type containing TRUE or FALSE values.</td>
+</tr>
+<tr class="odd">
+<td align="left">Double</td>
+<td align="left">A data type containing numeric class for floating point numbers.</td>
+</tr>
+<tr class="even">
+<td align="left">Integer</td>
+<td align="left">A data type containing non-fractional numbers.</td>
+</tr>
+<tr class="odd">
+<td align="left">Character</td>
+<td align="left">A data type containing alphanumeric or character strings.</td>
+</tr>
+</tbody>
+</table>
+<div id="creating" class="section level3">
+<h3>Creating</h3>
+<p>Most of your actions in R will revolve around using commands in the console rather than dialog boxes, which might seem like a tall order at first; however, with time and practice this workflow should become more enjoyable. The simplest way to wrap your brain around using commands is by thinking of using inputs and expecting outputs. This is to say, you provide R with an inputs, and it will produce an output. For instance you can type any number into the console as such:</p>
+<pre class="r"><code>1</code></pre>
+<pre><code>## [1] 1</code></pre>
+<p>Notice the immediate output, which should mimic your numerical input. Let’s expand on this basic input/output model by including some functions. Base R is chockablock with features that allow you to work with data. For instance, to perform an addition you should provide two numbers separated by a addition operator (<code>+</code>), like so:</p>
+<pre class="r"><code>1 + 1</code></pre>
+<pre><code>## [1] 2</code></pre>
+<p>In this example, you used a <em>arithmetic operator</em> to connect two values and perform a simple calculation (more information on operators can be found <a href="https://www.statmethods.net/management/operators.html">here</a>). In addition to operators, base R includes a variety of <em>functions</em>, which are sets of organized statements that perform a specific action to include creating other functions. Typical commands in R usually include one or more of the following:</p>
+<ol style="list-style-type: decimal">
+<li><em>Objects</em>: Broadly speaking these can various types of information, such as a single value (such a s a number) or a collection of information such as a data set, a statistical model, images, etc.</li>
+<li><em>Functions</em>: Reusable code used to perform a an action.</li>
+</ol>
+<p>For example, instead of performing the addition using the <code>+</code> operator, you can use the <code>sum()</code> function, which will take a series of values and return the sum of all arguments, like so:</p>
+<pre class="r"><code>sum(1, 1, 1)</code></pre>
+<pre><code>## [1] 3</code></pre>
+<p>In order to store information in the R environment, the language uses an <em>assignment</em> operator, which is a statement that sets and/or resets a value stored and denoted by a variable name. The most common type of assignment in R will follow the general command form:</p>
+<pre><code>object &lt;- function</code></pre>
+<p>Keep in mind that assignment commands contain a mixture of both objects and functions. However, assignments will always include an <em>assignment operator</em> (<code>&lt;-</code>), like so:</p>
+<pre class="r"><code>added_value &lt;- sum(1, 2, 3)</code></pre>
+<p>A simplified way to read the statement above would be “create an object named ‘x’, containing the value of the sum of 1 + 2 + 3”. Here the object would be the value from the product of the sum and the object is bound to a name, <code>added_value</code>. Think about it like this, no immediate output was produced from the previous command (at least not on the console). In order to call the value, type <code>added_value</code> into the console. What is the output? By typing the name of the object you summon the value. By this logic you should now be able to use the name of your object as placeholder for the value(s) in the object. What happens if you sum the <code>added_value</code> object to another number using the <code>+</code> operator? Finally, what is the product of summing the <code>added_value</code> object to itself?</p>
+</div>
+<div id="understanding" class="section level3">
+<h3>Understanding</h3>
+<p>Now that you have begun working with the console and creating objects, let’s take a look at the most important family of data type in R, the vectors. Vectors are the foundation on which more complex objects and structures are built. Vectors come in two flavors in R: <em>atomic</em> and <em>lists</em> <span class="citation">(Wickham 2019)</span>. We can define them as follow:</p>
+<ul>
+<li><em>atomic vectors</em>: a series of one or more values were all elements must have the same data type.</li>
+<li><em>lists</em>: a series of one or more values were elements can have different types.</li>
+</ul>
+<p>Underlining the vectors are two core concepts to keep in mind. First, these are one-dimensional structures. Think of them like a line of values all along the same axis. Second, they fall into two categories homogeneous (atomic vectors) and heterogeneous (lists). More complex data structures build upon those two core concepts. For instance, <em>matrices</em> are two-dimensional homogeneous data structures. This is to say, they must contain the same type of values, but can have an x and y axis (think of columns and rows). Similarly, <em>data frames</em> are also two-dimensional, but they can include different types of atomic vectors. Hadley Wickham, Chief Scientist at RStudio, summarizes <span class="citation">(Wickham 2015a)</span> these data types as follows:<a href="#fn1" class="footnoteRef" id="fnref1"><sup>1</sup></a></p>
+<center>
+<table>
+<thead>
+<tr>
+<th style="text-align:left;">
+</th>
+<th style="text-align:left;">
+Homogeneous
+</th>
+<th style="text-align:left;">
+Heterogenous
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left;">
+1D
+</td>
+<td style="text-align:left;">
+Atomic Vector
+</td>
+<td style="text-align:left;">
+List
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+2D
+</td>
+<td style="text-align:left;">
+Matrix
+</td>
+<td style="text-align:left;">
+Data Frame
+</td>
+</tr>
+</tbody>
+</table>
+</center>
+<div id="atomic-vectors" class="section level4">
+<h4>Atomic Vectors</h4>
+<p>These are homogeneous in nature, containing a single sequence of values of the same type, making them one-dimensional by design. The four relevant atomic vector types to statistical analysis<a href="#fn2" class="footnoteRef" id="fnref2"><sup>2</sup></a> are:</p>
+<ul>
+<li><code>logical</code>: <code>TRUE</code> or <code>FALSE</code>, but can be abbreviated to <code>T</code> and <code>F</code> respectively.</li>
+<li><code>double</code>: A numeric class for floating point numbers. You may encounter doubles in decimal (e.g., <code>1.0</code>, <code>1.2</code>, etc.), scientific (<code>1.23e4</code>), or <a href="https://en.wikipedia.org/wiki/Hexadecimal">hexadecimal</a> (e.g., <code>0xa</code>, <code>0xab</code>, <code>0xabc</code>, etc.). Keep in mind that there are three special values associated with doubles, these are:
+<ul>
+<li><code>Inf</code>: Infinity.</li>
+<li><code>-Inf</code>: Negative infinity.</li>
+<li><code>NaN</code>: Not a number.</li>
+</ul></li>
+<li><code>integer</code>: Much like doubles, these are numbers, but written followed by the <code>L</code> and do not contain fractional values (e.g., <code>1L</code>, <code>1e4L</code>, <code>0xaL</code>).</li>
+<li><code>character</code>: These contain text <em>strings</em> , which is to say any alphanumeric value or character surrounded by <code>&quot;</code> or <code>'</code> (e.g., <code>&quot;hello&quot;</code>, <code>&quot;hello world&quot;</code>, etc.).</li>
+</ul>
+<p>The simplest way to create an atomic vector is using the <code>c()</code> function, which is short for combine and will allow you to bind multiple values, like so:</p>
+<pre class="r"><code>vector_lgl   &lt;- c(TRUE, FALSE, TRUE)
+vector_dbl    &lt;- c(0x1, 2.0 , 3e0)
+vector_int   &lt;- c(1L, 2L, 1:3L)
+vector_chr &lt;- c(&quot;Hello&quot;, &quot;world&quot;, &quot;!&quot;)</code></pre>
+<p>Much like with any object, you can print out the bound values by typing the name into the console. For instance, type the following into your console:</p>
+<pre class="r"><code>vector_lgl
+vector_dbl
+vector_int
+vector_chr</code></pre>
+<p>Before we move away from atomic vectors and into more complex data structures, we should become a familiarized with the <code>typeof()</code> and <code>lenght()</code> functions. Both of these are part of base R and are fundamental tools in understanding crucial characteristics of a vector such as its type and dimensions.</p>
+<pre class="r"><code>typeof(vector_lgl)</code></pre>
+<pre><code>## [1] &quot;logical&quot;</code></pre>
+<pre class="r"><code>length(vector_lgl)</code></pre>
+<pre><code>## [1] 3</code></pre>
+<p>Knowing the type of vector will be crucial down the line when you begin working with larger data. Each data type has specific attributes associated with it. In practical terms this means that each data type has “do’s” and “don’t”. For instance, you should be able to perform basic arithmetic on doubles and integers, but not on characters or logicals.</p>
+</div>
+<div id="lists" class="section level4">
+<h4>Lists</h4>
+<p><em>Lists</em> are similar to atomic vectors, but with the crucial difference that they can and usually contain a variety data types. Think of them as a sequence were you can have all four vector types mentioned above, as well as, other types (e.g., other lists, matrices, and data frames). This means that the object along that sequence don’t have to be the same length or dimensions (1D v. 2D). This flexibility makes lists very versatile at storing multiple different type so data under one object name.</p>
+<p>In order to create a list, you will enlist the aptly named function <code>list()</code>, which constructs or coerces data into a list type <span class="citation">(R Core Team 2018)</span>. Let’s put that into motion:</p>
+<pre class="r"><code>my_list &lt;- list(vector_lgl, vector_dbl, vector_int, vector_chr)
+my_list</code></pre>
+<pre><code>## [[1]]
+## [1]  TRUE FALSE  TRUE
+## 
+## [[2]]
+## [1] 1 2 3
+## 
+## [[3]]
+## [1] 1 2 1 2 3
+## 
+## [[4]]
+## [1] &quot;Hello&quot; &quot;world&quot; &quot;!&quot;</code></pre>
+<p>Notice that the list a above contains four objects, all atomic vectors, but of different flavors. However, each object is a single item on a sequence of objects. This means that we can go a step further and name each item along that sequence, much like naming the sequence itself:</p>
+<pre class="r"><code>my_list &lt;- list(lgl = vector_lgl,
+                dbl = vector_dbl,
+                int = vector_int,
+                chr = vector_chr)
+my_list</code></pre>
+<pre><code>## $lgl
+## [1]  TRUE FALSE  TRUE
+## 
+## $dbl
+## [1] 1 2 3
+## 
+## $int
+## [1] 1 2 1 2 3
+## 
+## $chr
+## [1] &quot;Hello&quot; &quot;world&quot; &quot;!&quot;</code></pre>
+<p>A way to read the code above is “create an object named <code>my_list</code> which composed of a sequence of objects, named <code>logicals</code>, <code>doubles</code>, <code>integers</code>, and <code>characters</code>, which contain the values of the aforementioned atomic vectors”. Here we have an object name pointing at other object names, which enhances our ability to store data into more complex structures. To get a better sense of the list structure, use the <code>str()</code> function to display the internal structure of the R object <span class="citation">(R Core Team 2018)</span>, like so:</p>
+<pre class="r"><code>str(my_list)</code></pre>
+<pre><code>## List of 4
+##  $ lgl: logi [1:3] TRUE FALSE TRUE
+##  $ dbl: num [1:3] 1 2 3
+##  $ int: int [1:5] 1 2 1 2 3
+##  $ chr: chr [1:3] &quot;Hello&quot; &quot;world&quot; &quot;!&quot;</code></pre>
+<p>Keep in mind that you are also able to gain a sense as to whether an object is a list using the <code>typeof()</code> function. Additionally, you may also want to evaluate the dimensions of this object by enlisting the <code>lenght()</code> function.</p>
+<pre class="r"><code>typeof(my_list)
+length(my_list)</code></pre>
+</div>
+<div id="matrices" class="section level4">
+<h4>Matrices</h4>
+<p>A <em>matrix</em> is a two-dimensional data structure in which each element must be the same type (e.g., all logical, double, character, or integer.). Matrices are created with the <code>matrix()</code> function, like so:</p>
+<pre class="r"><code>my_matrix &lt;- matrix(vector_dbl,
+                    nrow = length(vector_dbl),
+                    ncol = length(vector_dbl))
+my_matrix</code></pre>
+<pre><code>##      [,1] [,2] [,3]
+## [1,]    1    1    1
+## [2,]    2    2    2
+## [3,]    3    3    3</code></pre>
+<p>Let’s unpack the statement above. The <code>matrix()</code> function receives the first argument, <code>double_vector</code>, which serves as the data vector distributed among the x and y axis accordingly. In this instance, we are using the length of the numeric vector so as to set the dimensions of the matrix. The output is a 3 x 3 square were the initial vector is repeated accordingly.</p>
+<p>Here we will not work with matrices extensively. However, keep in mind that these are a useful way to represent, manipulate, and study a liner map between finite-dimensional vectors. Put differently, matrices are crucial for the storage of data used in many mathematical and statistical analysis, particularly in linear algebra and graph theory.</p>
+</div>
+<div id="data-frames" class="section level4">
+<h4>Data Frames</h4>
+<p>The last structure to discuss is the <em>data frame</em>, which is perhaps the most useful and intuitive. First, let’s define it. Wickham’s table above states that this structure is two-dimensional and contains a variety of data types. More formally, you can think of data frames as rectangular collections of two or more named atomic vectors, were the object names serves as column names, and row names (in R <code>row.names</code>). Informally, you may think of these as a table-like structure similar to those used in SQL or other tabular data storage frameworks. Within R, a large portion of statisticians, scientists, programmers, and all-around users prefer storing their data in this format.</p>
+<p>In order to create a data frame in R, you must use the <code>data.frame()</code> function. Like so:</p>
+<pre class="r"><code>my_df &lt;- data.frame(vector_lgl,
+                    vector_dbl,
+                    vector_chr)
+my_df</code></pre>
+<pre><code>##   vector_lgl vector_dbl vector_chr
+## 1       TRUE          1      Hello
+## 2      FALSE          2      world
+## 3       TRUE          3          !</code></pre>
+<p>Notice that the column headers inherit the vector object name. Because data frames have both column and row names, you can use the <code>colnames()</code> and <code>rownames()</code> functions to obtain more information on the data frame. You can use column names in conjunction of different operators:</p>
+<ul>
+<li>The <code>$</code> operator should allow you to call out a single column at a time, like so:</li>
+</ul>
+<pre class="r"><code>my_df$vector_dbl</code></pre>
+<pre><code>## [1] 1 2 3</code></pre>
+<ul>
+<li>Similarly, the <code>[</code> and <code>]</code> used in conjunction with a comma and quotes (see code chunk below). Keep in mind that this operator combination accesses rows first, then columns (e.g., <code>[rows, columns]</code>):</li>
+</ul>
+<pre class="r"><code>my_df[ ,&quot;vector_dbl&quot;]</code></pre>
+<pre><code>## [1] 1 2 3</code></pre>
+<pre class="r"><code># or
+my_df[&quot;2&quot;, ]</code></pre>
+<pre><code>##   vector_lgl vector_dbl vector_chr
+## 2      FALSE          2      world</code></pre>
+<p>Unlike lists, which can also contain multiple types of vectors, here all vectors must have the same length. This is why we can think of data frames as rectangular structures. This property also means that in addition to length a data frame can have width. Put differently, we can count the row and column lengths with functions like <code>nrow()</code> or <code>ncol()</code>.</p>
+<pre class="r"><code>nrow(my_df)
+ncol(my_df)</code></pre>
+</div>
+</div>
+</div>
+<div id="functions" class="section level2">
+<h2>Functions</h2>
+<p>Throughout this document you have been exposed to some functions (e.g., <code>c()</code>, <code>tyepof()</code>, etc.) As mentioned previously, functions are repeatable instructions for the program to execute. As with any set of instructions, these can by simple or complex. However, the basic recipe for creating a function is rather straight forward:</p>
+<pre><code>function_name &lt;- function(argument_1, argument2, ... ){
+    
+    body
+
+}</code></pre>
+<p>Let’s break down the recipe above:</p>
+<ul>
+<li>We are using an assignment operator (<code>&lt;-</code>) to create a new object containing our function. As such, much like with vectors, a function is an object with a name bound to it. However, in this case the object will contain a series of instructions.</li>
+<li>To define a function, we must enlist the <code>function()</code> command.</li>
+<li>A user defined function can take any number of <em>argments</em> (e.g., <code>argument_1</code>, etc.), also called <em>formals</em>. These can be any number of objects such as numbers, data frames, to name a few. These are inputs needed for the function to run.</li>
+<li>All the content between <code>{</code> and <code>}</code> is the <em>body</em> of a function. This is were you will define the statements or instructions for the functions. Note that the last line in a function body will be automatically returned.</li>
+</ul>
+<p>With these basic building blocks in mind, let’s create a basic function. Our first task is to create a function tasked with printing the string “hello world!” each time it is called:</p>
+<pre class="r"><code>say_hello &lt;- function() {
+  print(&quot;hello world!&quot;)
+}</code></pre>
+<p>Now that we have defined our first function, you may proceed to call it by typing its name into the console:</p>
+<pre class="r"><code>say_hello()</code></pre>
+<pre><code>## [1] &quot;hello world!&quot;</code></pre>
+<p>Let’s elevate the level of difficulty a bit further, while using the basic components highlighted through this document. Many R users compile functions into bundles aimed at streamlining different tasks (e.g., data cleaning, analyzing, visualizing, sharing, etc.) These bundled sets of code are commonly known as R packages and are freely distributed through the CRAN. The following code chunk is intended to check whether or not a package is locally available and either launch it locally or run the remote installation.</p>
+<pre class="r"><code>check_packages &lt;- function(.dependencies) {
+  for (i in seq_along(.dependencies)) {
+    if (!requireNamespace(.dependencies[[i]], quietly = TRUE)) {
+      install.packages(.dependencies[[i]], dependencies = TRUE)
+    }
+  }
+}</code></pre>
+<p>Let’s break down the code chunk above. First, we defined a new function named <code>check_packages</code>, which expects an argument named <code>.dependencies</code>. The function will then generate a sequence up to the length of the vector (<code>for (i in seq_along(.dependencies)) {}</code>). Each value on that vector will be evaluated in order to determine whether or not a package can be loaded into your environment (<code>if (!requireNamespace(.dependencies[[i]], quietly = TRUE)) {}</code>). If a package cannot be loaded, the next step is to quietly attempt to install the missing package (<code>install.packages(.dependencies[[i]], dependencies = TRUE)</code>).</p>
+<p>Now that you have a basic understanding of the <code>check_packages()</code> function, let’s put it to use. In the following set of tutorials we will be working with the <a href="https://www.tidyverse.org/"><em>tidyverse</em></a>, a set of packages designed to work together that share a common philosophy of data and R programming. As such, it seems fitting to test whether or not this library is present on your machine:</p>
+<pre class="r"><code>packages &lt;- c(&quot;tidyverse&quot;)
+
+check_packages(.dependencies = packages)</code></pre>
+<p>Should the <em>tidyverse</em> be already installed on your computer, you will see no output on the console. However, should this library be missing, the installation process will take place quietly in the background.</p>
+<p>If function writing does not appeal to you, don’ worry! Not all R users need to write functions. Much of your work in R can be done by leveraging others functions. However, it is important that you get a sense for the basic mechanics behind this incredibly empowering process.</p>
+</div>
+<div id="syntax-quirks-and-words-of-advise" class="section level2">
+<h2>Syntax Quirks and Words of Advise</h2>
+<p>As mentioned earlier in the document, R is a bit quirky, particularly if you have any experience programming in any other language. Keep in mid the following for your sanity (and to discourage you from quitting learning R early on):</p>
+<p>A. Syntax, syntax, syntax (!!!): R - like other programming languages- reads what you type on the screen literally. As such, it fails to understand human syntax. For example, we understand that the words “John”, “john”, &quot; John&quot; and “John” are all the same word, but slightly different based on capitalization and trailing or leading spaces. However, R fails to differentiate between these four options, instead itemizing them all as individual observations. Broadly speaking, these are two main types of syntactic errors to keep an eye out for: capitalization and spacing.</p>
+<p>A.1. Capitalization: We are accustomed to capitalizing letters at the beginning of new sentences. However, keep in mind that programming is not like general writing; for the most part you are hoping that the machine understands your commands and not a layman reader. To test this point begin by copying and pasting the following function into your R console:</p>
+<pre class="r"><code>Sys.time()</code></pre>
+<p>As mentioned previously, functions are statements that performs a specific task in R. We call them by providing the object name and some arguments. Above we used the <code>Sys.time()</code> function, which is a base R function that return the system’s idea of the current time and date <span class="citation">(R Core Team 2018)</span>. Notice that the first letter in this function is capitalized. Now copy and paste the following command:</p>
+<pre class="r"><code>sys.time()</code></pre>
+<p>This time you should see a red error message reading <code>Error in sys.time() : could not find function &quot;sys.time&quot;</code>. A way to read this is “R could not find the <code>sys.time()</code> function because the computer cannot recognize the difference between the properly capitalized function and the incorrectly written command.”&quot;</p>
+<p>A.2. Spacing: Spacing: Much like casing, spacing matters. However, unlike casing, R is not as cut and dry on how you must space certain items. The <a href="https://google.github.io/styleguide/Rguide.xml">Google’s R Style Guide</a> provides multiple examples of when spacing matters. Here we will only focus on one scenario: placing spaces around binary operators (<code>=</code>,<code>+</code>,<code>-</code>,<code>&lt;-</code>, etc.). Try copying and pasting the following example into the R console:</p>
+<pre class="r"><code>x&lt;-1</code></pre>
+<p>In the example above <code>x&lt;-1</code> is an assignment, where you have used <code>&lt;-</code> to assign the number <code>1</code> to the <code>x</code> character. As such, <code>x</code> now equals to <code>1</code>. To test this, type <code>x</code> into your console, the output should be a number <code>1</code>. Now, let’s add some strategically placed spaces to the previous code as such:</p>
+<pre class="r"><code>x &lt; -1</code></pre>
+<p>What output did you get from the code above? The output you should see is a <code>FALSE</code> message stating that the object <code>x</code> is in fact not larger than the value <code>-1</code>. Why do you think the output is different? The short answer is that the additional spacing changed the input, so that in the second example R reads the command as the following test: “is <code>x</code> smaller than <code>-1</code>”, to which the answer is “no” or <code>FALSE</code>.</p>
+<p>B. Document your code: It is a good idea to comment on your code regularly. Much like with any type of project, workflow, and/or documentation, consistent note taking is key to keeping your sanity. This point is especially pertinent when you are sharing code or if you have to step away from your code for a few days or even longer. Imagine this document with only code chunks. How long do you think it would take you to understand the code and our logic behind it?</p>
+<p>Although your notes do not need to be as extensive as the narrative in this tutorial, they should be enough for you to understand what you are looking at, why you are doing something in a specific manner, etc. Luckily, R allows you to add notes and comments in your scripts and documentation. In order to insert notes or comments into your code, you should use the <code>#</code> symbol, which tells R to ignore the content to the right of the symbol. For example, try copying and pasting the following commands into R console:</p>
+<pre class="r"><code>Sys.time() #The Sys.time() function return the system&#39;s idea of the current time and date</code></pre>
+<p>As opposed to:</p>
+<pre class="r"><code>#Sys.time() The Sys.time() function return the system&#39;s idea of the current time and date</code></pre>
+<p>What is the difference between these commands? Using the <code>#</code> symbol to the right of a function allows for the function to run, while you are still able to include notes or comments. Alternatively, including a <code>#</code> before the function disables it.</p>
+<p>C. Work smarter, not harder: No need to memorize everything, just remember how to find help. For example, should you forget how to work with a specific function or package, you may type <code>?</code> or <code>??</code> followed by the name of the function or package into your console. To get more information on the <strong>base</strong> R package, for instance, type the following into your R console:</p>
+<pre class="r"><code>?base</code></pre>
+<p>If you wanted to get information on the all help pages related to <strong>base</strong>, type <code>??base</code> into your console. This process also will work with functions. For example, if you forget how to use the <code>Sys.time()</code> function, you may check the documentation using <code>?Sys.time</code>.</p>
+<p>D. Leverage the open-source community: Most R users are proud to belong to the open-source community where R, source code and its packages are available to the general public for use or modification. This means that we all continue experimenting with code to achieve better and more efficient results. It also means that we all learn from each others’ work. As such, there are a variety of platforms for learning and sharing programming knowledge. The preferred, and sometimes feared, platform for asking question on R code is <a href="https://stackoverflow.com/">StackOverflow</a>. However, be warned that editors and contributors frown upon asking bad, poorly researched, badly documented, or repeat questions. In other words, you are encouraged to a little research before asking questions online. It is very likely that others have a blog post, tutorial, or Stack Overflow thread with the answer to your question. That being said, should you not find an answer around the internet, keep in mind <a href="https://stackoverflow.com/help/how-to-ask">these</a> parameters as you use Stack overflow.</p>
+</div>
+<div id="parting-thoughs-and-additional-resources" class="section level2">
+<h2>Parting Thoughs and Additional Resources</h2>
+<p>This document was intended to serve as a top level guide introducing you to programming with R. As such, many specifics have not been covered in detail. Here the focus was on introducing you to foundation building blocks from which you will continue building you understanding of working with data in R. To recap, in this document you have been exposed to:</p>
+<ul>
+<li>Objects</li>
+<li>Functions</li>
+<li>Assignments</li>
+<li>Vectors (e.g., atomic and lists)</li>
+<li>Data types (e.g., character, double, integer, and logical)</li>
+<li>Differences between homogeneous and heterogeneous data classes (e.g., atomic vectors and matrices v. lists and data frames)</li>
+<li>Functions: writing and using them</li>
+</ul>
+<p>Using these building blocks, you should now be able to begin exploring the R ecosystem with some basic knowledge of the component upon which most tools operate. Keep in mind that learning this new programming language is an iterative process with an early high cost for learning. Yet, many tools and resources have been laid out for you to use. Keep the following set of resources on your back-pocket:</p>
+<ul>
+<li><a href="https://www.datacamp.com/">Data Camp</a>, an online platform for learning data science. The early modules on R are free.</li>
+<li><a href="https://r4ds.had.co.nz/">R for Data Science</a> from Hadley Wickham. An essential read for those invested in learning data science with R. The author is the Chief Scientist at RStudio and principal author of many R packages.</li>
+<li><a href="http://stat545.com/">Stat 545 course</a> from the University of British Columbia, which is an online course on data wrangling, exploration and analysis with R.</li>
+</ul>
+<p>Happy R learning! 😆</p>
+</div>
+<div id="references" class="section level2 unnumbered">
+<h2>References</h2>
+<div id="refs" class="references">
+<div id="ref-economist2018">
+<p>“Python Has Brought Computer Programming to a Vast New Audience.” 2018. <em>The Economist</em>. Jul. 19. <a href="https://www.economist.com/science-and-technology/2018/07/19/python-has-brought-computer-programming-to-a-vast-new-audience" class="uri">https://www.economist.com/science-and-technology/2018/07/19/python-has-brought-computer-programming-to-a-vast-new-audience</a>.</p>
+</div>
+<div id="ref-R">
+<p>R Core Team. 2018. <em>R: A Language and Environment for Statistical Computing</em>. Vienna, Austria: R Foundation for Statistical Computing. <a href="https://www.R-project.org/" class="uri">https://www.R-project.org/</a>.</p>
+</div>
+<div id="ref-Wickham2015.2">
+<p>Wickham, Hadley. 2015a. <em>Advanced R</em>. 1st ed. O’Reilly Media, Inc.</p>
+</div>
+<div id="ref-Wickham2015">
+<p>———. 2015b. <em>R Packages: Organize, Test, and Share Your Code</em>. 1st ed. O’Reilly Media, Inc.</p>
+</div>
+<div id="ref-Wickham2019">
+<p>———. 2019. <em>Advanced R</em>. 2nd ed. Chapman &amp; Hall/CRC The R Series.</p>
+</div>
+<div id="ref-Wickham2017">
+<p>Wickham, Hadley, and Garrett Grolemund. 2017. <em>R for Data Science: Import, Tidy, Transform, Visualize, and Model Data</em>. 1st ed. O’Reilly Media, Inc.</p>
+</div>
+</div>
+</div>
+<div class="footnotes">
+<hr />
+<ol>
+<li id="fn1"><p>Note that <code>arrays</code> are not included in this framework as they are outside of the scope of this document.<a href="#fnref1">↩</a></p></li>
+<li id="fn2"><p><code>complex</code> and <code>raw</code> are not included as these have little relevance to statistical analysis.<a href="#fnref2">↩</a></p></li>
+</ol>
+</div>
