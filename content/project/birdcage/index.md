@@ -1,6 +1,6 @@
 ---
 date: "2019-10-24T00:00:00Z"
-external_link: "https://www.birdcage.network"
+external_link: "https://corelab.nps.edu/birdcage/"
 image:
   caption:
   focal_point: Smart
@@ -8,7 +8,7 @@ links:
   - icon: twitter
     icon_pack: fab
     name: Access
-    url: https://www.birdcage.network
+    url: https://corelab.nps.edu/birdcage/
 # slides: example
 summary: "Search, explore, and analyze social media data efficiently."
 tags:

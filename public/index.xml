@@ -13,76 +13,6 @@
     </image>
     
     <item>
-      <title>Example Page 1</title>
-      <link>/courses/example/example1/</link>
-      <pubDate>Sun, 05 May 2019 00:00:00 +0100</pubDate>
-      <guid>/courses/example/example1/</guid>
-      <description>
-
-&lt;p&gt;In this tutorial, I&amp;rsquo;ll share my top 10 tips for getting started with Academic:&lt;/p&gt;
-
-&lt;h2 id=&#34;tip-1&#34;&gt;Tip 1&lt;/h2&gt;
-
-&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.&lt;/p&gt;
-
-&lt;p&gt;Nullam vel molestie justo. Curabitur vitae efficitur leo. In hac habitasse platea dictumst. Sed pulvinar mauris dui, eget varius purus congue ac. Nulla euismod, lorem vel elementum dapibus, nunc justo porta mi, sed tempus est est vel tellus. Nam et enim eleifend, laoreet sem sit amet, elementum sem. Morbi ut leo congue, maximus velit ut, finibus arcu. In et libero cursus, rutrum risus non, molestie leo. Nullam congue quam et volutpat malesuada. Sed risus tortor, pulvinar et dictum nec, sodales non mi. Phasellus lacinia commodo laoreet. Nam mollis, erat in feugiat consectetur, purus eros egestas tellus, in auctor urna odio at nibh. Mauris imperdiet nisi ac magna convallis, at rhoncus ligula cursus.&lt;/p&gt;
-
-&lt;p&gt;Cras aliquam rhoncus ipsum, in hendrerit nunc mattis vitae. Duis vitae efficitur metus, ac tempus leo. Cras nec fringilla lacus. Quisque sit amet risus at ipsum pharetra commodo. Sed aliquam mauris at consequat eleifend. Praesent porta, augue sed viverra bibendum, neque ante euismod ante, in vehicula justo lorem ac eros. Suspendisse augue libero, venenatis eget tincidunt ut, malesuada at lorem. Donec vitae bibendum arcu. Aenean maximus nulla non pretium iaculis. Quisque imperdiet, nulla in pulvinar aliquet, velit quam ultrices quam, sit amet fringilla leo sem vel nunc. Mauris in lacinia lacus.&lt;/p&gt;
-
-&lt;p&gt;Suspendisse a tincidunt lacus. Curabitur at urna sagittis, dictum ante sit amet, euismod magna. Sed rutrum massa id tortor commodo, vitae elementum turpis tempus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean purus turpis, venenatis a ullamcorper nec, tincidunt et massa. Integer posuere quam rutrum arcu vehicula imperdiet. Mauris ullamcorper quam vitae purus congue, quis euismod magna eleifend. Vestibulum semper vel augue eget tincidunt. Fusce eget justo sodales, dapibus odio eu, ultrices lorem. Duis condimentum lorem id eros commodo, in facilisis mauris scelerisque. Morbi sed auctor leo. Nullam volutpat a lacus quis pharetra. Nulla congue rutrum magna a ornare.&lt;/p&gt;
-
-&lt;p&gt;Aliquam in turpis accumsan, malesuada nibh ut, hendrerit justo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Quisque sed erat nec justo posuere suscipit. Donec ut efficitur arcu, in malesuada neque. Nunc dignissim nisl massa, id vulputate nunc pretium nec. Quisque eget urna in risus suscipit ultricies. Pellentesque odio odio, tincidunt in eleifend sed, posuere a diam. Nam gravida nisl convallis semper elementum. Morbi vitae felis faucibus, vulputate orci placerat, aliquet nisi. Aliquam erat volutpat. Maecenas sagittis pulvinar purus, sed porta quam laoreet at.&lt;/p&gt;
-
-&lt;h2 id=&#34;tip-2&#34;&gt;Tip 2&lt;/h2&gt;
-
-&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.&lt;/p&gt;
-
-&lt;p&gt;Nullam vel molestie justo. Curabitur vitae efficitur leo. In hac habitasse platea dictumst. Sed pulvinar mauris dui, eget varius purus congue ac. Nulla euismod, lorem vel elementum dapibus, nunc justo porta mi, sed tempus est est vel tellus. Nam et enim eleifend, laoreet sem sit amet, elementum sem. Morbi ut leo congue, maximus velit ut, finibus arcu. In et libero cursus, rutrum risus non, molestie leo. Nullam congue quam et volutpat malesuada. Sed risus tortor, pulvinar et dictum nec, sodales non mi. Phasellus lacinia commodo laoreet. Nam mollis, erat in feugiat consectetur, purus eros egestas tellus, in auctor urna odio at nibh. Mauris imperdiet nisi ac magna convallis, at rhoncus ligula cursus.&lt;/p&gt;
-
-&lt;p&gt;Cras aliquam rhoncus ipsum, in hendrerit nunc mattis vitae. Duis vitae efficitur metus, ac tempus leo. Cras nec fringilla lacus. Quisque sit amet risus at ipsum pharetra commodo. Sed aliquam mauris at consequat eleifend. Praesent porta, augue sed viverra bibendum, neque ante euismod ante, in vehicula justo lorem ac eros. Suspendisse augue libero, venenatis eget tincidunt ut, malesuada at lorem. Donec vitae bibendum arcu. Aenean maximus nulla non pretium iaculis. Quisque imperdiet, nulla in pulvinar aliquet, velit quam ultrices quam, sit amet fringilla leo sem vel nunc. Mauris in lacinia lacus.&lt;/p&gt;
-
-&lt;p&gt;Suspendisse a tincidunt lacus. Curabitur at urna sagittis, dictum ante sit amet, euismod magna. Sed rutrum massa id tortor commodo, vitae elementum turpis tempus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean purus turpis, venenatis a ullamcorper nec, tincidunt et massa. Integer posuere quam rutrum arcu vehicula imperdiet. Mauris ullamcorper quam vitae purus congue, quis euismod magna eleifend. Vestibulum semper vel augue eget tincidunt. Fusce eget justo sodales, dapibus odio eu, ultrices lorem. Duis condimentum lorem id eros commodo, in facilisis mauris scelerisque. Morbi sed auctor leo. Nullam volutpat a lacus quis pharetra. Nulla congue rutrum magna a ornare.&lt;/p&gt;
-
-&lt;p&gt;Aliquam in turpis accumsan, malesuada nibh ut, hendrerit justo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Quisque sed erat nec justo posuere suscipit. Donec ut efficitur arcu, in malesuada neque. Nunc dignissim nisl massa, id vulputate nunc pretium nec. Quisque eget urna in risus suscipit ultricies. Pellentesque odio odio, tincidunt in eleifend sed, posuere a diam. Nam gravida nisl convallis semper elementum. Morbi vitae felis faucibus, vulputate orci placerat, aliquet nisi. Aliquam erat volutpat. Maecenas sagittis pulvinar purus, sed porta quam laoreet at.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Example Page 2</title>
-      <link>/courses/example/example2/</link>
-      <pubDate>Sun, 05 May 2019 00:00:00 +0100</pubDate>
-      <guid>/courses/example/example2/</guid>
-      <description>
-
-&lt;p&gt;Here are some more tips for getting started with Academic:&lt;/p&gt;
-
-&lt;h2 id=&#34;tip-3&#34;&gt;Tip 3&lt;/h2&gt;
-
-&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.&lt;/p&gt;
-
-&lt;p&gt;Nullam vel molestie justo. Curabitur vitae efficitur leo. In hac habitasse platea dictumst. Sed pulvinar mauris dui, eget varius purus congue ac. Nulla euismod, lorem vel elementum dapibus, nunc justo porta mi, sed tempus est est vel tellus. Nam et enim eleifend, laoreet sem sit amet, elementum sem. Morbi ut leo congue, maximus velit ut, finibus arcu. In et libero cursus, rutrum risus non, molestie leo. Nullam congue quam et volutpat malesuada. Sed risus tortor, pulvinar et dictum nec, sodales non mi. Phasellus lacinia commodo laoreet. Nam mollis, erat in feugiat consectetur, purus eros egestas tellus, in auctor urna odio at nibh. Mauris imperdiet nisi ac magna convallis, at rhoncus ligula cursus.&lt;/p&gt;
-
-&lt;p&gt;Cras aliquam rhoncus ipsum, in hendrerit nunc mattis vitae. Duis vitae efficitur metus, ac tempus leo. Cras nec fringilla lacus. Quisque sit amet risus at ipsum pharetra commodo. Sed aliquam mauris at consequat eleifend. Praesent porta, augue sed viverra bibendum, neque ante euismod ante, in vehicula justo lorem ac eros. Suspendisse augue libero, venenatis eget tincidunt ut, malesuada at lorem. Donec vitae bibendum arcu. Aenean maximus nulla non pretium iaculis. Quisque imperdiet, nulla in pulvinar aliquet, velit quam ultrices quam, sit amet fringilla leo sem vel nunc. Mauris in lacinia lacus.&lt;/p&gt;
-
-&lt;p&gt;Suspendisse a tincidunt lacus. Curabitur at urna sagittis, dictum ante sit amet, euismod magna. Sed rutrum massa id tortor commodo, vitae elementum turpis tempus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean purus turpis, venenatis a ullamcorper nec, tincidunt et massa. Integer posuere quam rutrum arcu vehicula imperdiet. Mauris ullamcorper quam vitae purus congue, quis euismod magna eleifend. Vestibulum semper vel augue eget tincidunt. Fusce eget justo sodales, dapibus odio eu, ultrices lorem. Duis condimentum lorem id eros commodo, in facilisis mauris scelerisque. Morbi sed auctor leo. Nullam volutpat a lacus quis pharetra. Nulla congue rutrum magna a ornare.&lt;/p&gt;
-
-&lt;p&gt;Aliquam in turpis accumsan, malesuada nibh ut, hendrerit justo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Quisque sed erat nec justo posuere suscipit. Donec ut efficitur arcu, in malesuada neque. Nunc dignissim nisl massa, id vulputate nunc pretium nec. Quisque eget urna in risus suscipit ultricies. Pellentesque odio odio, tincidunt in eleifend sed, posuere a diam. Nam gravida nisl convallis semper elementum. Morbi vitae felis faucibus, vulputate orci placerat, aliquet nisi. Aliquam erat volutpat. Maecenas sagittis pulvinar purus, sed porta quam laoreet at.&lt;/p&gt;
-
-&lt;h2 id=&#34;tip-4&#34;&gt;Tip 4&lt;/h2&gt;
-
-&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.&lt;/p&gt;
-
-&lt;p&gt;Nullam vel molestie justo. Curabitur vitae efficitur leo. In hac habitasse platea dictumst. Sed pulvinar mauris dui, eget varius purus congue ac. Nulla euismod, lorem vel elementum dapibus, nunc justo porta mi, sed tempus est est vel tellus. Nam et enim eleifend, laoreet sem sit amet, elementum sem. Morbi ut leo congue, maximus velit ut, finibus arcu. In et libero cursus, rutrum risus non, molestie leo. Nullam congue quam et volutpat malesuada. Sed risus tortor, pulvinar et dictum nec, sodales non mi. Phasellus lacinia commodo laoreet. Nam mollis, erat in feugiat consectetur, purus eros egestas tellus, in auctor urna odio at nibh. Mauris imperdiet nisi ac magna convallis, at rhoncus ligula cursus.&lt;/p&gt;
-
-&lt;p&gt;Cras aliquam rhoncus ipsum, in hendrerit nunc mattis vitae. Duis vitae efficitur metus, ac tempus leo. Cras nec fringilla lacus. Quisque sit amet risus at ipsum pharetra commodo. Sed aliquam mauris at consequat eleifend. Praesent porta, augue sed viverra bibendum, neque ante euismod ante, in vehicula justo lorem ac eros. Suspendisse augue libero, venenatis eget tincidunt ut, malesuada at lorem. Donec vitae bibendum arcu. Aenean maximus nulla non pretium iaculis. Quisque imperdiet, nulla in pulvinar aliquet, velit quam ultrices quam, sit amet fringilla leo sem vel nunc. Mauris in lacinia lacus.&lt;/p&gt;
-
-&lt;p&gt;Suspendisse a tincidunt lacus. Curabitur at urna sagittis, dictum ante sit amet, euismod magna. Sed rutrum massa id tortor commodo, vitae elementum turpis tempus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean purus turpis, venenatis a ullamcorper nec, tincidunt et massa. Integer posuere quam rutrum arcu vehicula imperdiet. Mauris ullamcorper quam vitae purus congue, quis euismod magna eleifend. Vestibulum semper vel augue eget tincidunt. Fusce eget justo sodales, dapibus odio eu, ultrices lorem. Duis condimentum lorem id eros commodo, in facilisis mauris scelerisque. Morbi sed auctor leo. Nullam volutpat a lacus quis pharetra. Nulla congue rutrum magna a ornare.&lt;/p&gt;
-
-&lt;p&gt;Aliquam in turpis accumsan, malesuada nibh ut, hendrerit justo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Quisque sed erat nec justo posuere suscipit. Donec ut efficitur arcu, in malesuada neque. Nunc dignissim nisl massa, id vulputate nunc pretium nec. Quisque eget urna in risus suscipit ultricies. Pellentesque odio odio, tincidunt in eleifend sed, posuere a diam. Nam gravida nisl convallis semper elementum. Morbi vitae felis faucibus, vulputate orci placerat, aliquet nisi. Aliquam erat volutpat. Maecenas sagittis pulvinar purus, sed porta quam laoreet at.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
       <title>SNA for SOF, Fort Bragg</title>
       <link>/talk/bragg-march-2020/</link>
       <pubDate>Mon, 16 Mar 2020 00:00:00 +0000</pubDate>
@@ -102,6 +32,422 @@
 &lt;/ul&gt;
 
 &lt;p&gt;Further talk details can easily be added to this page using &lt;em&gt;Markdown&lt;/em&gt; and $\rm \LaTeX$ math code.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>R Basics</title>
+      <link>/post/r-basics/r_basics/</link>
+      <pubDate>Tue, 17 Dec 2019 00:00:00 +0000</pubDate>
+      <guid>/post/r-basics/r_basics/</guid>
+      <description>
+
+
+&lt;div id=&#34;introduction&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Introduction&lt;/h2&gt;
+&lt;p&gt;The goal of this document is to provide you with a basic understanding of R that will empower you to further your data analysis skill set. If you are asking yourself, “Why R?” Consider that R is hot! While R is not the only free software environment for data analysis, and perhaps not the most intuitive if your frame of reference is pretty much any other programming language, it is among one of the fastest growing programming languages world-wide. Notably, only behind Python, Java, and Java Script &lt;span class=&#34;citation&#34;&gt;(“Python Has Brought Computer Programming to a Vast New Audience” 2018)&lt;/span&gt;.&lt;/p&gt;
+&lt;p&gt;Arguably, the key features for R are:&lt;/p&gt;
+&lt;ol style=&#34;list-style-type: decimal&#34;&gt;
+&lt;li&gt;The community: With &lt;a href=&#34;https://www.meetup.com/topics/r-project-for-statistical-computing/&#34;&gt;450+ user groups&lt;/a&gt; worldwide, close to &lt;a href=&#34;https://stackoverflow.com/questions/tagged/r&#34;&gt;300,000 questions asked on Stackoverflow&lt;/a&gt;, and a &lt;a href=&#34;https://twitter.com/hashtag/rstats?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Ehashtag&#34;&gt;popular hashtag (#rstats) on Twitter&lt;/a&gt;. In short, R provides an open-source route for users to participate and share research, tools, etc.&lt;/li&gt;
+&lt;li&gt;Highly extensible: A positive side-effect of the open-source nature of the R community is the large, and ever growing, universe of add-on packages. The &lt;a href=&#34;https://cran.r-project.org/&#34;&gt;Comprehensive R Archive Network (CRAN)&lt;/a&gt; is a network that stores up-to-date versions of R alongside code and documentation developed by other users. As of July 2019, there were over 14,500 packages available on the CRAN. In addition to the large number of packages, the variety among these is one of the reasons R is so successful; this is to say, chances are that someone has already solved a problem that you are working on and has made that code available for you to use by downloading their package &lt;span class=&#34;citation&#34;&gt;(Wickham 2015b)&lt;/span&gt;.&lt;/li&gt;
+&lt;li&gt;RStudio: If you have any coding experience, you may have already come across any number of integrated development environments (IDE). However, if you have not, these are software applications that provide features for programmers to edit code, automate certain tasks, and even debug. RStudio is the premier IDE for R programming! It is a free and open tool for developers and teams working on data science. While it is not a requirement for working in R, using it will make your life easier.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Now that you are sold on using R, let’s walk through the goals of this tutorial. In short, this document is designed to get you somewhat comfortable with the basics, such as:&lt;/p&gt;
+&lt;ol style=&#34;list-style-type: decimal&#34;&gt;
+&lt;li&gt;Getting you familiarized with R objects and data types (along the way we will cover some crucial jargon)&lt;/li&gt;
+&lt;li&gt;Exploring some of the base functions of R&lt;/li&gt;
+&lt;li&gt;Exploring how to expand R’s base capabilities through user defined functions&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Keep in mind that this document does not assume that you have a deep background in programming or data analysis. As such, it is intended to be comprehensive. Don’t let this over-specificity on “the basics” discourage you. The fact that you are curious about programming signals that you have some type of data need, whether that may be to gather, summarize, transform, tidy, explore, visualize, model, or present your data. This document will not cover most of those topics. Rather, this document is meant to serve as a primer for those eager to go down the “R rabbit hole”.&lt;/p&gt;
+&lt;p&gt;Finally, this document is one in a plethora of tutorials available to new users. If you have the opportunity, consult as many of these online resources as you can. Among some of the notable resources introducing R to new users are:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;em&gt;&lt;a href=&#34;https://www.statmethods.net/r-tutorial/index.html&#34;&gt;Quick-R&lt;/a&gt;&lt;/em&gt; by &lt;a href=&#34;https://www.datacamp.com/&#34;&gt;Data Camp&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;&lt;a href=&#34;https://datascienceplus.com/a-general-and-basic-introduction-to-r-programming/&#34;&gt;A general and basic introduction to R programming&lt;/a&gt;&lt;/em&gt; by Poormina Thakur at datascience+&lt;/li&gt;
+&lt;li&gt;The &lt;em&gt;&lt;a href=&#34;https://www.computerworld.com/article/2497143/business-intelligence-beginner-s-guide-to-r-introduction.html&#34;&gt;Beginner’s guide to R: Introduction&lt;/a&gt;&lt;/em&gt; and &lt;em&gt;&lt;a href=&#34;https://www.computerworld.com/article/2497319/business-intelligence-beginner-s-guide-to-r-syntax-quirks-you-ll-want-to-know.html#tk.ctw-eos&#34;&gt;Learn to use R: Your hands-on guide&lt;/a&gt;&lt;/em&gt; by Sharon Machalis at Computerworld&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div id=&#34;what-is-r&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;What is R?&lt;/h2&gt;
+&lt;p&gt;R is a free, open-source, and highly extensible language and environment for statistical computing and graphics &lt;span class=&#34;citation&#34;&gt;(R Core Team 2018)&lt;/span&gt;. In layman terms, this is to say that R is a software suite primarily designed for data analysis, visualization, and communication much like other tools (e.g., SPSS, SAS, etc.); however, R is crucially free and open-source. This means that the source code is made available to all who wish to access it. This distribution typically occurs through the &lt;strong&gt;c&lt;/strong&gt;omprehensive &lt;strong&gt;R&lt;/strong&gt; &lt;strong&gt;a&lt;/strong&gt;rchive &lt;strong&gt;n&lt;/strong&gt;etwork (the aforementioned CRAN), which is a series of servers distributed around the world and used to facilitate the free distribution of the software. The latest version of R, as well as older versions, are archived and freely distributed through the CRAN website, &lt;a href=&#34;https://cran.r-project.org/&#34;&gt;here&lt;/a&gt;. The free distribution of the software includes a basic graphic user interface (GUI) were you can type commands and get results of executing these commands immediately (see Figure 1).&lt;/p&gt;
+&lt;div class=&#34;figure&#34;&gt;
+&lt;img src=&#34;/r-basics/R_Basics_files/Rconsole.png&#34; alt=&#34;Figure 1. R Console&#34; /&gt;
+&lt;p class=&#34;caption&#34;&gt;Figure 1. R Console&lt;/p&gt;
+&lt;/div&gt;
+&lt;p&gt;In addition to the R software, the CRAN hosts a variety of open-source packages, which are bundles of share-able code, data, documentation, and tests intended to facilitate different types of tasks (e.g., clean, structure, and graph data). While R exists as a base environment with a reasonable amount of functionality, packages allow you to quickly expand the functionality and even interface with other programming languages, such as Python. To recap, packages are fundamental units of shareable code created by other R users intended to solve a common problem &lt;span class=&#34;citation&#34;&gt;(Wickham 2015b)&lt;/span&gt;.&lt;/p&gt;
+&lt;div id=&#34;conventions-used-in-this-tutorial&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;Conventions Used in This Tutorial&lt;/h3&gt;
+&lt;p&gt;Before moving forward, let’s set up some basic typographical conventions.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Italic&lt;/em&gt; - Indicating new terms, URLs, email addresses, file names, and file extensions.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Bold&lt;/strong&gt; - Indicating the names of R packages.&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;Constant width&lt;/code&gt; - Used for program listings, as well as within paragraphs to refer to elements such as variable or function names, databases, data types, etc. In other words, it denotes code listing that should be typed as is or previously defined objects.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;&lt;code&gt;Constant width italic&lt;/code&gt;&lt;/em&gt; - Text that should be replaced with user-supplied values or determined by context.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;code&gt;Constant width bold&lt;/code&gt;&lt;/strong&gt; - Shows commands or other text that users should type literally.&lt;/p&gt;
+&lt;p&gt;These conventions come from &lt;em&gt;R for Data Science&lt;/em&gt; &lt;span class=&#34;citation&#34;&gt;(Wickham and Grolemund 2017)&lt;/span&gt; and are included in order to help guide you through reading this documentation.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id=&#34;the-r-environment-creating-understanding-and-using-objects&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;The R Environment: Creating, Understanding, and Using Objects&lt;/h2&gt;
+&lt;p&gt;In this section we will cover a variety of jargon and programming principles crucial to R. Table 1 is a summary of the terms covered in the following subsections, this material was adapted from the &lt;a href=&#34;https://cran.r-project.org/doc/manuals/r-release/R-lang.html#Functions&#34;&gt;R Language Definitions site&lt;/a&gt;.&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr class=&#34;header&#34;&gt;
+&lt;th align=&#34;left&#34;&gt;Term&lt;/th&gt;
+&lt;th align=&#34;left&#34;&gt;Definition&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr class=&#34;odd&#34;&gt;
+&lt;td align=&#34;left&#34;&gt;Object&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;An object is a data structure having some features that define it and how it will act (attributes and methods which act on ints attributes). In R, all data types and functions are considered objects.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&#34;even&#34;&gt;
+&lt;td align=&#34;left&#34;&gt;Function&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;A set of organized statements that perform a specific task.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&#34;odd&#34;&gt;
+&lt;td align=&#34;left&#34;&gt;Vector&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;A kind of data storage made of contiguous cells containing data.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&#34;even&#34;&gt;
+&lt;td align=&#34;left&#34;&gt;Atomic Vector&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;A vector were all values are the same data type.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&#34;odd&#34;&gt;
+&lt;td align=&#34;left&#34;&gt;List&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Another kind of contiguous data storage were each element can contain any type of R object.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&#34;even&#34;&gt;
+&lt;td align=&#34;left&#34;&gt;Matrix&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;A two-dimmensional data storage structure were all elements must contain the same type of R object.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&#34;odd&#34;&gt;
+&lt;td align=&#34;left&#34;&gt;Data Frame&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;A two-dimmensional data storage structure which can contain any variety of data types in vectors or matrices of the same length.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&#34;even&#34;&gt;
+&lt;td align=&#34;left&#34;&gt;Logical&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;A data type containing TRUE or FALSE values.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&#34;odd&#34;&gt;
+&lt;td align=&#34;left&#34;&gt;Double&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;A data type containing numeric class for floating point numbers.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&#34;even&#34;&gt;
+&lt;td align=&#34;left&#34;&gt;Integer&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;A data type containing non-fractional numbers.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&#34;odd&#34;&gt;
+&lt;td align=&#34;left&#34;&gt;Character&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;A data type containing alphanumeric or character strings.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;div id=&#34;creating&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;Creating&lt;/h3&gt;
+&lt;p&gt;Most of your actions in R will revolve around using commands in the console rather than dialog boxes, which might seem like a tall order at first; however, with time and practice this workflow should become more enjoyable. The simplest way to wrap your brain around using commands is by thinking of using inputs and expecting outputs. This is to say, you provide R with an inputs, and it will produce an output. For instance you can type any number into the console as such:&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;1&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## [1] 1&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Notice the immediate output, which should mimic your numerical input. Let’s expand on this basic input/output model by including some functions. Base R is chockablock with features that allow you to work with data. For instance, to perform an addition you should provide two numbers separated by a addition operator (&lt;code&gt;+&lt;/code&gt;), like so:&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;1 + 1&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## [1] 2&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;In this example, you used a &lt;em&gt;arithmetic operator&lt;/em&gt; to connect two values and perform a simple calculation (more information on operators can be found &lt;a href=&#34;https://www.statmethods.net/management/operators.html&#34;&gt;here&lt;/a&gt;). In addition to operators, base R includes a variety of &lt;em&gt;functions&lt;/em&gt;, which are sets of organized statements that perform a specific action to include creating other functions. Typical commands in R usually include one or more of the following:&lt;/p&gt;
+&lt;ol style=&#34;list-style-type: decimal&#34;&gt;
+&lt;li&gt;&lt;em&gt;Objects&lt;/em&gt;: Broadly speaking these can various types of information, such as a single value (such a s a number) or a collection of information such as a data set, a statistical model, images, etc.&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;Functions&lt;/em&gt;: Reusable code used to perform a an action.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;For example, instead of performing the addition using the &lt;code&gt;+&lt;/code&gt; operator, you can use the &lt;code&gt;sum()&lt;/code&gt; function, which will take a series of values and return the sum of all arguments, like so:&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;sum(1, 1, 1)&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## [1] 3&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;In order to store information in the R environment, the language uses an &lt;em&gt;assignment&lt;/em&gt; operator, which is a statement that sets and/or resets a value stored and denoted by a variable name. The most common type of assignment in R will follow the general command form:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;object &amp;lt;- function&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Keep in mind that assignment commands contain a mixture of both objects and functions. However, assignments will always include an &lt;em&gt;assignment operator&lt;/em&gt; (&lt;code&gt;&amp;lt;-&lt;/code&gt;), like so:&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;added_value &amp;lt;- sum(1, 2, 3)&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;A simplified way to read the statement above would be “create an object named ‘x’, containing the value of the sum of 1 + 2 + 3”. Here the object would be the value from the product of the sum and the object is bound to a name, &lt;code&gt;added_value&lt;/code&gt;. Think about it like this, no immediate output was produced from the previous command (at least not on the console). In order to call the value, type &lt;code&gt;added_value&lt;/code&gt; into the console. What is the output? By typing the name of the object you summon the value. By this logic you should now be able to use the name of your object as placeholder for the value(s) in the object. What happens if you sum the &lt;code&gt;added_value&lt;/code&gt; object to another number using the &lt;code&gt;+&lt;/code&gt; operator? Finally, what is the product of summing the &lt;code&gt;added_value&lt;/code&gt; object to itself?&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;understanding&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;Understanding&lt;/h3&gt;
+&lt;p&gt;Now that you have begun working with the console and creating objects, let’s take a look at the most important family of data type in R, the vectors. Vectors are the foundation on which more complex objects and structures are built. Vectors come in two flavors in R: &lt;em&gt;atomic&lt;/em&gt; and &lt;em&gt;lists&lt;/em&gt; &lt;span class=&#34;citation&#34;&gt;(Wickham 2019)&lt;/span&gt;. We can define them as follow:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;em&gt;atomic vectors&lt;/em&gt;: a series of one or more values were all elements must have the same data type.&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;lists&lt;/em&gt;: a series of one or more values were elements can have different types.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Underlining the vectors are two core concepts to keep in mind. First, these are one-dimensional structures. Think of them like a line of values all along the same axis. Second, they fall into two categories homogeneous (atomic vectors) and heterogeneous (lists). More complex data structures build upon those two core concepts. For instance, &lt;em&gt;matrices&lt;/em&gt; are two-dimensional homogeneous data structures. This is to say, they must contain the same type of values, but can have an x and y axis (think of columns and rows). Similarly, &lt;em&gt;data frames&lt;/em&gt; are also two-dimensional, but they can include different types of atomic vectors. Hadley Wickham, Chief Scientist at RStudio, summarizes &lt;span class=&#34;citation&#34;&gt;(Wickham 2015a)&lt;/span&gt; these data types as follows:&lt;a href=&#34;#fn1&#34; class=&#34;footnoteRef&#34; id=&#34;fnref1&#34;&gt;&lt;sup&gt;1&lt;/sup&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;center&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th style=&#34;text-align:left;&#34;&gt;
+&lt;/th&gt;
+&lt;th style=&#34;text-align:left;&#34;&gt;
+Homogeneous
+&lt;/th&gt;
+&lt;th style=&#34;text-align:left;&#34;&gt;
+Heterogenous
+&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+1D
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+Atomic Vector
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+List
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+2D
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+Matrix
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+Data Frame
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;/center&gt;
+&lt;div id=&#34;atomic-vectors&#34; class=&#34;section level4&#34;&gt;
+&lt;h4&gt;Atomic Vectors&lt;/h4&gt;
+&lt;p&gt;These are homogeneous in nature, containing a single sequence of values of the same type, making them one-dimensional by design. The four relevant atomic vector types to statistical analysis&lt;a href=&#34;#fn2&#34; class=&#34;footnoteRef&#34; id=&#34;fnref2&#34;&gt;&lt;sup&gt;2&lt;/sup&gt;&lt;/a&gt; are:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;logical&lt;/code&gt;: &lt;code&gt;TRUE&lt;/code&gt; or &lt;code&gt;FALSE&lt;/code&gt;, but can be abbreviated to &lt;code&gt;T&lt;/code&gt; and &lt;code&gt;F&lt;/code&gt; respectively.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;double&lt;/code&gt;: A numeric class for floating point numbers. You may encounter doubles in decimal (e.g., &lt;code&gt;1.0&lt;/code&gt;, &lt;code&gt;1.2&lt;/code&gt;, etc.), scientific (&lt;code&gt;1.23e4&lt;/code&gt;), or &lt;a href=&#34;https://en.wikipedia.org/wiki/Hexadecimal&#34;&gt;hexadecimal&lt;/a&gt; (e.g., &lt;code&gt;0xa&lt;/code&gt;, &lt;code&gt;0xab&lt;/code&gt;, &lt;code&gt;0xabc&lt;/code&gt;, etc.). Keep in mind that there are three special values associated with doubles, these are:
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;Inf&lt;/code&gt;: Infinity.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;-Inf&lt;/code&gt;: Negative infinity.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;NaN&lt;/code&gt;: Not a number.&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;integer&lt;/code&gt;: Much like doubles, these are numbers, but written followed by the &lt;code&gt;L&lt;/code&gt; and do not contain fractional values (e.g., &lt;code&gt;1L&lt;/code&gt;, &lt;code&gt;1e4L&lt;/code&gt;, &lt;code&gt;0xaL&lt;/code&gt;).&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;character&lt;/code&gt;: These contain text &lt;em&gt;strings&lt;/em&gt; , which is to say any alphanumeric value or character surrounded by &lt;code&gt;&amp;quot;&lt;/code&gt; or &lt;code&gt;&#39;&lt;/code&gt; (e.g., &lt;code&gt;&amp;quot;hello&amp;quot;&lt;/code&gt;, &lt;code&gt;&amp;quot;hello world&amp;quot;&lt;/code&gt;, etc.).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;The simplest way to create an atomic vector is using the &lt;code&gt;c()&lt;/code&gt; function, which is short for combine and will allow you to bind multiple values, like so:&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;vector_lgl   &amp;lt;- c(TRUE, FALSE, TRUE)
+vector_dbl    &amp;lt;- c(0x1, 2.0 , 3e0)
+vector_int   &amp;lt;- c(1L, 2L, 1:3L)
+vector_chr &amp;lt;- c(&amp;quot;Hello&amp;quot;, &amp;quot;world&amp;quot;, &amp;quot;!&amp;quot;)&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Much like with any object, you can print out the bound values by typing the name into the console. For instance, type the following into your console:&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;vector_lgl
+vector_dbl
+vector_int
+vector_chr&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Before we move away from atomic vectors and into more complex data structures, we should become a familiarized with the &lt;code&gt;typeof()&lt;/code&gt; and &lt;code&gt;lenght()&lt;/code&gt; functions. Both of these are part of base R and are fundamental tools in understanding crucial characteristics of a vector such as its type and dimensions.&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;typeof(vector_lgl)&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## [1] &amp;quot;logical&amp;quot;&lt;/code&gt;&lt;/pre&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;length(vector_lgl)&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## [1] 3&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Knowing the type of vector will be crucial down the line when you begin working with larger data. Each data type has specific attributes associated with it. In practical terms this means that each data type has “do’s” and “don’t”. For instance, you should be able to perform basic arithmetic on doubles and integers, but not on characters or logicals.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;lists&#34; class=&#34;section level4&#34;&gt;
+&lt;h4&gt;Lists&lt;/h4&gt;
+&lt;p&gt;&lt;em&gt;Lists&lt;/em&gt; are similar to atomic vectors, but with the crucial difference that they can and usually contain a variety data types. Think of them as a sequence were you can have all four vector types mentioned above, as well as, other types (e.g., other lists, matrices, and data frames). This means that the object along that sequence don’t have to be the same length or dimensions (1D v. 2D). This flexibility makes lists very versatile at storing multiple different type so data under one object name.&lt;/p&gt;
+&lt;p&gt;In order to create a list, you will enlist the aptly named function &lt;code&gt;list()&lt;/code&gt;, which constructs or coerces data into a list type &lt;span class=&#34;citation&#34;&gt;(R Core Team 2018)&lt;/span&gt;. Let’s put that into motion:&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;my_list &amp;lt;- list(vector_lgl, vector_dbl, vector_int, vector_chr)
+my_list&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## [[1]]
+## [1]  TRUE FALSE  TRUE
+## 
+## [[2]]
+## [1] 1 2 3
+## 
+## [[3]]
+## [1] 1 2 1 2 3
+## 
+## [[4]]
+## [1] &amp;quot;Hello&amp;quot; &amp;quot;world&amp;quot; &amp;quot;!&amp;quot;&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Notice that the list a above contains four objects, all atomic vectors, but of different flavors. However, each object is a single item on a sequence of objects. This means that we can go a step further and name each item along that sequence, much like naming the sequence itself:&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;my_list &amp;lt;- list(lgl = vector_lgl,
+                dbl = vector_dbl,
+                int = vector_int,
+                chr = vector_chr)
+my_list&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## $lgl
+## [1]  TRUE FALSE  TRUE
+## 
+## $dbl
+## [1] 1 2 3
+## 
+## $int
+## [1] 1 2 1 2 3
+## 
+## $chr
+## [1] &amp;quot;Hello&amp;quot; &amp;quot;world&amp;quot; &amp;quot;!&amp;quot;&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;A way to read the code above is “create an object named &lt;code&gt;my_list&lt;/code&gt; which composed of a sequence of objects, named &lt;code&gt;logicals&lt;/code&gt;, &lt;code&gt;doubles&lt;/code&gt;, &lt;code&gt;integers&lt;/code&gt;, and &lt;code&gt;characters&lt;/code&gt;, which contain the values of the aforementioned atomic vectors”. Here we have an object name pointing at other object names, which enhances our ability to store data into more complex structures. To get a better sense of the list structure, use the &lt;code&gt;str()&lt;/code&gt; function to display the internal structure of the R object &lt;span class=&#34;citation&#34;&gt;(R Core Team 2018)&lt;/span&gt;, like so:&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;str(my_list)&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## List of 4
+##  $ lgl: logi [1:3] TRUE FALSE TRUE
+##  $ dbl: num [1:3] 1 2 3
+##  $ int: int [1:5] 1 2 1 2 3
+##  $ chr: chr [1:3] &amp;quot;Hello&amp;quot; &amp;quot;world&amp;quot; &amp;quot;!&amp;quot;&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Keep in mind that you are also able to gain a sense as to whether an object is a list using the &lt;code&gt;typeof()&lt;/code&gt; function. Additionally, you may also want to evaluate the dimensions of this object by enlisting the &lt;code&gt;lenght()&lt;/code&gt; function.&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;typeof(my_list)
+length(my_list)&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;div id=&#34;matrices&#34; class=&#34;section level4&#34;&gt;
+&lt;h4&gt;Matrices&lt;/h4&gt;
+&lt;p&gt;A &lt;em&gt;matrix&lt;/em&gt; is a two-dimensional data structure in which each element must be the same type (e.g., all logical, double, character, or integer.). Matrices are created with the &lt;code&gt;matrix()&lt;/code&gt; function, like so:&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;my_matrix &amp;lt;- matrix(vector_dbl,
+                    nrow = length(vector_dbl),
+                    ncol = length(vector_dbl))
+my_matrix&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;##      [,1] [,2] [,3]
+## [1,]    1    1    1
+## [2,]    2    2    2
+## [3,]    3    3    3&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Let’s unpack the statement above. The &lt;code&gt;matrix()&lt;/code&gt; function receives the first argument, &lt;code&gt;double_vector&lt;/code&gt;, which serves as the data vector distributed among the x and y axis accordingly. In this instance, we are using the length of the numeric vector so as to set the dimensions of the matrix. The output is a 3 x 3 square were the initial vector is repeated accordingly.&lt;/p&gt;
+&lt;p&gt;Here we will not work with matrices extensively. However, keep in mind that these are a useful way to represent, manipulate, and study a liner map between finite-dimensional vectors. Put differently, matrices are crucial for the storage of data used in many mathematical and statistical analysis, particularly in linear algebra and graph theory.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;data-frames&#34; class=&#34;section level4&#34;&gt;
+&lt;h4&gt;Data Frames&lt;/h4&gt;
+&lt;p&gt;The last structure to discuss is the &lt;em&gt;data frame&lt;/em&gt;, which is perhaps the most useful and intuitive. First, let’s define it. Wickham’s table above states that this structure is two-dimensional and contains a variety of data types. More formally, you can think of data frames as rectangular collections of two or more named atomic vectors, were the object names serves as column names, and row names (in R &lt;code&gt;row.names&lt;/code&gt;). Informally, you may think of these as a table-like structure similar to those used in SQL or other tabular data storage frameworks. Within R, a large portion of statisticians, scientists, programmers, and all-around users prefer storing their data in this format.&lt;/p&gt;
+&lt;p&gt;In order to create a data frame in R, you must use the &lt;code&gt;data.frame()&lt;/code&gt; function. Like so:&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;my_df &amp;lt;- data.frame(vector_lgl,
+                    vector_dbl,
+                    vector_chr)
+my_df&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;##   vector_lgl vector_dbl vector_chr
+## 1       TRUE          1      Hello
+## 2      FALSE          2      world
+## 3       TRUE          3          !&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Notice that the column headers inherit the vector object name. Because data frames have both column and row names, you can use the &lt;code&gt;colnames()&lt;/code&gt; and &lt;code&gt;rownames()&lt;/code&gt; functions to obtain more information on the data frame. You can use column names in conjunction of different operators:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;The &lt;code&gt;$&lt;/code&gt; operator should allow you to call out a single column at a time, like so:&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;my_df$vector_dbl&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## [1] 1 2 3&lt;/code&gt;&lt;/pre&gt;
+&lt;ul&gt;
+&lt;li&gt;Similarly, the &lt;code&gt;[&lt;/code&gt; and &lt;code&gt;]&lt;/code&gt; used in conjunction with a comma and quotes (see code chunk below). Keep in mind that this operator combination accesses rows first, then columns (e.g., &lt;code&gt;[rows, columns]&lt;/code&gt;):&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;my_df[ ,&amp;quot;vector_dbl&amp;quot;]&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## [1] 1 2 3&lt;/code&gt;&lt;/pre&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;# or
+my_df[&amp;quot;2&amp;quot;, ]&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;##   vector_lgl vector_dbl vector_chr
+## 2      FALSE          2      world&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Unlike lists, which can also contain multiple types of vectors, here all vectors must have the same length. This is why we can think of data frames as rectangular structures. This property also means that in addition to length a data frame can have width. Put differently, we can count the row and column lengths with functions like &lt;code&gt;nrow()&lt;/code&gt; or &lt;code&gt;ncol()&lt;/code&gt;.&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;nrow(my_df)
+ncol(my_df)&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id=&#34;functions&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Functions&lt;/h2&gt;
+&lt;p&gt;Throughout this document you have been exposed to some functions (e.g., &lt;code&gt;c()&lt;/code&gt;, &lt;code&gt;tyepof()&lt;/code&gt;, etc.) As mentioned previously, functions are repeatable instructions for the program to execute. As with any set of instructions, these can by simple or complex. However, the basic recipe for creating a function is rather straight forward:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;function_name &amp;lt;- function(argument_1, argument2, ... ){
+    
+    body
+
+}&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Let’s break down the recipe above:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;We are using an assignment operator (&lt;code&gt;&amp;lt;-&lt;/code&gt;) to create a new object containing our function. As such, much like with vectors, a function is an object with a name bound to it. However, in this case the object will contain a series of instructions.&lt;/li&gt;
+&lt;li&gt;To define a function, we must enlist the &lt;code&gt;function()&lt;/code&gt; command.&lt;/li&gt;
+&lt;li&gt;A user defined function can take any number of &lt;em&gt;argments&lt;/em&gt; (e.g., &lt;code&gt;argument_1&lt;/code&gt;, etc.), also called &lt;em&gt;formals&lt;/em&gt;. These can be any number of objects such as numbers, data frames, to name a few. These are inputs needed for the function to run.&lt;/li&gt;
+&lt;li&gt;All the content between &lt;code&gt;{&lt;/code&gt; and &lt;code&gt;}&lt;/code&gt; is the &lt;em&gt;body&lt;/em&gt; of a function. This is were you will define the statements or instructions for the functions. Note that the last line in a function body will be automatically returned.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;With these basic building blocks in mind, let’s create a basic function. Our first task is to create a function tasked with printing the string “hello world!” each time it is called:&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;say_hello &amp;lt;- function() {
+  print(&amp;quot;hello world!&amp;quot;)
+}&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Now that we have defined our first function, you may proceed to call it by typing its name into the console:&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;say_hello()&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## [1] &amp;quot;hello world!&amp;quot;&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Let’s elevate the level of difficulty a bit further, while using the basic components highlighted through this document. Many R users compile functions into bundles aimed at streamlining different tasks (e.g., data cleaning, analyzing, visualizing, sharing, etc.) These bundled sets of code are commonly known as R packages and are freely distributed through the CRAN. The following code chunk is intended to check whether or not a package is locally available and either launch it locally or run the remote installation.&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;check_packages &amp;lt;- function(.dependencies) {
+  for (i in seq_along(.dependencies)) {
+    if (!requireNamespace(.dependencies[[i]], quietly = TRUE)) {
+      install.packages(.dependencies[[i]], dependencies = TRUE)
+    }
+  }
+}&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Let’s break down the code chunk above. First, we defined a new function named &lt;code&gt;check_packages&lt;/code&gt;, which expects an argument named &lt;code&gt;.dependencies&lt;/code&gt;. The function will then generate a sequence up to the length of the vector (&lt;code&gt;for (i in seq_along(.dependencies)) {}&lt;/code&gt;). Each value on that vector will be evaluated in order to determine whether or not a package can be loaded into your environment (&lt;code&gt;if (!requireNamespace(.dependencies[[i]], quietly = TRUE)) {}&lt;/code&gt;). If a package cannot be loaded, the next step is to quietly attempt to install the missing package (&lt;code&gt;install.packages(.dependencies[[i]], dependencies = TRUE)&lt;/code&gt;).&lt;/p&gt;
+&lt;p&gt;Now that you have a basic understanding of the &lt;code&gt;check_packages()&lt;/code&gt; function, let’s put it to use. In the following set of tutorials we will be working with the &lt;a href=&#34;https://www.tidyverse.org/&#34;&gt;&lt;em&gt;tidyverse&lt;/em&gt;&lt;/a&gt;, a set of packages designed to work together that share a common philosophy of data and R programming. As such, it seems fitting to test whether or not this library is present on your machine:&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;packages &amp;lt;- c(&amp;quot;tidyverse&amp;quot;)
+
+check_packages(.dependencies = packages)&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Should the &lt;em&gt;tidyverse&lt;/em&gt; be already installed on your computer, you will see no output on the console. However, should this library be missing, the installation process will take place quietly in the background.&lt;/p&gt;
+&lt;p&gt;If function writing does not appeal to you, don’ worry! Not all R users need to write functions. Much of your work in R can be done by leveraging others functions. However, it is important that you get a sense for the basic mechanics behind this incredibly empowering process.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;syntax-quirks-and-words-of-advise&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Syntax Quirks and Words of Advise&lt;/h2&gt;
+&lt;p&gt;As mentioned earlier in the document, R is a bit quirky, particularly if you have any experience programming in any other language. Keep in mid the following for your sanity (and to discourage you from quitting learning R early on):&lt;/p&gt;
+&lt;p&gt;A. Syntax, syntax, syntax (!!!): R - like other programming languages- reads what you type on the screen literally. As such, it fails to understand human syntax. For example, we understand that the words “John”, “john”, &amp;quot; John&amp;quot; and “John” are all the same word, but slightly different based on capitalization and trailing or leading spaces. However, R fails to differentiate between these four options, instead itemizing them all as individual observations. Broadly speaking, these are two main types of syntactic errors to keep an eye out for: capitalization and spacing.&lt;/p&gt;
+&lt;p&gt;A.1. Capitalization: We are accustomed to capitalizing letters at the beginning of new sentences. However, keep in mind that programming is not like general writing; for the most part you are hoping that the machine understands your commands and not a layman reader. To test this point begin by copying and pasting the following function into your R console:&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;Sys.time()&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;As mentioned previously, functions are statements that performs a specific task in R. We call them by providing the object name and some arguments. Above we used the &lt;code&gt;Sys.time()&lt;/code&gt; function, which is a base R function that return the system’s idea of the current time and date &lt;span class=&#34;citation&#34;&gt;(R Core Team 2018)&lt;/span&gt;. Notice that the first letter in this function is capitalized. Now copy and paste the following command:&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;sys.time()&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;This time you should see a red error message reading &lt;code&gt;Error in sys.time() : could not find function &amp;quot;sys.time&amp;quot;&lt;/code&gt;. A way to read this is “R could not find the &lt;code&gt;sys.time()&lt;/code&gt; function because the computer cannot recognize the difference between the properly capitalized function and the incorrectly written command.”&amp;quot;&lt;/p&gt;
+&lt;p&gt;A.2. Spacing: Spacing: Much like casing, spacing matters. However, unlike casing, R is not as cut and dry on how you must space certain items. The &lt;a href=&#34;https://google.github.io/styleguide/Rguide.xml&#34;&gt;Google’s R Style Guide&lt;/a&gt; provides multiple examples of when spacing matters. Here we will only focus on one scenario: placing spaces around binary operators (&lt;code&gt;=&lt;/code&gt;,&lt;code&gt;+&lt;/code&gt;,&lt;code&gt;-&lt;/code&gt;,&lt;code&gt;&amp;lt;-&lt;/code&gt;, etc.). Try copying and pasting the following example into the R console:&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;x&amp;lt;-1&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;In the example above &lt;code&gt;x&amp;lt;-1&lt;/code&gt; is an assignment, where you have used &lt;code&gt;&amp;lt;-&lt;/code&gt; to assign the number &lt;code&gt;1&lt;/code&gt; to the &lt;code&gt;x&lt;/code&gt; character. As such, &lt;code&gt;x&lt;/code&gt; now equals to &lt;code&gt;1&lt;/code&gt;. To test this, type &lt;code&gt;x&lt;/code&gt; into your console, the output should be a number &lt;code&gt;1&lt;/code&gt;. Now, let’s add some strategically placed spaces to the previous code as such:&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;x &amp;lt; -1&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;What output did you get from the code above? The output you should see is a &lt;code&gt;FALSE&lt;/code&gt; message stating that the object &lt;code&gt;x&lt;/code&gt; is in fact not larger than the value &lt;code&gt;-1&lt;/code&gt;. Why do you think the output is different? The short answer is that the additional spacing changed the input, so that in the second example R reads the command as the following test: “is &lt;code&gt;x&lt;/code&gt; smaller than &lt;code&gt;-1&lt;/code&gt;”, to which the answer is “no” or &lt;code&gt;FALSE&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;B. Document your code: It is a good idea to comment on your code regularly. Much like with any type of project, workflow, and/or documentation, consistent note taking is key to keeping your sanity. This point is especially pertinent when you are sharing code or if you have to step away from your code for a few days or even longer. Imagine this document with only code chunks. How long do you think it would take you to understand the code and our logic behind it?&lt;/p&gt;
+&lt;p&gt;Although your notes do not need to be as extensive as the narrative in this tutorial, they should be enough for you to understand what you are looking at, why you are doing something in a specific manner, etc. Luckily, R allows you to add notes and comments in your scripts and documentation. In order to insert notes or comments into your code, you should use the &lt;code&gt;#&lt;/code&gt; symbol, which tells R to ignore the content to the right of the symbol. For example, try copying and pasting the following commands into R console:&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;Sys.time() #The Sys.time() function return the system&amp;#39;s idea of the current time and date&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;As opposed to:&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;#Sys.time() The Sys.time() function return the system&amp;#39;s idea of the current time and date&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;What is the difference between these commands? Using the &lt;code&gt;#&lt;/code&gt; symbol to the right of a function allows for the function to run, while you are still able to include notes or comments. Alternatively, including a &lt;code&gt;#&lt;/code&gt; before the function disables it.&lt;/p&gt;
+&lt;p&gt;C. Work smarter, not harder: No need to memorize everything, just remember how to find help. For example, should you forget how to work with a specific function or package, you may type &lt;code&gt;?&lt;/code&gt; or &lt;code&gt;??&lt;/code&gt; followed by the name of the function or package into your console. To get more information on the &lt;strong&gt;base&lt;/strong&gt; R package, for instance, type the following into your R console:&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;?base&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;If you wanted to get information on the all help pages related to &lt;strong&gt;base&lt;/strong&gt;, type &lt;code&gt;??base&lt;/code&gt; into your console. This process also will work with functions. For example, if you forget how to use the &lt;code&gt;Sys.time()&lt;/code&gt; function, you may check the documentation using &lt;code&gt;?Sys.time&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;D. Leverage the open-source community: Most R users are proud to belong to the open-source community where R, source code and its packages are available to the general public for use or modification. This means that we all continue experimenting with code to achieve better and more efficient results. It also means that we all learn from each others’ work. As such, there are a variety of platforms for learning and sharing programming knowledge. The preferred, and sometimes feared, platform for asking question on R code is &lt;a href=&#34;https://stackoverflow.com/&#34;&gt;StackOverflow&lt;/a&gt;. However, be warned that editors and contributors frown upon asking bad, poorly researched, badly documented, or repeat questions. In other words, you are encouraged to a little research before asking questions online. It is very likely that others have a blog post, tutorial, or Stack Overflow thread with the answer to your question. That being said, should you not find an answer around the internet, keep in mind &lt;a href=&#34;https://stackoverflow.com/help/how-to-ask&#34;&gt;these&lt;/a&gt; parameters as you use Stack overflow.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;parting-thoughs-and-additional-resources&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Parting Thoughs and Additional Resources&lt;/h2&gt;
+&lt;p&gt;This document was intended to serve as a top level guide introducing you to programming with R. As such, many specifics have not been covered in detail. Here the focus was on introducing you to foundation building blocks from which you will continue building you understanding of working with data in R. To recap, in this document you have been exposed to:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Objects&lt;/li&gt;
+&lt;li&gt;Functions&lt;/li&gt;
+&lt;li&gt;Assignments&lt;/li&gt;
+&lt;li&gt;Vectors (e.g., atomic and lists)&lt;/li&gt;
+&lt;li&gt;Data types (e.g., character, double, integer, and logical)&lt;/li&gt;
+&lt;li&gt;Differences between homogeneous and heterogeneous data classes (e.g., atomic vectors and matrices v. lists and data frames)&lt;/li&gt;
+&lt;li&gt;Functions: writing and using them&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Using these building blocks, you should now be able to begin exploring the R ecosystem with some basic knowledge of the component upon which most tools operate. Keep in mind that learning this new programming language is an iterative process with an early high cost for learning. Yet, many tools and resources have been laid out for you to use. Keep the following set of resources on your back-pocket:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.datacamp.com/&#34;&gt;Data Camp&lt;/a&gt;, an online platform for learning data science. The early modules on R are free.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://r4ds.had.co.nz/&#34;&gt;R for Data Science&lt;/a&gt; from Hadley Wickham. An essential read for those invested in learning data science with R. The author is the Chief Scientist at RStudio and principal author of many R packages.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://stat545.com/&#34;&gt;Stat 545 course&lt;/a&gt; from the University of British Columbia, which is an online course on data wrangling, exploration and analysis with R.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Happy R learning! 😆&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;references&#34; class=&#34;section level2 unnumbered&#34;&gt;
+&lt;h2&gt;References&lt;/h2&gt;
+&lt;div id=&#34;refs&#34; class=&#34;references&#34;&gt;
+&lt;div id=&#34;ref-economist2018&#34;&gt;
+&lt;p&gt;“Python Has Brought Computer Programming to a Vast New Audience.” 2018. &lt;em&gt;The Economist&lt;/em&gt;. Jul. 19. &lt;a href=&#34;https://www.economist.com/science-and-technology/2018/07/19/python-has-brought-computer-programming-to-a-vast-new-audience&#34; class=&#34;uri&#34;&gt;https://www.economist.com/science-and-technology/2018/07/19/python-has-brought-computer-programming-to-a-vast-new-audience&lt;/a&gt;.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;ref-R&#34;&gt;
+&lt;p&gt;R Core Team. 2018. &lt;em&gt;R: A Language and Environment for Statistical Computing&lt;/em&gt;. Vienna, Austria: R Foundation for Statistical Computing. &lt;a href=&#34;https://www.R-project.org/&#34; class=&#34;uri&#34;&gt;https://www.R-project.org/&lt;/a&gt;.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;ref-Wickham2015.2&#34;&gt;
+&lt;p&gt;Wickham, Hadley. 2015a. &lt;em&gt;Advanced R&lt;/em&gt;. 1st ed. O’Reilly Media, Inc.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;ref-Wickham2015&#34;&gt;
+&lt;p&gt;———. 2015b. &lt;em&gt;R Packages: Organize, Test, and Share Your Code&lt;/em&gt;. 1st ed. O’Reilly Media, Inc.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;ref-Wickham2019&#34;&gt;
+&lt;p&gt;———. 2019. &lt;em&gt;Advanced R&lt;/em&gt;. 2nd ed. Chapman &amp;amp; Hall/CRC The R Series.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;ref-Wickham2017&#34;&gt;
+&lt;p&gt;Wickham, Hadley, and Garrett Grolemund. 2017. &lt;em&gt;R for Data Science: Import, Tidy, Transform, Visualize, and Model Data&lt;/em&gt;. 1st ed. O’Reilly Media, Inc.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;footnotes&#34;&gt;
+&lt;hr /&gt;
+&lt;ol&gt;
+&lt;li id=&#34;fn1&#34;&gt;&lt;p&gt;Note that &lt;code&gt;arrays&lt;/code&gt; are not included in this framework as they are outside of the scope of this document.&lt;a href=&#34;#fnref1&#34;&gt;↩&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li id=&#34;fn2&#34;&gt;&lt;p&gt;&lt;code&gt;complex&lt;/code&gt; and &lt;code&gt;raw&lt;/code&gt; are not included as these have little relevance to statistical analysis.&lt;a href=&#34;#fnref2&#34;&gt;↩&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
 </description>
     </item>
     
@@ -245,213 +591,15 @@
     </item>
     
     <item>
-      <title>Writing technical content in Academic</title>
-      <link>/post/writing-technical-content/</link>
-      <pubDate>Fri, 12 Jul 2019 00:00:00 +0000</pubDate>
-      <guid>/post/writing-technical-content/</guid>
-      <description>&lt;p&gt;Academic is designed to give technical content creators a seamless experience. You can focus on the content and Academic handles the rest.&lt;/p&gt;
+      <title>SNA for LE</title>
+      <link>/project/sna-for-le/</link>
+      <pubDate>Thu, 24 Oct 2019 00:00:00 +0000</pubDate>
+      <guid>/project/sna-for-le/</guid>
+      <description>
 
-&lt;p&gt;&lt;strong&gt;Highlight your code snippets, take notes on math classes, and draw diagrams from textual representation.&lt;/strong&gt;&lt;/p&gt;
+&lt;h2 id=&#34;background&#34;&gt;Background&lt;/h2&gt;
 
-&lt;p&gt;On this page, you&#39;ll find some examples of the types of technical content that can be rendered with Academic.&lt;/p&gt;
-
-&lt;h2 id=&#34;examples&#34;&gt;Examples&lt;/h2&gt;
-
-&lt;h3 id=&#34;code&#34;&gt;Code&lt;/h3&gt;
-
-&lt;p&gt;Academic supports a Markdown extension for highlighting code syntax. You can enable this feature by toggling the &lt;code&gt;highlight&lt;/code&gt; option in your &lt;code&gt;config/_default/params.toml&lt;/code&gt; file.&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;```python
-import pandas as pd
-data = pd.read_csv(&amp;quot;data.csv&amp;quot;)
-data.head()
-```
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;renders as&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;import pandas as pd
-data = pd.read_csv(&amp;quot;data.csv&amp;quot;)
-data.head()
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;h3 id=&#34;math&#34;&gt;Math&lt;/h3&gt;
-
-&lt;p&gt;Academic supports a Markdown extension for $\LaTeX$ math. You can enable this feature by toggling the &lt;code&gt;math&lt;/code&gt; option in your &lt;code&gt;config/_default/params.toml&lt;/code&gt; file and adding &lt;code&gt;markup: mmark&lt;/code&gt; to your page front matter.&lt;/p&gt;
-
-&lt;p&gt;To render &lt;em&gt;inline&lt;/em&gt; or &lt;em&gt;block&lt;/em&gt; math, wrap your LaTeX math with &lt;code&gt;$$...$$&lt;/code&gt;.&lt;/p&gt;
-
-&lt;p&gt;Example &lt;strong&gt;math block&lt;/strong&gt;:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-tex&#34;&gt;$$\gamma_{n} = \frac{ 
-\left | \left (\mathbf x_{n} - \mathbf x_{n-1} \right )^T 
-\left [\nabla F (\mathbf x_{n}) - \nabla F (\mathbf x_{n-1}) \right ] \right |}
-{\left \|\nabla F(\mathbf{x}_{n}) - \nabla F(\mathbf{x}_{n-1}) \right \|^2}$$
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;renders as&lt;/p&gt;
-
-&lt;p&gt;&lt;span  class=&#34;math&#34;&gt;\[\gamma_{n} = \frac{ \left | \left (\mathbf x_{n} - \mathbf x_{n-1} \right )^T \left [\nabla F (\mathbf x_{n}) - \nabla F (\mathbf x_{n-1}) \right ] \right |}{\left \|\nabla F(\mathbf{x}_{n}) - \nabla F(\mathbf{x}_{n-1}) \right \|^2}\]&lt;/span&gt;&lt;/p&gt;
-
-&lt;p&gt;Example &lt;strong&gt;inline math&lt;/strong&gt; &lt;code&gt;$$\left \|\nabla F(\mathbf{x}_{n}) - \nabla F(\mathbf{x}_{n-1}) \right \|^2$$&lt;/code&gt; renders as &lt;span  class=&#34;math&#34;&gt;\(\left \|\nabla F(\mathbf{x}_{n}) - \nabla F(\mathbf{x}_{n-1}) \right \|^2\)&lt;/span&gt; .&lt;/p&gt;
-
-&lt;p&gt;Example &lt;strong&gt;multi-line math&lt;/strong&gt; using the &lt;code&gt;\\&lt;/code&gt; math linebreak:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-tex&#34;&gt;$$f(k;p_0^*) = \begin{cases} p_0^* &amp;amp; \text{if }k=1, \\
-1-p_0^* &amp;amp; \text {if }k=0.\end{cases}$$
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;renders as&lt;/p&gt;
-
-&lt;p&gt;&lt;span  class=&#34;math&#34;&gt;\[f(k;p_0^*) = \begin{cases} p_0^* &amp; \text{if }k=1, \\
-1-p_0^* &amp; \text {if }k=0.\end{cases}\]&lt;/span&gt;&lt;/p&gt;
-
-&lt;h3 id=&#34;diagrams&#34;&gt;Diagrams&lt;/h3&gt;
-
-&lt;p&gt;Academic supports a Markdown extension for diagrams. You can enable this feature by toggling the &lt;code&gt;diagram&lt;/code&gt; option in your &lt;code&gt;config/_default/params.toml&lt;/code&gt; file or by adding &lt;code&gt;diagram: true&lt;/code&gt; to your page front matter.&lt;/p&gt;
-
-&lt;p&gt;An example &lt;strong&gt;flowchart&lt;/strong&gt;:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;```mermaid
-graph TD;
-  A--&amp;gt;B;
-  A--&amp;gt;C;
-  B--&amp;gt;D;
-  C--&amp;gt;D;
-```
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;renders as&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-mermaid&#34;&gt;graph TD;
-  A--&amp;gt;B;
-  A--&amp;gt;C;
-  B--&amp;gt;D;
-  C--&amp;gt;D;
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;An example &lt;strong&gt;sequence diagram&lt;/strong&gt;:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;```mermaid
-sequenceDiagram
-  participant Alice
-  participant Bob
-  Alice-&amp;gt;John: Hello John, how are you?
-  loop Healthcheck
-      John-&amp;gt;John: Fight against hypochondria
-  end
-  Note right of John: Rational thoughts &amp;lt;br/&amp;gt;prevail...
-  John--&amp;gt;Alice: Great!
-  John-&amp;gt;Bob: How about you?
-  Bob--&amp;gt;John: Jolly good!
-```
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;renders as&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-mermaid&#34;&gt;sequenceDiagram
-  participant Alice
-  participant Bob
-  Alice-&amp;gt;John: Hello John, how are you?
-  loop Healthcheck
-      John-&amp;gt;John: Fight against hypochondria
-  end
-  Note right of John: Rational thoughts &amp;lt;br/&amp;gt;prevail...
-  John--&amp;gt;Alice: Great!
-  John-&amp;gt;Bob: How about you?
-  Bob--&amp;gt;John: Jolly good!
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;An example &lt;strong&gt;Gantt diagram&lt;/strong&gt;:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;```mermaid
-gantt
-  dateFormat  YYYY-MM-DD
-  section Section
-  A task           :a1, 2014-01-01, 30d
-  Another task     :after a1  , 20d
-  section Another
-  Task in sec      :2014-01-12  , 12d
-  another task      : 24d
-```
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;renders as&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-mermaid&#34;&gt;gantt
-  dateFormat  YYYY-MM-DD
-  section Section
-  A task           :a1, 2014-01-01, 30d
-  Another task     :after a1  , 20d
-  section Another
-  Task in sec      :2014-01-12  , 12d
-  another task      : 24d
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;h3 id=&#34;todo-lists&#34;&gt;Todo lists&lt;/h3&gt;
-
-&lt;p&gt;You can even write your todo lists in Academic too:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-markdown&#34;&gt;- [x] Write math example
-- [x] Write diagram example
-- [ ] Do something else
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;renders as&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;input type=&#34;checkbox&#34; checked=&#34;&#34; disabled=&#34;&#34;&gt; Write math example&lt;/li&gt;
-&lt;li&gt;&lt;input type=&#34;checkbox&#34; checked=&#34;&#34; disabled=&#34;&#34;&gt; Write diagram example&lt;/li&gt;
-&lt;li&gt;&lt;input type=&#34;checkbox&#34; disabled=&#34;&#34;&gt; Do something else&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&#34;tables&#34;&gt;Tables&lt;/h3&gt;
-
-&lt;p&gt;Represent your data in tables:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-markdown&#34;&gt;| First Header  | Second Header |
-| ------------- | ------------- |
-| Content Cell  | Content Cell  |
-| Content Cell  | Content Cell  |
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;renders as&lt;/p&gt;
-
-&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;First Header&lt;/th&gt;
-&lt;th&gt;Second Header&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;Content Cell&lt;/td&gt;
-&lt;td&gt;Content Cell&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;Content Cell&lt;/td&gt;
-&lt;td&gt;Content Cell&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-
-&lt;h3 id=&#34;asides&#34;&gt;Asides&lt;/h3&gt;
-
-&lt;p&gt;Academic supports a Markdown extension for asides, also referred to as &lt;em&gt;notices&lt;/em&gt; or &lt;em&gt;hints&lt;/em&gt;. By prefixing a paragraph with &lt;code&gt;A&amp;gt;&lt;/code&gt;, it will render as an aside. You can enable this feature by adding &lt;code&gt;markup: mmark&lt;/code&gt; to your page front matter, or alternatively using the &lt;a href=&#34;https://sourcethemes.com/academic/docs/writing-markdown-latex/#alerts&#34;&gt;&lt;em&gt;Alert&lt;/em&gt; shortcode&lt;/a&gt;.&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-markdown&#34;&gt;A&amp;gt; A Markdown aside is useful for displaying notices, hints, or definitions to your readers.
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;renders as&lt;/p&gt;
-
-&lt;aside&gt;
-&lt;p&gt;A Markdown aside is useful for displaying notices, hints, or definitions to your readers.&lt;/p&gt;
-&lt;/aside&gt;
-
-&lt;h3 id=&#34;did-you-find-this-page-helpful-consider-sharing-it-&#34;&gt;Did you find this page helpful? Consider sharing it 🙌&lt;/h3&gt;
+&lt;p&gt;The CORE Lab is proud to partner with law enfocerment practioners (LE) under the guidance and sponsorship of the Office of the Assistant Secretary of Defense through the Domestic Preparedness Support Initiative, the Combating Terrorism Techinical Support Office, and the Western Regional Counterdrug Training Center. Our goal is to share knoweledge, skills, and abilities related to several analytical methodologies to include SNA.&lt;/p&gt;
 </description>
     </item>
     
@@ -467,73 +615,6 @@ gantt
 &lt;/div&gt;
 
 &lt;p&gt;Supplementary notes can be added here, including &lt;a href=&#34;https://sourcethemes.com/academic/docs/writing-markdown-latex/&#34; target=&#34;_blank&#34;&gt;code and math&lt;/a&gt;.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Display Jupyter Notebooks with Academic</title>
-      <link>/post/jupyter/</link>
-      <pubDate>Tue, 05 Feb 2019 00:00:00 +0000</pubDate>
-      <guid>/post/jupyter/</guid>
-      <description>
-
-&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;from IPython.core.display import Image
-Image(&#39;https://www.python.org/static/community_logos/python-logo-master-v3-TM-flattened.png&#39;)
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;&lt;img src=&#34;./index_1_0.png&#34; alt=&#34;png&#34; /&gt;&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;print(&amp;quot;Welcome to Academic!&amp;quot;)
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;pre&gt;&lt;code&gt;Welcome to Academic!
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;h2 id=&#34;install-python-and-jupyterlab&#34;&gt;Install Python and JupyterLab&lt;/h2&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://www.anaconda.com/distribution/#download-section&#34; target=&#34;_blank&#34;&gt;Install Anaconda&lt;/a&gt; which includes Python 3 and JupyterLab.&lt;/p&gt;
-
-&lt;p&gt;Alternatively, install JupyterLab with &lt;code&gt;pip3 install jupyterlab&lt;/code&gt;.&lt;/p&gt;
-
-&lt;h2 id=&#34;create-or-upload-a-jupyter-notebook&#34;&gt;Create or upload a Jupyter notebook&lt;/h2&gt;
-
-&lt;p&gt;Run the following commands in your Terminal, substituting &lt;code&gt;&amp;lt;MY-WEBSITE-FOLDER&amp;gt;&lt;/code&gt; and &lt;code&gt;&amp;lt;SHORT-POST-TITLE&amp;gt;&lt;/code&gt; with the file path to your Academic website folder and a short title for your blog post (use hyphens instead of spaces), respectively:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;mkdir -p &amp;lt;MY-WEBSITE-FOLDER&amp;gt;/content/post/&amp;lt;SHORT-POST-TITLE&amp;gt;/
-cd &amp;lt;MY-WEBSITE-FOLDER&amp;gt;/content/post/&amp;lt;SHORT-POST-TITLE&amp;gt;/
-jupyter lab index.ipynb
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;The &lt;code&gt;jupyter&lt;/code&gt; command above will launch the JupyterLab editor, allowing us to add Academic metadata and write the content.&lt;/p&gt;
-
-&lt;h2 id=&#34;edit-your-post-metadata&#34;&gt;Edit your post metadata&lt;/h2&gt;
-
-&lt;p&gt;The first cell of your Jupter notebook will contain your post metadata (&lt;a href=&#34;https://sourcethemes.com/academic/docs/front-matter/&#34; target=&#34;_blank&#34;&gt;front matter&lt;/a&gt;).&lt;/p&gt;
-
-&lt;p&gt;In Jupter, choose &lt;em&gt;Markdown&lt;/em&gt; as the type of the first cell and wrap your Academic metadata in three dashes, indicating that it is YAML front matter:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;---
-title: My post&#39;s title
-date: 2019-09-01
-
-# Put any other Academic metadata here...
----
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;Edit the metadata of your post, using the &lt;a href=&#34;https://sourcethemes.com/academic/docs/managing-content&#34; target=&#34;_blank&#34;&gt;documentation&lt;/a&gt; as a guide to the available options.&lt;/p&gt;
-
-&lt;p&gt;To set a &lt;a href=&#34;https://sourcethemes.com/academic/docs/managing-content/#featured-image&#34; target=&#34;_blank&#34;&gt;featured image&lt;/a&gt;, place an image named &lt;code&gt;featured&lt;/code&gt; into your post&amp;rsquo;s folder.&lt;/p&gt;
-
-&lt;p&gt;For other tips, such as using math, see the guide on &lt;a href=&#34;https://sourcethemes.com/academic/docs/writing-markdown-latex/&#34; target=&#34;_blank&#34;&gt;writing content with Academic&lt;/a&gt;.&lt;/p&gt;
-
-&lt;h2 id=&#34;convert-notebook-to-markdown&#34;&gt;Convert notebook to Markdown&lt;/h2&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;jupyter nbconvert index.ipynb --to markdown --NbConvertApp.output_files_dir=.
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;h2 id=&#34;example&#34;&gt;Example&lt;/h2&gt;
-
-&lt;p&gt;This post was created with Jupyter. The orginal files can be found at &lt;a href=&#34;https://github.com/gcushen/hugo-academic/tree/master/exampleSite/content/post/jupyter&#34; target=&#34;_blank&#34;&gt;https://github.com/gcushen/hugo-academic/tree/master/exampleSite/content/post/jupyter&lt;/a&gt;&lt;/p&gt;
 </description>
     </item>
     
@@ -737,126 +818,6 @@ $$&lt;/p&gt;
     </item>
     
     <item>
-      <title>Academic: the website builder for Hugo</title>
-      <link>/post/getting-started/</link>
-      <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
-      <guid>/post/getting-started/</guid>
-      <description>
-
-&lt;p&gt;&lt;strong&gt;Create a free website with Academic using Markdown, Jupyter, or RStudio. Choose a beautiful color theme and build anything with the Page Builder - over 40 &lt;em&gt;widgets&lt;/em&gt;, &lt;em&gt;themes&lt;/em&gt;, and &lt;em&gt;language packs&lt;/em&gt; included!&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://academic-demo.netlify.com/&#34; target=&#34;_blank&#34;&gt;Check out the latest &lt;strong&gt;demo&lt;/strong&gt;&lt;/a&gt; of what you&amp;rsquo;ll get in less than 10 minutes, or &lt;a href=&#34;https://sourcethemes.com/academic/#expo&#34; target=&#34;_blank&#34;&gt;view the &lt;strong&gt;showcase&lt;/strong&gt;&lt;/a&gt; of personal, project, and business sites.&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;👉 &lt;a href=&#34;#install&#34;&gt;&lt;strong&gt;Get Started&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;📚 &lt;a href=&#34;https://sourcethemes.com/academic/docs/&#34; target=&#34;_blank&#34;&gt;View the &lt;strong&gt;documentation&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;💬 &lt;a href=&#34;https://discourse.gohugo.io&#34; target=&#34;_blank&#34;&gt;&lt;strong&gt;Ask a question&lt;/strong&gt; on the forum&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;👥 &lt;a href=&#34;https://spectrum.chat/academic&#34; target=&#34;_blank&#34;&gt;Chat with the &lt;strong&gt;community&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;🐦 Twitter: &lt;a href=&#34;https://twitter.com/source_themes&#34; target=&#34;_blank&#34;&gt;@source_themes&lt;/a&gt; &lt;a href=&#34;https://twitter.com/GeorgeCushen&#34; target=&#34;_blank&#34;&gt;@GeorgeCushen&lt;/a&gt; &lt;a href=&#34;https://twitter.com/search?q=%23MadeWithAcademic&amp;amp;src=typd&#34; target=&#34;_blank&#34;&gt;#MadeWithAcademic&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;💡 &lt;a href=&#34;https://github.com/gcushen/hugo-academic/issues&#34; target=&#34;_blank&#34;&gt;Request a &lt;strong&gt;feature&lt;/strong&gt; or report a &lt;strong&gt;bug&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;⬆️ &lt;strong&gt;Updating?&lt;/strong&gt; View the &lt;a href=&#34;https://sourcethemes.com/academic/docs/update/&#34; target=&#34;_blank&#34;&gt;Update Guide&lt;/a&gt; and &lt;a href=&#34;https://sourcethemes.com/academic/updates/&#34; target=&#34;_blank&#34;&gt;Release Notes&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;❤️ &lt;strong&gt;Support development&lt;/strong&gt; of Academic:
-
-&lt;ul&gt;
-&lt;li&gt;☕️ &lt;a href=&#34;https://paypal.me/cushen&#34; target=&#34;_blank&#34;&gt;&lt;strong&gt;Donate a coffee&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;💵 &lt;a href=&#34;https://www.patreon.com/cushen&#34; target=&#34;_blank&#34;&gt;Become a backer on &lt;strong&gt;Patreon&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;🖼️ &lt;a href=&#34;https://www.redbubble.com/people/neutreno/works/34387919-academic&#34; target=&#34;_blank&#34;&gt;Decorate your laptop or journal with an Academic &lt;strong&gt;sticker&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;👕 &lt;a href=&#34;https://academic.threadless.com/&#34; target=&#34;_blank&#34;&gt;Wear the &lt;strong&gt;T-shirt&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;👩‍💻 &lt;a href=&#34;https://sourcethemes.com/academic/docs/contribute/&#34; target=&#34;_blank&#34;&gt;&lt;strong&gt;Contribute&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-&lt;figure&gt;
-
-
-  &lt;a data-fancybox=&#34;&#34; href=&#34;https://raw.githubusercontent.com/gcushen/hugo-academic/master/academic.png&#34; data-caption=&#34;Academic is mobile first with a responsive design to ensure that your site looks stunning on every device.&#34;&gt;
-&lt;img src=&#34;https://raw.githubusercontent.com/gcushen/hugo-academic/master/academic.png&#34; alt=&#34;&#34; &gt;&lt;/a&gt;
-
-
-  
-  
-  &lt;figcaption&gt;
-    Academic is mobile first with a responsive design to ensure that your site looks stunning on every device.
-  &lt;/figcaption&gt;
-
-
-&lt;/figure&gt;
-
-
-&lt;p&gt;&lt;strong&gt;Key features:&lt;/strong&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Page builder&lt;/strong&gt; - Create &lt;em&gt;anything&lt;/em&gt; with &lt;a href=&#34;https://sourcethemes.com/academic/docs/page-builder/&#34; target=&#34;_blank&#34;&gt;&lt;strong&gt;widgets&lt;/strong&gt;&lt;/a&gt; and &lt;a href=&#34;https://sourcethemes.com/academic/docs/writing-markdown-latex/&#34; target=&#34;_blank&#34;&gt;&lt;strong&gt;elements&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Edit any type of content&lt;/strong&gt; - Blog posts, publications, talks, slides, projects, and more!&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Create content&lt;/strong&gt; in &lt;a href=&#34;https://sourcethemes.com/academic/docs/writing-markdown-latex/&#34; target=&#34;_blank&#34;&gt;&lt;strong&gt;Markdown&lt;/strong&gt;&lt;/a&gt;, &lt;a href=&#34;https://sourcethemes.com/academic/docs/jupyter/&#34; target=&#34;_blank&#34;&gt;&lt;strong&gt;Jupyter&lt;/strong&gt;&lt;/a&gt;, or &lt;a href=&#34;https://sourcethemes.com/academic/docs/install/#install-with-rstudio&#34; target=&#34;_blank&#34;&gt;&lt;strong&gt;RStudio&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Plugin System&lt;/strong&gt; - Fully customizable &lt;a href=&#34;https://sourcethemes.com/academic/themes/&#34; target=&#34;_blank&#34;&gt;&lt;strong&gt;color&lt;/strong&gt; and &lt;strong&gt;font themes&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Display Code and Math&lt;/strong&gt; - Code highlighting and &lt;a href=&#34;https://en.wikibooks.org/wiki/LaTeX/Mathematics&#34; target=&#34;_blank&#34;&gt;LaTeX math&lt;/a&gt; supported&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Integrations&lt;/strong&gt; - &lt;a href=&#34;https://analytics.google.com&#34; target=&#34;_blank&#34;&gt;Google Analytics&lt;/a&gt;, &lt;a href=&#34;https://disqus.com&#34; target=&#34;_blank&#34;&gt;Disqus commenting&lt;/a&gt;, Maps, Contact Forms, and more!&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Beautiful Site&lt;/strong&gt; - Simple and refreshing one page design&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Industry-Leading SEO&lt;/strong&gt; - Help get your website found on search engines and social media&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Media Galleries&lt;/strong&gt; - Display your images and videos with captions in a customizable gallery&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Mobile Friendly&lt;/strong&gt; - Look amazing on every screen with a mobile friendly version of your site&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Multi-language&lt;/strong&gt; - 15+ language packs including English, 中文, and Português&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Multi-user&lt;/strong&gt; - Each author gets their own profile page&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Privacy Pack&lt;/strong&gt; - Assists with GDPR&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Stand Out&lt;/strong&gt; - Bring your site to life with animation, parallax backgrounds, and scroll effects&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;One-Click Deployment&lt;/strong&gt; - No servers. No databases. Only files.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&#34;themes&#34;&gt;Themes&lt;/h2&gt;
-
-&lt;p&gt;Academic comes with &lt;strong&gt;automatic day (light) and night (dark) mode&lt;/strong&gt; built-in. Alternatively, visitors can  choose their preferred mode - click the sun/moon icon in the top right of the &lt;a href=&#34;https://academic-demo.netlify.com/&#34; target=&#34;_blank&#34;&gt;Demo&lt;/a&gt; to see it in action! Day/night mode can also be disabled by the site admin in &lt;code&gt;params.toml&lt;/code&gt;.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://sourcethemes.com/academic/themes/&#34; target=&#34;_blank&#34;&gt;Choose a stunning &lt;strong&gt;theme&lt;/strong&gt; and &lt;strong&gt;font&lt;/strong&gt;&lt;/a&gt; for your site. Themes are fully &lt;a href=&#34;https://sourcethemes.com/academic/docs/customization/#custom-theme&#34; target=&#34;_blank&#34;&gt;customizable&lt;/a&gt;.&lt;/p&gt;
-
-&lt;h2 id=&#34;ecosystem&#34;&gt;Ecosystem&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;&lt;a href=&#34;https://github.com/sourcethemes/academic-admin&#34; target=&#34;_blank&#34;&gt;Academic Admin&lt;/a&gt;:&lt;/strong&gt; An admin tool to import publications from BibTeX or import assets for an offline site&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;&lt;a href=&#34;https://github.com/sourcethemes/academic-scripts&#34; target=&#34;_blank&#34;&gt;Academic Scripts&lt;/a&gt;:&lt;/strong&gt; Scripts to help migrate content to new versions of Academic&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&#34;install&#34;&gt;Install&lt;/h2&gt;
-
-&lt;p&gt;You can choose from one of the following four methods to install:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://sourcethemes.com/academic/docs/install/#install-with-web-browser&#34; target=&#34;_blank&#34;&gt;&lt;strong&gt;one-click install using your web browser (recommended)&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://sourcethemes.com/academic/docs/install/#install-with-git&#34; target=&#34;_blank&#34;&gt;install on your computer using &lt;strong&gt;Git&lt;/strong&gt; with the Command Prompt/Terminal app&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://sourcethemes.com/academic/docs/install/#install-with-zip&#34; target=&#34;_blank&#34;&gt;install on your computer by downloading the &lt;strong&gt;ZIP files&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://sourcethemes.com/academic/docs/install/#install-with-rstudio&#34; target=&#34;_blank&#34;&gt;install on your computer with &lt;strong&gt;RStudio&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Then &lt;a href=&#34;https://sourcethemes.com/academic/docs/get-started/&#34; target=&#34;_blank&#34;&gt;personalize and deploy your new site&lt;/a&gt;.&lt;/p&gt;
-
-&lt;h2 id=&#34;updating&#34;&gt;Updating&lt;/h2&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://sourcethemes.com/academic/docs/update/&#34; target=&#34;_blank&#34;&gt;View the Update Guide&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;Feel free to &lt;em&gt;star&lt;/em&gt; the project on &lt;a href=&#34;https://github.com/gcushen/hugo-academic/&#34; target=&#34;_blank&#34;&gt;Github&lt;/a&gt; to help keep track of &lt;a href=&#34;https://sourcethemes.com/academic/updates&#34; target=&#34;_blank&#34;&gt;updates&lt;/a&gt;.&lt;/p&gt;
-
-&lt;h2 id=&#34;license&#34;&gt;License&lt;/h2&gt;
-
-&lt;p&gt;Copyright 2016-present &lt;a href=&#34;https://georgecushen.com&#34; target=&#34;_blank&#34;&gt;George Cushen&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;Released under the &lt;a href=&#34;https://github.com/gcushen/hugo-academic/blob/master/LICENSE.md&#34; target=&#34;_blank&#34;&gt;MIT&lt;/a&gt; license.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
       <title>An example journal article</title>
       <link>/publication/journal-article/</link>
       <pubDate>Tue, 01 Sep 2015 00:00:00 +0000</pubDate>
@@ -874,56 +835,6 @@ $$&lt;/p&gt;
 &lt;/div&gt;
 
 &lt;p&gt;Supplementary notes can be added here, including &lt;a href=&#34;https://sourcethemes.com/academic/docs/writing-markdown-latex/&#34; target=&#34;_blank&#34;&gt;code and math&lt;/a&gt;.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Hello R Markdown</title>
-      <link>/post/2015-07-23-r-rmarkdown/</link>
-      <pubDate>Thu, 23 Jul 2015 21:13:14 -0500</pubDate>
-      <guid>/post/2015-07-23-r-rmarkdown/</guid>
-      <description>
-
-
-&lt;div id=&#34;r-markdown&#34; class=&#34;section level1&#34;&gt;
-&lt;h1&gt;R Markdown&lt;/h1&gt;
-&lt;p&gt;This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see &lt;a href=&#34;http://rmarkdown.rstudio.com&#34; class=&#34;uri&#34;&gt;http://rmarkdown.rstudio.com&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;You can embed an R code chunk like this:&lt;/p&gt;
-&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;summary(cars)
-##      speed           dist       
-##  Min.   : 4.0   Min.   :  2.00  
-##  1st Qu.:12.0   1st Qu.: 26.00  
-##  Median :15.0   Median : 36.00  
-##  Mean   :15.4   Mean   : 42.98  
-##  3rd Qu.:19.0   3rd Qu.: 56.00  
-##  Max.   :25.0   Max.   :120.00
-fit &amp;lt;- lm(dist ~ speed, data = cars)
-fit
-## 
-## Call:
-## lm(formula = dist ~ speed, data = cars)
-## 
-## Coefficients:
-## (Intercept)        speed  
-##     -17.579        3.932&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-&lt;div id=&#34;including-plots&#34; class=&#34;section level1&#34;&gt;
-&lt;h1&gt;Including Plots&lt;/h1&gt;
-&lt;p&gt;You can also embed plots. See Figure &lt;a href=&#34;#fig:pie&#34;&gt;1&lt;/a&gt; for example:&lt;/p&gt;
-&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;par(mar = c(0, 1, 0, 1))
-pie(
-  c(280, 60, 20),
-  c(&amp;#39;Sky&amp;#39;, &amp;#39;Sunny side of pyramid&amp;#39;, &amp;#39;Shady side of pyramid&amp;#39;),
-  col = c(&amp;#39;#0292D8&amp;#39;, &amp;#39;#F7EA39&amp;#39;, &amp;#39;#C4B632&amp;#39;),
-  init.angle = -50, border = NA
-)&lt;/code&gt;&lt;/pre&gt;
-&lt;div class=&#34;figure&#34;&gt;&lt;span id=&#34;fig:pie&#34;&gt;&lt;/span&gt;
-&lt;img src=&#34;/post/2015-07-23-r-rmarkdown_files/figure-html/pie-1.png&#34; alt=&#34;A fancy pie chart.&#34; width=&#34;672&#34; /&gt;
-&lt;p class=&#34;caption&#34;&gt;
-Figure 1: A fancy pie chart.
-&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
 </description>
     </item>
     
