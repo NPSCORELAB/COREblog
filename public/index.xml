@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Academic</title>
+    <title>CORE Lab</title>
     <link>/</link>
       <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
-    <description>Academic</description>
+    <description>CORE Lab</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Mon, 16 Mar 2020 00:00:00 +0000</lastBuildDate>
     <image>
       <url>/img/corelogo-big.png</url>
-      <title>Academic</title>
+      <title>CORE Lab</title>
       <link>/</link>
     </image>
     
@@ -70,7 +70,7 @@
 &lt;h2&gt;What is R?&lt;/h2&gt;
 &lt;p&gt;R is a free, open-source, and highly extensible language and environment for statistical computing and graphics &lt;span class=&#34;citation&#34;&gt;(R Core Team 2018)&lt;/span&gt;. In layman terms, this is to say that R is a software suite primarily designed for data analysis, visualization, and communication much like other tools (e.g., SPSS, SAS, etc.); however, R is crucially free and open-source. This means that the source code is made available to all who wish to access it. This distribution typically occurs through the &lt;strong&gt;c&lt;/strong&gt;omprehensive &lt;strong&gt;R&lt;/strong&gt; &lt;strong&gt;a&lt;/strong&gt;rchive &lt;strong&gt;n&lt;/strong&gt;etwork (the aforementioned CRAN), which is a series of servers distributed around the world and used to facilitate the free distribution of the software. The latest version of R, as well as older versions, are archived and freely distributed through the CRAN website, &lt;a href=&#34;https://cran.r-project.org/&#34;&gt;here&lt;/a&gt;. The free distribution of the software includes a basic graphic user interface (GUI) were you can type commands and get results of executing these commands immediately (see Figure 1).&lt;/p&gt;
 &lt;div class=&#34;figure&#34;&gt;
-&lt;img src=&#34;/r-basics/R_Basics_files/Rconsole.png&#34; alt=&#34;Figure 1. R Console&#34; /&gt;
+&lt;img src=&#34;./r-basics/R_Basics_files/Rconsole.png&#34; alt=&#34;Figure 1. R Console&#34; /&gt;
 &lt;p class=&#34;caption&#34;&gt;Figure 1. R Console&lt;/p&gt;
 &lt;/div&gt;
 &lt;p&gt;In addition to the R software, the CRAN hosts a variety of open-source packages, which are bundles of share-able code, data, documentation, and tests intended to facilitate different types of tasks (e.g., clean, structure, and graph data). While R exists as a base environment with a reasonable amount of functionality, packages allow you to quickly expand the functionality and even interface with other programming languages, such as Python. To recap, packages are fundamental units of shareable code created by other R users intended to solve a common problem &lt;span class=&#34;citation&#34;&gt;(Wickham 2015b)&lt;/span&gt;.&lt;/p&gt;
