@@ -31,7 +31,7 @@
   <meta name="description" content="Introduction The goal of this document is to provide you with a basic understanding of R that will empower you to further your data analysis skill set. If you are asking yourself, “Why R?” Consider that R is hot! While R is not the only free software environment for data analysis, and perhaps not the most intuitive if your frame of reference is pretty much any other programming language, it is among one of the fastest growing programming languages world-wide.">
 
   
-  <link rel="alternate" hreflang="en-us" href="/post/r-basics/r_basics/">
+  <link rel="alternate" hreflang="en-us" href="../../../post/r-basics/r_basics/">
 
   
 
@@ -84,7 +84,7 @@
   
   
   
-  <link rel="stylesheet" href="/css/academic.css">
+  <link rel="stylesheet" href="../../../css/academic.css">
 
   
 
@@ -96,11 +96,11 @@
 
   
 
-  <link rel="manifest" href="/index.webmanifest">
-  <link rel="icon" type="image/png" href="/img/icon-32.png">
-  <link rel="apple-touch-icon" type="image/png" href="/img/icon-192.png">
+  <link rel="manifest" href="../../../index.webmanifest">
+  <link rel="icon" type="image/png" href="../../../img/icon-32.png">
+  <link rel="apple-touch-icon" type="image/png" href="../../../img/icon-192.png">
 
-  <link rel="canonical" href="/post/r-basics/r_basics/">
+  <link rel="canonical" href="../../../post/r-basics/r_basics/">
 
   
   
@@ -114,9 +114,9 @@
   <meta property="twitter:site" content="@NPS_CORELab">
   <meta property="twitter:creator" content="@NPS_CORELab">
   
-  <meta property="og:site_name" content="Academic">
+  <meta property="og:site_name" content="CORE Lab">
   <meta property="og:url" content="/post/r-basics/r_basics/">
-  <meta property="og:title" content="R Basics | Academic">
+  <meta property="og:title" content="R Basics | CORE Lab">
   <meta property="og:description" content="Introduction The goal of this document is to provide you with a basic understanding of R that will empower you to further your data analysis skill set. If you are asking yourself, “Why R?” Consider that R is hot! While R is not the only free software environment for data analysis, and perhaps not the most intuitive if your frame of reference is pretty much any other programming language, it is among one of the fastest growing programming languages world-wide."><meta property="og:image" content="/img/corelogo-big.png">
   <meta property="twitter:image" content="/img/corelogo-big.png"><meta property="og:locale" content="en-us">
   
@@ -182,7 +182,7 @@
 
 
 
-  <title>R Basics | Academic</title>
+  <title>R Basics | CORE Lab</title>
 
 </head>
 
@@ -225,7 +225,7 @@
   <div class="container">
 
     
-      <a class="navbar-brand" href="/"><img src="/img/corelogo-big.png" alt="Academic"></a>
+      <a class="navbar-brand" href="../../../"><img src="../../../img/corelogo-big.png" alt="CORE Lab"></a>
       
       <button type="button" class="navbar-toggler" data-toggle="collapse"
               data-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
@@ -264,7 +264,7 @@
         
 
         <li class="nav-item">
-          <a class="nav-link " href="/#projects"><span>Projects</span></a>
+          <a class="nav-link " href="../../../#projects"><span>Projects</span></a>
         </li>
 
         
@@ -286,36 +286,7 @@
         
 
         <li class="nav-item">
-          <a class="nav-link " href="/training/"><span>Training</span></a>
-        </li>
-
-        
-        
-
-        
-
-        
-        
-        
-          
-        
-
-        
-        
-        
-        
-        
-        
-          
-          
-          
-            
-          
-          
-        
-
-        <li class="nav-item">
-          <a class="nav-link " href="/#posts"><span>Posts</span></a>
+          <a class="nav-link " href="../../../training/"><span>Training</span></a>
         </li>
 
         
@@ -344,7 +315,36 @@
         
 
         <li class="nav-item">
-          <a class="nav-link " href="/#contact"><span>Contact</span></a>
+          <a class="nav-link " href="../../../#posts"><span>Posts</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="../../../#contact"><span>Contact</span></a>
         </li>
 
         
@@ -439,7 +439,7 @@
   
   <span class="middot-divider"></span>
   <span class="article-categories">
-    <i class="fas fa-folder mr-1"></i><a href="/categories/r/">R</a></span>
+    <i class="fas fa-folder mr-1"></i><a href="../../../categories/r/">R</a></span>
   
 
 </div>
@@ -497,7 +497,7 @@
 <h2>What is R?</h2>
 <p>R is a free, open-source, and highly extensible language and environment for statistical computing and graphics <span class="citation">(R Core Team 2018)</span>. In layman terms, this is to say that R is a software suite primarily designed for data analysis, visualization, and communication much like other tools (e.g., SPSS, SAS, etc.); however, R is crucially free and open-source. This means that the source code is made available to all who wish to access it. This distribution typically occurs through the <strong>c</strong>omprehensive <strong>R</strong> <strong>a</strong>rchive <strong>n</strong>etwork (the aforementioned CRAN), which is a series of servers distributed around the world and used to facilitate the free distribution of the software. The latest version of R, as well as older versions, are archived and freely distributed through the CRAN website, <a href="https://cran.r-project.org/">here</a>. The free distribution of the software includes a basic graphic user interface (GUI) were you can type commands and get results of executing these commands immediately (see Figure 1).</p>
 <div class="figure">
-<img src="/r-basics/R_Basics_files/Rconsole.png" alt="Figure 1. R Console" />
+<img src="../../../r-basics/R_Basics_files/Rconsole.png" alt="Figure 1. R Console" />
 <p class="caption">Figure 1. R Console</p>
 </div>
 <p>In addition to the R software, the CRAN hosts a variety of open-source packages, which are bundles of share-able code, data, documentation, and tests intended to facilitate different types of tasks (e.g., clean, structure, and graph data). While R exists as a base environment with a reasonable amount of functionality, packages allow you to quickly expand the functionality and even interface with other programming languages, such as Python. To recap, packages are fundamental units of shareable code created by other R users intended to solve a common problem <span class="citation">(Wickham 2015b)</span>.</p>
@@ -993,11 +993,11 @@ check_packages(.dependencies = packages)</code></pre>
   <div class="media author-card content-widget-hr">
     
       
-      <img class="portrait mr-3" src="/authors/admin/avatar_hu779586ac152000b3ce60854c287e073a_28510_250x250_fill_lanczos_center_2.png" alt="Avatar">
+      <img class="portrait mr-3" src="../../../authors/admin/avatar_hu779586ac152000b3ce60854c287e073a_28510_250x250_fill_lanczos_center_2.png" alt="Avatar">
     
 
     <div class="media-body">
-      <h5 class="card-title"><a href="/authors/admin/"></a></h5>
+      <h5 class="card-title"><a href="../../../authors/admin/"></a></h5>
       
       
       <ul class="network-icon" aria-hidden="true">
@@ -1014,7 +1014,7 @@ check_packages(.dependencies = packages)</code></pre>
       
     
     <li>
-      <a href="/#contact" >
+      <a href="../../../#contact" >
         <i class="fas fa-envelope"></i>
       </a>
     </li>
@@ -1173,7 +1173,7 @@ check_packages(.dependencies = packages)</code></pre>
     
     
     
-    <script src="/js/academic.min.d6bd04fdad2ad213aa8111c5a3b72fc5.js"></script>
+    <script src="../../../js/academic.min.d6bd04fdad2ad213aa8111c5a3b72fc5.js"></script>
 
     
 
@@ -1189,11 +1189,11 @@ check_packages(.dependencies = packages)</code></pre>
   
   <p class="powered-by">
     
-      <a href="/privacy/">Privacy Policy</a>
+      <a href="../../../privacy/">Privacy Policy</a>
     
     
        &middot; 
-      <a href="/terms/">Terms</a>
+      <a href="../../../terms/">Terms</a>
     
   </p>
   
