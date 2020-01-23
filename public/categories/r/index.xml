@@ -5,12 +5,29 @@
     <link>/categories/r/</link>
       <atom:link href="/categories/r/index.xml" rel="self" type="application/rss+xml" />
     <description>R</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Tue, 17 Dec 2019 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Thu, 23 Jan 2020 00:00:00 +0000</lastBuildDate>
     <image>
       <url>/img/corelogo-big.png</url>
       <title>R</title>
       <link>/categories/r/</link>
     </image>
+    
+    <item>
+      <title>Introduction to Social Network Analysis</title>
+      <link>/post/sna-intro/introduction_to_sna/</link>
+      <pubDate>Thu, 23 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>/post/sna-intro/introduction_to_sna/</guid>
+      <description>
+
+
+&lt;p&gt;This post contains links to our self-study course developed in conjuction with the &lt;a href=&#34;https://www.chds.us&#34;&gt;Center for Homeland Defenese and Security (CHDS)&lt;/a&gt;. The course is an introduction to social network analysis (SNA); as such, we cover what SNA is and is not and how it differs from other approaches. We also introduce basic SNA terms, concepts and assumptions that undergird this field.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://nps01-my.sharepoint.com/personal/cjcallag_nps_edu/Documents/Documents/sna_intro_videos/Module_01.mp4&#34;&gt;&lt;img src=&#34;img/module1.png&#34; alt=&#34;Introduction&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://nps01-my.sharepoint.com/personal/cjcallag_nps_edu/Documents/Documents/sna_intro_videos/Module_02.mp4&#34;&gt;&lt;img src=&#34;img/module2.png&#34; alt=&#34;Terms and Concepts&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://nps01-my.sharepoint.com/personal/cjcallag_nps_edu/Documents/Documents/sna_intro_videos/Module_03.mp4&#34;&gt;&lt;img src=&#34;img/module3.png&#34; alt=&#34;Four Metric Families&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://nps01-my.sharepoint.com/personal/cjcallag_nps_edu/Documents/Documents/sna_intro_videos/Module_04.mp4&#34;&gt;&lt;img src=&#34;img/module4.png&#34; alt=&#34;Assumptions in SNA&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://nps01-my.sharepoint.com/personal/cjcallag_nps_edu/Documents/Documents/sna_intro_videos/Module_05.mp4&#34;&gt;&lt;img src=&#34;img/module5.png&#34; alt=&#34;More Assumptions in SNA&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>R Basics</title>

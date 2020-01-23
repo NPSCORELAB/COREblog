@@ -15,9 +15,6 @@ knitr::opts_chunk$set(echo = TRUE)
 library(dplyr)
 ```
 
-
-## Introduction
-
 The goal of this document is to provide you with a basic understanding of R that will empower you to further your data analysis skill set. If you are asking yourself, "Why R?" Consider that R is hot! While R is not the only free software environment for data analysis, and perhaps not the most intuitive if your frame of reference is pretty much any other programming language, it is among one of the fastest growing programming languages world-wide. Notably, only behind Python, Java, and Java Script [@economist2018]. 
 
 Arguably, the key features for R are:

@@ -1,0 +1,26 @@
+---
+title: "Introduction to Social Network Analysis"
+date: "`r format(Sys.Date())`"
+output: 
+  html_document:
+    toc: true
+    toc_depth: 4
+categories: ["R"]
+---
+
+```{r setup, include = FALSE, cache = FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(dplyr)
+```
+
+This post contains links to our self-study course developed in conjuction with the [Center for Homeland Defenese and Security (CHDS)](https://www.chds.us). The course is an introduction to social network analysis (SNA); as such, we cover what SNA is and is not and how it differs from other approaches. We also introduce basic SNA terms, concepts and assumptions that undergird this field.
+
+[![Introduction](img/module1.png)](https://nps01-my.sharepoint.com/personal/cjcallag_nps_edu/Documents/Documents/sna_intro_videos/Module_01.mp4)
+
+[![Terms and Concepts](img/module2.png)](https://nps01-my.sharepoint.com/personal/cjcallag_nps_edu/Documents/Documents/sna_intro_videos/Module_02.mp4)
+
+[![Four Metric Families](img/module3.png)](https://nps01-my.sharepoint.com/personal/cjcallag_nps_edu/Documents/Documents/sna_intro_videos/Module_03.mp4)
+
+[![Assumptions in SNA](img/module4.png)](https://nps01-my.sharepoint.com/personal/cjcallag_nps_edu/Documents/Documents/sna_intro_videos/Module_04.mp4)
+
+[![More Assumptions in SNA](img/module5.png)](https://nps01-my.sharepoint.com/personal/cjcallag_nps_edu/Documents/Documents/sna_intro_videos/Module_05.mp4)
