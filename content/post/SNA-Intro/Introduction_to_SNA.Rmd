@@ -15,8 +15,8 @@ library(dplyr)
 
 This post contains links to our self-study course developed in conjunction with the [Center for Homeland Defenese and Security (CHDS)](https://www.chds.us). The course is an introduction to social network analysis (SNA); as such, we cover what SNA is and is not and how it differs from other approaches. We also introduce basic SNA terms, concepts and assumptions that undergird this field.
 
-  - [Introduction](https://nps01-my.sharepoint.com/:v:/g/personal/cjcallag_nps_edu/ESwYJSyCtUhMg4T8tLNdKP0Bt3ZOvmhq6HqoqDFZTI6bUA?e=lnQshi)
-  - [Terms and Concepts](https://nps01-my.sharepoint.com/:v:/g/personal/cjcallag_nps_edu/EZK7tGmci-1Pp30G1rk8N7sBA060rhUVN4Lo9lBH8z5lHQ?e=VVOiOD)
-  - [Four Metric Families](https://nps01-my.sharepoint.com/:v:/g/personal/cjcallag_nps_edu/EdYx6ilnHTBBjPnkddv6ONwBaaajHrAOZEq6u7Ro7QmeBA?e=rnfMog)
-  - [Assumptions in SNA](https://nps01-my.sharepoint.com/:v:/g/personal/cjcallag_nps_edu/Ee43wqBglwNLkoR0Em3OM-ABCPPU2M0r41xHmr9Ug65Kkw?e=hv9Wft)
-  - [More Assumptions in SNA](https://nps01-my.sharepoint.com/:v:/g/personal/cjcallag_nps_edu/EWrTJueQD9JEjE-cXOlM9HoBV_G02ZBM7PQgaoxetv3B5A?e=IovQWI)
+  - [Introduction](https://drive.google.com/file/d/1s8SCZy-BnaAnLp40FfiWpYIV9BVb5wJl/view)
+  - [Terms and Concepts](https://drive.google.com/file/d/1fBnUj2_V99JbM-yZkCsiltWyY0Nz_iBu/view?usp=sharing)
+  - [Four Metric Families](https://drive.google.com/file/d/1yOOXMjKv8JEt-1ohiKHtlnHxfu5vUCZ4/view?usp=sharing)
+  - [Assumptions in SNA](https://drive.google.com/file/d/1FvNH-VYobM696gUJbPccX0E1dojhmJcC/view?usp=sharing)
+  - [More Assumptions in SNA](https://drive.google.com/file/d/1AMnEO5kqG2MaQw5ZTRlEEGpe5tv8SEwS/view?usp=sharing)
