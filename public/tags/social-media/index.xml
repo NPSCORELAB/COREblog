@@ -17,106 +17,61 @@
       <link>/project/birdcage/</link>
       <pubDate>Thu, 24 Oct 2019 00:00:00 +0000</pubDate>
       <guid>/project/birdcage/</guid>
-      <description>
-
-&lt;h2 id=&#34;background&#34;&gt;Background&lt;/h2&gt;
-
+      <description>&lt;h2 id=&#34;background&#34;&gt;Background&lt;/h2&gt;
 &lt;p&gt;The purpose of this document is provide a general introduction to the Twitter analysis tool, &lt;strong&gt;{birdcage}&lt;/strong&gt;. Under the sponsorship of CTTSO, the CORE Lab developed this custom tool to improve efficiency in the analysis of the social media information environment.&lt;/p&gt;
-
 &lt;p&gt;&lt;strong&gt;{birdcage}&lt;/strong&gt; is an open source analytic tool that enables users to search, explore, and analyze social media data efficiently. Based on practitioners’ feedback, this custom analytic tool offers &lt;em&gt;Summary&lt;/em&gt;, &lt;em&gt;Knowledge Graph&lt;/em&gt;, &lt;em&gt;Communities and Topics&lt;/em&gt;, and &lt;em&gt;Explore Data&lt;/em&gt; windows to facilitate descriptive, temporal, and relational analyses.&lt;/p&gt;
-
 &lt;p&gt;For demonstration purposes, we will start with the first window (i.e., &lt;em&gt;Summary&lt;/em&gt;) and work through subsequent windows’ features. Users do not have to work in this manner, however. Each window offers different features that might be relevant to a specific project.&lt;/p&gt;
-
 &lt;p&gt;Please consider the following as you walk through this tutorial:&lt;/p&gt;
-
 &lt;ol&gt;
 &lt;li&gt;This tool is not designed to be an “enterprise” solution; the goal is to fill analytic gaps by integrating it with existing systems.&lt;/li&gt;
 &lt;li&gt;Though it can ingest data from existing systems that make their data available, the CORE Lab will continue to work on incorporating new data sources.&lt;/li&gt;
 &lt;/ol&gt;
-
 &lt;h2 id=&#34;accessing-the-tool-and-selecting-a-project&#34;&gt;Accessing the Tool and Selecting a Project&lt;/h2&gt;
-
 &lt;p&gt;Upon accessing the app via the web browser, you will be presented with the &lt;em&gt;Select Project&lt;/em&gt; window. As of the time of writing this tutorial, the app offers access to Twitter data of projects from an existing enterprise system, namely Pulse; however, the Lab is working on additional integration options. Note that when you select a project, it may take a few second to load.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;login.gif&#34; alt=&#34;&amp;lt;small&amp;gt; Figure 1. Accessing birdcage Tool &amp;lt;/small&amp;gt;&#34; /&gt;&lt;/p&gt;
-
+&lt;p&gt;&lt;img src=&#34;login.gif&#34; alt=&#34; Figure 1. Accessing birdcage Tool &#34;&gt;&lt;/p&gt;
 &lt;h2 id=&#34;global-date-filter&#34;&gt;Global Date Filter&lt;/h2&gt;
-
 &lt;p&gt;It is often useful to filter a data set based on a specific time frame.  The &lt;em&gt;Global Date Filter&lt;/em&gt; permits analysts to interact with the data to observe trends during a specific period of time. For instance, we can see the data from this project range from February 19, 2019 through March 20, 2019.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;figure_2.png&#34; alt=&#34;&amp;lt;small&amp;gt; Figure 2. Global Date Filter &amp;lt;/small&amp;gt;&#34; /&gt;&lt;/p&gt;
-
+&lt;p&gt;&lt;img src=&#34;figure_2.png&#34; alt=&#34; Figure 2. Global Date Filter &#34;&gt;&lt;/p&gt;
 &lt;p&gt;Two key features to keep in mind:&lt;/p&gt;
-
 &lt;ol&gt;
 &lt;li&gt;The default date range is based on the date range in the underlying data.&lt;/li&gt;
-&lt;li&gt;The filter applies to all the subsequent windows. For example, a filter created in the &lt;em&gt;Summary&lt;/em&gt; window will apply to the &lt;em&gt;Knowledge Graph&lt;/em&gt; as well.
-&lt;br /&gt;
-&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;The filter applies to all the subsequent windows. For example, a filter created in the &lt;em&gt;Summary&lt;/em&gt; window will apply to the &lt;em&gt;Knowledge Graph&lt;/em&gt; as well.&lt;/li&gt;
 &lt;/ol&gt;
-
 &lt;h2 id=&#34;summary-statistics&#34;&gt;Summary Statistics&lt;/h2&gt;
-
 &lt;p&gt;Once you have selected a data set and a date range using the &lt;em&gt;Global Date Filter&lt;/em&gt;, the &lt;em&gt;Summary&lt;/em&gt; window provides analysts with project aggregate statistics, including number of users, tweets, hashtags, URLs, media, and social network clusters. For instance, we can see that our data set in this example contains 9,283 users, 16,041 tweets, 1,446 hashtags, etc.&lt;/p&gt;
-
 &lt;p&gt;Moreover, the &lt;em&gt;Summary&lt;/em&gt; section offers interactive timelines that visualize reply, retweet, and quote activity over time. For example, we can see a spike in retweets on February 24th.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;timeline1.png&#34; alt=&#34;&amp;lt;small&amp;gt; Figure 3. Summary Timeline: Search &amp;lt;/small&amp;gt;&#34; /&gt;&lt;/p&gt;
-
+&lt;p&gt;&lt;img src=&#34;timeline1.png&#34; alt=&#34; Figure 3. Summary Timeline: Search &#34;&gt;&lt;/p&gt;
 &lt;p&gt;We can zoom into time frames of interest by drawing a box over the area. Note you can return to the global view by simply double, left-clicking on the timeline.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;timeline2.png&#34; alt=&#34;&amp;lt;small&amp;gt; Figure 4. Summary Timeline: Search &amp;lt;/small&amp;gt;&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Finally, the &lt;em&gt;Summary&lt;/em&gt; section outlines a project&amp;rsquo;s most active accounts, most common hashtags, and most common languages.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;most_active_entities.png&#34; alt=&#34;&amp;lt;small&amp;gt;  Figure 5. Summary Timeline: Search &amp;lt;/small&amp;gt;&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;/br&gt;&lt;/p&gt;
-
+&lt;p&gt;&lt;img src=&#34;timeline2.png&#34; alt=&#34; Figure 4. Summary Timeline: Search &#34;&gt;&lt;/p&gt;
+&lt;p&gt;Finally, the &lt;em&gt;Summary&lt;/em&gt; section outlines a project&#39;s most active accounts, most common hashtags, and most common languages.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;most_active_entities.png&#34; alt=&#34;  Figure 5. Summary Timeline: Search &#34;&gt;&lt;/p&gt;
+&lt;!-- raw HTML omitted --&gt;
 &lt;h2 id=&#34;knowledge-graph&#34;&gt;Knowledge Graph&lt;/h2&gt;
-
 &lt;p&gt;The inherent relational nature of social media means analysts have to consider how accounts and other entities of interest are embedded in larger social structures.  The &lt;em&gt;Knowledge Graph&lt;/em&gt; is intended for users to do just that. You will see an interactive table that permits you to search for users, statuses (e.g., tweets), and entities (e.g., hashtag and URLs) of interest.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;knowledge_graph1.png&#34; alt=&#34;&amp;lt;small&amp;gt; Figure 6. Knowledge Graph: Entity Type Tabs &amp;lt;/small&amp;gt;&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;In this example, we will select a user (note you can select multiple users or a combination of users, statuses, and hashtags) and locate the &lt;em&gt;Update Graph with Selected Rows&lt;/em&gt; button to visualize and interact the user&amp;rsquo;s network &lt;em&gt;two&lt;/em&gt; steps out (i.e., direct and indirect connections).&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;knowledge_graph2.png&#34; alt=&#34;&amp;lt;small&amp;gt; Figure 7. Knowledge Graph: Selecting an Entity &amp;lt;/small&amp;gt;&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Once you have visualized an entity&amp;rsquo;s (or multiple entities) network, you will see the legend and the &lt;em&gt;Select by&lt;/em&gt; feature. The former describes the entity and relationship types on the graph whereas the latter permits you to set your interactive options. For instance, the default choice is &lt;em&gt;node_class&lt;/em&gt;, which allows you to identify and highlight all hashtags, users, etc. Note you can always choose to search your graph by node Id with the &lt;em&gt;Select by Id&lt;/em&gt; drop-down.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;knowledge_graph3.png&#34; alt=&#34;&amp;lt;small&amp;gt; Figure 8. Knowledge Graph: Selections and Legend &amp;lt;/small&amp;gt;&#34; /&gt;&lt;/p&gt;
-
+&lt;p&gt;&lt;img src=&#34;knowledge_graph1.png&#34; alt=&#34; Figure 6. Knowledge Graph: Entity Type Tabs &#34;&gt;&lt;/p&gt;
+&lt;p&gt;In this example, we will select a user (note you can select multiple users or a combination of users, statuses, and hashtags) and locate the &lt;em&gt;Update Graph with Selected Rows&lt;/em&gt; button to visualize and interact the user&#39;s network &lt;em&gt;two&lt;/em&gt; steps out (i.e., direct and indirect connections).&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;knowledge_graph2.png&#34; alt=&#34; Figure 7. Knowledge Graph: Selecting an Entity &#34;&gt;&lt;/p&gt;
+&lt;p&gt;Once you have visualized an entity&#39;s (or multiple entities) network, you will see the legend and the &lt;em&gt;Select by&lt;/em&gt; feature. The former describes the entity and relationship types on the graph whereas the latter permits you to set your interactive options. For instance, the default choice is &lt;em&gt;node_class&lt;/em&gt;, which allows you to identify and highlight all hashtags, users, etc. Note you can always choose to search your graph by node Id with the &lt;em&gt;Select by Id&lt;/em&gt; drop-down.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;knowledge_graph3.png&#34; alt=&#34; Figure 8. Knowledge Graph: Selections and Legend &#34;&gt;&lt;/p&gt;
 &lt;p&gt;Additionally, you can select any node of the graph to obtain attribute information.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;knowledge_graph4.png&#34; alt=&#34;&amp;lt;small&amp;gt; Figure 9. Knowledge Graph: Accessing Attribute Data &amp;lt;/small&amp;gt;&#34; /&gt;&lt;/p&gt;
-
+&lt;p&gt;&lt;img src=&#34;knowledge_graph4.png&#34; alt=&#34; Figure 9. Knowledge Graph: Accessing Attribute Data &#34;&gt;&lt;/p&gt;
 &lt;p&gt;Finally, you can simply select &lt;em&gt;Clear User Rows&lt;/em&gt; followed by &lt;em&gt;Update Graph with Selected Rows&lt;/em&gt; to clear your graph (note you would select &lt;em&gt;Clear Status Rows&lt;/em&gt; and/or &lt;em&gt;Clear Entity Rows&lt;/em&gt; if your initial search focuses on tweets or other entities.)&lt;/p&gt;
-
-&lt;p&gt;&lt;/br&gt;&lt;/p&gt;
-
+&lt;!-- raw HTML omitted --&gt;
 &lt;h2 id=&#34;communities-and-topics&#34;&gt;Communities and Topics&lt;/h2&gt;
-
-&lt;p&gt;Similar to the &lt;em&gt;Knowledge Graph&lt;/em&gt;, the &lt;em&gt;Communities and Topics&lt;/em&gt; window allows analysts to search and filter users, statuses, and entities for network analysis. A major motivation in social network analysis of communication and information-based networks is to identify subgroups/clusters of nodes who interact relatively more frequently with one another than with other groups of entities. For instance, sets of nodes may cluster because they are speaking the same language, talking about the same topic(s), and/or have similar views or beliefs about an issue.  The goal of the &lt;em&gt;Communities and Topics&lt;/em&gt; window is to use a &amp;ldquo;community-detection&amp;rdquo; algorithm to identify clusters for analysts so they can see the &amp;ldquo;surrounding&amp;rdquo; community containing users, tweets, and/or other entities of interest.&lt;sup class=&#34;footnote-ref&#34; id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;comms_tops1.png&#34; alt=&#34;&amp;lt;small&amp;gt; Figure 10. Communities and Topics: Searchable Table &amp;lt;/small&amp;gt;&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Once you&amp;rsquo;ve identified and selected users, tweets, and/or entities of interest, you can select &lt;em&gt;Find Community&lt;/em&gt; and a second table will appear below the first one. In this table you will be able to explore other users, tweets, and hashtags within your initial search node&amp;rsquo;s cluster, such as the text of their tweets. As with the &lt;em&gt;Knowledge Graph&lt;/em&gt;, you can simply select &lt;em&gt;Clear User Rows&lt;/em&gt; followed by &lt;em&gt;Update Graph with Selected Rows&lt;/em&gt; to clear your graph (Note you would select &lt;em&gt;Clear Status Rows&lt;/em&gt; and/or &lt;em&gt;Clear Entity Rows&lt;/em&gt; if your initial search focuses on tweets or other entities.)&lt;/p&gt;
-
+&lt;p&gt;Similar to the &lt;em&gt;Knowledge Graph&lt;/em&gt;, the &lt;em&gt;Communities and Topics&lt;/em&gt; window allows analysts to search and filter users, statuses, and entities for network analysis. A major motivation in social network analysis of communication and information-based networks is to identify subgroups/clusters of nodes who interact relatively more frequently with one another than with other groups of entities. For instance, sets of nodes may cluster because they are speaking the same language, talking about the same topic(s), and/or have similar views or beliefs about an issue.  The goal of the &lt;em&gt;Communities and Topics&lt;/em&gt; window is to use a &amp;ldquo;community-detection&amp;rdquo; algorithm to identify clusters for analysts so they can see the &amp;ldquo;surrounding&amp;rdquo; community containing users, tweets, and/or other entities of interest.&lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;comms_tops1.png&#34; alt=&#34; Figure 10. Communities and Topics: Searchable Table &#34;&gt;&lt;/p&gt;
+&lt;p&gt;Once you&#39;ve identified and selected users, tweets, and/or entities of interest, you can select &lt;em&gt;Find Community&lt;/em&gt; and a second table will appear below the first one. In this table you will be able to explore other users, tweets, and hashtags within your initial search node&#39;s cluster, such as the text of their tweets. As with the &lt;em&gt;Knowledge Graph&lt;/em&gt;, you can simply select &lt;em&gt;Clear User Rows&lt;/em&gt; followed by &lt;em&gt;Update Graph with Selected Rows&lt;/em&gt; to clear your graph (Note you would select &lt;em&gt;Clear Status Rows&lt;/em&gt; and/or &lt;em&gt;Clear Entity Rows&lt;/em&gt; if your initial search focuses on tweets or other entities.)&lt;/p&gt;
 &lt;h2 id=&#34;explore-data&#34;&gt;Explore Data&lt;/h2&gt;
-
 &lt;p&gt;The purpose of this final window is to allow analysts to search their data in a tabular format. This capability, though it may seem straightforward, is incredibly useful because Excel cannot create filters and sort large data sets without freezing.&lt;/p&gt;
-
 &lt;p&gt;Finally, the &lt;em&gt;About&lt;/em&gt; window provides general information about this tool, including our sponsor and contact information.&lt;/p&gt;
-&lt;div class=&#34;footnotes&#34;&gt;
-
-&lt;hr /&gt;
-
+&lt;section class=&#34;footnotes&#34; role=&#34;doc-endnotes&#34;&gt;
+&lt;hr&gt;
 &lt;ol&gt;
-&lt;li id=&#34;fn:1&#34;&gt;We leverage the Louvain method for identifying clusters, see Blondel, Vincent D; Guillaume, Jean-Loup; Lambiotte, Renaud; Lefebvre, Etienne (9 October 2008). &amp;ldquo;Fast unfolding of communities in large networks&amp;rdquo;. Journal of Statistical Mechanics: Theory and Experiment. 2008 (10): P10008.
- &lt;a class=&#34;footnote-return&#34; href=&#34;#fnref:1&#34;&gt;&lt;sup&gt;^&lt;/sup&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li id=&#34;fn:1&#34; role=&#34;doc-endnote&#34;&gt;
+&lt;p&gt;We leverage the Louvain method for identifying clusters, see Blondel, Vincent D; Guillaume, Jean-Loup; Lambiotte, Renaud; Lefebvre, Etienne (9 October 2008). &amp;ldquo;Fast unfolding of communities in large networks&amp;rdquo;. Journal of Statistical Mechanics: Theory and Experiment. 2008 (10): P10008.&lt;a href=&#34;#fnref:1&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
 &lt;/ol&gt;
-&lt;/div&gt;
+&lt;/section&gt;
 </description>
     </item>
     
