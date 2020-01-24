@@ -17,13 +17,20 @@
       <link>/talk/bragg-march-2020/</link>
       <pubDate>Mon, 16 Mar 2020 00:00:00 +0000</pubDate>
       <guid>/talk/bragg-march-2020/</guid>
-      <description>&lt;!-- raw HTML omitted --&gt;
+      <description>&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Click on the &lt;strong&gt;Slides&lt;/strong&gt; button above to view the built-in slides feature.
+  &lt;/div&gt;
+&lt;/div&gt;
+
 &lt;p&gt;Slides can be added in a few ways:&lt;/p&gt;
+
 &lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Create&lt;/strong&gt; slides using Academic&#39;s &lt;a href=&#34;https://sourcethemes.com/academic/docs/managing-content/#create-slides&#34;&gt;&lt;em&gt;Slides&lt;/em&gt;&lt;/a&gt; feature and link using &lt;code&gt;slides&lt;/code&gt; parameter in the front matter of the talk file&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Create&lt;/strong&gt; slides using Academic&amp;rsquo;s &lt;a href=&#34;https://sourcethemes.com/academic/docs/managing-content/#create-slides&#34; target=&#34;_blank&#34;&gt;&lt;em&gt;Slides&lt;/em&gt;&lt;/a&gt; feature and link using &lt;code&gt;slides&lt;/code&gt; parameter in the front matter of the talk file&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Upload&lt;/strong&gt; an existing slide deck to &lt;code&gt;static/&lt;/code&gt; and link using &lt;code&gt;url_slides&lt;/code&gt; parameter in the front matter of the talk file&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Embed&lt;/strong&gt; your slides (e.g. Google Slides) or presentation video on this page using &lt;a href=&#34;https://sourcethemes.com/academic/docs/writing-markdown-latex/&#34;&gt;shortcodes&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Embed&lt;/strong&gt; your slides (e.g. Google Slides) or presentation video on this page using &lt;a href=&#34;https://sourcethemes.com/academic/docs/writing-markdown-latex/&#34; target=&#34;_blank&#34;&gt;shortcodes&lt;/a&gt;.&lt;/li&gt;
 &lt;/ul&gt;
+
 &lt;p&gt;Further talk details can easily be added to this page using &lt;em&gt;Markdown&lt;/em&gt; and $\rm \LaTeX$ math code.&lt;/p&gt;
 </description>
     </item>
@@ -36,428 +43,14 @@
       <description>
 
 
-&lt;p&gt;This post contains links to our self-study course developed in conjuction with the &lt;a href=&#34;https://www.chds.us&#34;&gt;Center for Homeland Defenese and Security (CHDS)&lt;/a&gt;. The course is an introduction to social network analysis (SNA); as such, we cover what SNA is and is not and how it differs from other approaches. We also introduce basic SNA terms, concepts and assumptions that undergird this field.&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://nps01-my.sharepoint.com/personal/cjcallag_nps_edu/Documents/Documents/sna_intro_videos/Module_01.mp4&#34;&gt;&lt;img src=&#34;img/module1.png&#34; alt=&#34;Introduction&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://nps01-my.sharepoint.com/personal/cjcallag_nps_edu/Documents/Documents/sna_intro_videos/Module_02.mp4&#34;&gt;&lt;img src=&#34;img/module2.png&#34; alt=&#34;Terms and Concepts&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://nps01-my.sharepoint.com/personal/cjcallag_nps_edu/Documents/Documents/sna_intro_videos/Module_03.mp4&#34;&gt;&lt;img src=&#34;img/module3.png&#34; alt=&#34;Four Metric Families&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://nps01-my.sharepoint.com/personal/cjcallag_nps_edu/Documents/Documents/sna_intro_videos/Module_04.mp4&#34;&gt;&lt;img src=&#34;img/module4.png&#34; alt=&#34;Assumptions in SNA&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://nps01-my.sharepoint.com/personal/cjcallag_nps_edu/Documents/Documents/sna_intro_videos/Module_05.mp4&#34;&gt;&lt;img src=&#34;img/module5.png&#34; alt=&#34;More Assumptions in SNA&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>R Basics</title>
-      <link>/post/r-basics/r_basics/</link>
-      <pubDate>Tue, 17 Dec 2019 00:00:00 +0000</pubDate>
-      <guid>/post/r-basics/r_basics/</guid>
-      <description>
-
-
-&lt;div id=&#34;introduction&#34; class=&#34;section level2&#34;&gt;
-&lt;h2&gt;Introduction&lt;/h2&gt;
-&lt;p&gt;The goal of this document is to provide you with a basic understanding of R that will empower you to further your data analysis skill set. If you are asking yourself, “Why R?” Consider that R is hot! While R is not the only free software environment for data analysis, and perhaps not the most intuitive if your frame of reference is pretty much any other programming language, it is among one of the fastest growing programming languages world-wide. Notably, only behind Python, Java, and Java Script &lt;span class=&#34;citation&#34;&gt;(“Python Has Brought Computer Programming to a Vast New Audience” 2018)&lt;/span&gt;.&lt;/p&gt;
-&lt;p&gt;Arguably, the key features for R are:&lt;/p&gt;
-&lt;ol style=&#34;list-style-type: decimal&#34;&gt;
-&lt;li&gt;The community: With &lt;a href=&#34;https://www.meetup.com/topics/r-project-for-statistical-computing/&#34;&gt;450+ user groups&lt;/a&gt; worldwide, close to &lt;a href=&#34;https://stackoverflow.com/questions/tagged/r&#34;&gt;300,000 questions asked on Stackoverflow&lt;/a&gt;, and a &lt;a href=&#34;https://twitter.com/hashtag/rstats?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Ehashtag&#34;&gt;popular hashtag (#rstats) on Twitter&lt;/a&gt;. In short, R provides an open-source route for users to participate and share research, tools, etc.&lt;/li&gt;
-&lt;li&gt;Highly extensible: A positive side-effect of the open-source nature of the R community is the large, and ever growing, universe of add-on packages. The &lt;a href=&#34;https://cran.r-project.org/&#34;&gt;Comprehensive R Archive Network (CRAN)&lt;/a&gt; is a network that stores up-to-date versions of R alongside code and documentation developed by other users. As of July 2019, there were over 14,500 packages available on the CRAN. In addition to the large number of packages, the variety among these is one of the reasons R is so successful; this is to say, chances are that someone has already solved a problem that you are working on and has made that code available for you to use by downloading their package &lt;span class=&#34;citation&#34;&gt;(Wickham 2015b)&lt;/span&gt;.&lt;/li&gt;
-&lt;li&gt;RStudio: If you have any coding experience, you may have already come across any number of integrated development environments (IDE). However, if you have not, these are software applications that provide features for programmers to edit code, automate certain tasks, and even debug. RStudio is the premier IDE for R programming! It is a free and open tool for developers and teams working on data science. While it is not a requirement for working in R, using it will make your life easier.&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;Now that you are sold on using R, let’s walk through the goals of this tutorial. In short, this document is designed to get you somewhat comfortable with the basics, such as:&lt;/p&gt;
-&lt;ol style=&#34;list-style-type: decimal&#34;&gt;
-&lt;li&gt;Getting you familiarized with R objects and data types (along the way we will cover some crucial jargon)&lt;/li&gt;
-&lt;li&gt;Exploring some of the base functions of R&lt;/li&gt;
-&lt;li&gt;Exploring how to expand R’s base capabilities through user defined functions&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;Keep in mind that this document does not assume that you have a deep background in programming or data analysis. As such, it is intended to be comprehensive. Don’t let this over-specificity on “the basics” discourage you. The fact that you are curious about programming signals that you have some type of data need, whether that may be to gather, summarize, transform, tidy, explore, visualize, model, or present your data. This document will not cover most of those topics. Rather, this document is meant to serve as a primer for those eager to go down the “R rabbit hole”.&lt;/p&gt;
-&lt;p&gt;Finally, this document is one in a plethora of tutorials available to new users. If you have the opportunity, consult as many of these online resources as you can. Among some of the notable resources introducing R to new users are:&lt;/p&gt;
+&lt;p&gt;This post contains links to our self-study course developed in conjunction with the &lt;a href=&#34;https://www.chds.us&#34;&gt;Center for Homeland Defenese and Security (CHDS)&lt;/a&gt;. The course is an introduction to social network analysis (SNA); as such, we cover what SNA is and is not and how it differs from other approaches. We also introduce basic SNA terms, concepts and assumptions that undergird this field.&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;em&gt;&lt;a href=&#34;https://www.statmethods.net/r-tutorial/index.html&#34;&gt;Quick-R&lt;/a&gt;&lt;/em&gt; by &lt;a href=&#34;https://www.datacamp.com/&#34;&gt;Data Camp&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;em&gt;&lt;a href=&#34;https://datascienceplus.com/a-general-and-basic-introduction-to-r-programming/&#34;&gt;A general and basic introduction to R programming&lt;/a&gt;&lt;/em&gt; by Poormina Thakur at datascience+&lt;/li&gt;
-&lt;li&gt;The &lt;em&gt;&lt;a href=&#34;https://www.computerworld.com/article/2497143/business-intelligence-beginner-s-guide-to-r-introduction.html&#34;&gt;Beginner’s guide to R: Introduction&lt;/a&gt;&lt;/em&gt; and &lt;em&gt;&lt;a href=&#34;https://www.computerworld.com/article/2497319/business-intelligence-beginner-s-guide-to-r-syntax-quirks-you-ll-want-to-know.html#tk.ctw-eos&#34;&gt;Learn to use R: Your hands-on guide&lt;/a&gt;&lt;/em&gt; by Sharon Machalis at Computerworld&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://nps01-my.sharepoint.com/personal/cjcallag_nps_edu/Documents/Documents/sna_intro_videos/Module_01.mp4&#34;&gt;Introduction&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://nps01-my.sharepoint.com/personal/cjcallag_nps_edu/Documents/Documents/sna_intro_videos/Module_02.mp4&#34;&gt;Terms and Concepts&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://nps01-my.sharepoint.com/personal/cjcallag_nps_edu/Documents/Documents/sna_intro_videos/Module_03.mp4&#34;&gt;Four Metric Families&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://nps01-my.sharepoint.com/personal/cjcallag_nps_edu/Documents/Documents/sna_intro_videos/Module_04.mp4&#34;&gt;Assumptions in SNA&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://nps01-my.sharepoint.com/personal/cjcallag_nps_edu/Documents/Documents/sna_intro_videos/Module_05.mp4&#34;&gt;More Assumptions in SNA&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;/div&gt;
-&lt;div id=&#34;what-is-r&#34; class=&#34;section level2&#34;&gt;
-&lt;h2&gt;What is R?&lt;/h2&gt;
-&lt;p&gt;R is a free, open-source, and highly extensible language and environment for statistical computing and graphics &lt;span class=&#34;citation&#34;&gt;(R Core Team 2018)&lt;/span&gt;. In layman terms, this is to say that R is a software suite primarily designed for data analysis, visualization, and communication much like other tools (e.g., SPSS, SAS, etc.); however, R is crucially free and open-source. This means that the source code is made available to all who wish to access it. This distribution typically occurs through the &lt;strong&gt;c&lt;/strong&gt;omprehensive &lt;strong&gt;R&lt;/strong&gt; &lt;strong&gt;a&lt;/strong&gt;rchive &lt;strong&gt;n&lt;/strong&gt;etwork (the aforementioned CRAN), which is a series of servers distributed around the world and used to facilitate the free distribution of the software. The latest version of R, as well as older versions, are archived and freely distributed through the CRAN website, &lt;a href=&#34;https://cran.r-project.org/&#34;&gt;here&lt;/a&gt;. The free distribution of the software includes a basic graphic user interface (GUI) were you can type commands and get results of executing these commands immediately (see Figure 1).&lt;/p&gt;
-&lt;div class=&#34;figure&#34;&gt;
-&lt;img src=&#34;./r-basics/R_Basics_files/Rconsole.png&#34; alt=&#34;Figure 1. R Console&#34; /&gt;
-&lt;p class=&#34;caption&#34;&gt;Figure 1. R Console&lt;/p&gt;
-&lt;/div&gt;
-&lt;p&gt;In addition to the R software, the CRAN hosts a variety of open-source packages, which are bundles of share-able code, data, documentation, and tests intended to facilitate different types of tasks (e.g., clean, structure, and graph data). While R exists as a base environment with a reasonable amount of functionality, packages allow you to quickly expand the functionality and even interface with other programming languages, such as Python. To recap, packages are fundamental units of shareable code created by other R users intended to solve a common problem &lt;span class=&#34;citation&#34;&gt;(Wickham 2015b)&lt;/span&gt;.&lt;/p&gt;
-&lt;div id=&#34;conventions-used-in-this-tutorial&#34; class=&#34;section level3&#34;&gt;
-&lt;h3&gt;Conventions Used in This Tutorial&lt;/h3&gt;
-&lt;p&gt;Before moving forward, let’s set up some basic typographical conventions.&lt;/p&gt;
-&lt;p&gt;&lt;em&gt;Italic&lt;/em&gt; - Indicating new terms, URLs, email addresses, file names, and file extensions.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Bold&lt;/strong&gt; - Indicating the names of R packages.&lt;/p&gt;
-&lt;p&gt;&lt;code&gt;Constant width&lt;/code&gt; - Used for program listings, as well as within paragraphs to refer to elements such as variable or function names, databases, data types, etc. In other words, it denotes code listing that should be typed as is or previously defined objects.&lt;/p&gt;
-&lt;p&gt;&lt;em&gt;&lt;code&gt;Constant width italic&lt;/code&gt;&lt;/em&gt; - Text that should be replaced with user-supplied values or determined by context.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;code&gt;Constant width bold&lt;/code&gt;&lt;/strong&gt; - Shows commands or other text that users should type literally.&lt;/p&gt;
-&lt;p&gt;These conventions come from &lt;em&gt;R for Data Science&lt;/em&gt; &lt;span class=&#34;citation&#34;&gt;(Wickham and Grolemund 2017)&lt;/span&gt; and are included in order to help guide you through reading this documentation.&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div id=&#34;the-r-environment-creating-understanding-and-using-objects&#34; class=&#34;section level2&#34;&gt;
-&lt;h2&gt;The R Environment: Creating, Understanding, and Using Objects&lt;/h2&gt;
-&lt;p&gt;In this section we will cover a variety of jargon and programming principles crucial to R. Table 1 is a summary of the terms covered in the following subsections, this material was adapted from the &lt;a href=&#34;https://cran.r-project.org/doc/manuals/r-release/R-lang.html#Functions&#34;&gt;R Language Definitions site&lt;/a&gt;.&lt;/p&gt;
-&lt;table&gt;
-&lt;thead&gt;
-&lt;tr class=&#34;header&#34;&gt;
-&lt;th align=&#34;left&#34;&gt;Term&lt;/th&gt;
-&lt;th align=&#34;left&#34;&gt;Definition&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr class=&#34;odd&#34;&gt;
-&lt;td align=&#34;left&#34;&gt;Object&lt;/td&gt;
-&lt;td align=&#34;left&#34;&gt;An object is a data structure having some features that define it and how it will act (attributes and methods which act on ints attributes). In R, all data types and functions are considered objects.&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr class=&#34;even&#34;&gt;
-&lt;td align=&#34;left&#34;&gt;Function&lt;/td&gt;
-&lt;td align=&#34;left&#34;&gt;A set of organized statements that perform a specific task.&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr class=&#34;odd&#34;&gt;
-&lt;td align=&#34;left&#34;&gt;Vector&lt;/td&gt;
-&lt;td align=&#34;left&#34;&gt;A kind of data storage made of contiguous cells containing data.&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr class=&#34;even&#34;&gt;
-&lt;td align=&#34;left&#34;&gt;Atomic Vector&lt;/td&gt;
-&lt;td align=&#34;left&#34;&gt;A vector were all values are the same data type.&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr class=&#34;odd&#34;&gt;
-&lt;td align=&#34;left&#34;&gt;List&lt;/td&gt;
-&lt;td align=&#34;left&#34;&gt;Another kind of contiguous data storage were each element can contain any type of R object.&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr class=&#34;even&#34;&gt;
-&lt;td align=&#34;left&#34;&gt;Matrix&lt;/td&gt;
-&lt;td align=&#34;left&#34;&gt;A two-dimmensional data storage structure were all elements must contain the same type of R object.&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr class=&#34;odd&#34;&gt;
-&lt;td align=&#34;left&#34;&gt;Data Frame&lt;/td&gt;
-&lt;td align=&#34;left&#34;&gt;A two-dimmensional data storage structure which can contain any variety of data types in vectors or matrices of the same length.&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr class=&#34;even&#34;&gt;
-&lt;td align=&#34;left&#34;&gt;Logical&lt;/td&gt;
-&lt;td align=&#34;left&#34;&gt;A data type containing TRUE or FALSE values.&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr class=&#34;odd&#34;&gt;
-&lt;td align=&#34;left&#34;&gt;Double&lt;/td&gt;
-&lt;td align=&#34;left&#34;&gt;A data type containing numeric class for floating point numbers.&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr class=&#34;even&#34;&gt;
-&lt;td align=&#34;left&#34;&gt;Integer&lt;/td&gt;
-&lt;td align=&#34;left&#34;&gt;A data type containing non-fractional numbers.&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr class=&#34;odd&#34;&gt;
-&lt;td align=&#34;left&#34;&gt;Character&lt;/td&gt;
-&lt;td align=&#34;left&#34;&gt;A data type containing alphanumeric or character strings.&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-&lt;div id=&#34;creating&#34; class=&#34;section level3&#34;&gt;
-&lt;h3&gt;Creating&lt;/h3&gt;
-&lt;p&gt;Most of your actions in R will revolve around using commands in the console rather than dialog boxes, which might seem like a tall order at first; however, with time and practice this workflow should become more enjoyable. The simplest way to wrap your brain around using commands is by thinking of using inputs and expecting outputs. This is to say, you provide R with an inputs, and it will produce an output. For instance you can type any number into the console as such:&lt;/p&gt;
-&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;1&lt;/code&gt;&lt;/pre&gt;
-&lt;pre&gt;&lt;code&gt;## [1] 1&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;Notice the immediate output, which should mimic your numerical input. Let’s expand on this basic input/output model by including some functions. Base R is chockablock with features that allow you to work with data. For instance, to perform an addition you should provide two numbers separated by a addition operator (&lt;code&gt;+&lt;/code&gt;), like so:&lt;/p&gt;
-&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;1 + 1&lt;/code&gt;&lt;/pre&gt;
-&lt;pre&gt;&lt;code&gt;## [1] 2&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;In this example, you used a &lt;em&gt;arithmetic operator&lt;/em&gt; to connect two values and perform a simple calculation (more information on operators can be found &lt;a href=&#34;https://www.statmethods.net/management/operators.html&#34;&gt;here&lt;/a&gt;). In addition to operators, base R includes a variety of &lt;em&gt;functions&lt;/em&gt;, which are sets of organized statements that perform a specific action to include creating other functions. Typical commands in R usually include one or more of the following:&lt;/p&gt;
-&lt;ol style=&#34;list-style-type: decimal&#34;&gt;
-&lt;li&gt;&lt;em&gt;Objects&lt;/em&gt;: Broadly speaking these can various types of information, such as a single value (such a s a number) or a collection of information such as a data set, a statistical model, images, etc.&lt;/li&gt;
-&lt;li&gt;&lt;em&gt;Functions&lt;/em&gt;: Reusable code used to perform a an action.&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;For example, instead of performing the addition using the &lt;code&gt;+&lt;/code&gt; operator, you can use the &lt;code&gt;sum()&lt;/code&gt; function, which will take a series of values and return the sum of all arguments, like so:&lt;/p&gt;
-&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;sum(1, 1, 1)&lt;/code&gt;&lt;/pre&gt;
-&lt;pre&gt;&lt;code&gt;## [1] 3&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;In order to store information in the R environment, the language uses an &lt;em&gt;assignment&lt;/em&gt; operator, which is a statement that sets and/or resets a value stored and denoted by a variable name. The most common type of assignment in R will follow the general command form:&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;object &amp;lt;- function&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;Keep in mind that assignment commands contain a mixture of both objects and functions. However, assignments will always include an &lt;em&gt;assignment operator&lt;/em&gt; (&lt;code&gt;&amp;lt;-&lt;/code&gt;), like so:&lt;/p&gt;
-&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;added_value &amp;lt;- sum(1, 2, 3)&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;A simplified way to read the statement above would be “create an object named ‘x’, containing the value of the sum of 1 + 2 + 3”. Here the object would be the value from the product of the sum and the object is bound to a name, &lt;code&gt;added_value&lt;/code&gt;. Think about it like this, no immediate output was produced from the previous command (at least not on the console). In order to call the value, type &lt;code&gt;added_value&lt;/code&gt; into the console. What is the output? By typing the name of the object you summon the value. By this logic you should now be able to use the name of your object as placeholder for the value(s) in the object. What happens if you sum the &lt;code&gt;added_value&lt;/code&gt; object to another number using the &lt;code&gt;+&lt;/code&gt; operator? Finally, what is the product of summing the &lt;code&gt;added_value&lt;/code&gt; object to itself?&lt;/p&gt;
-&lt;/div&gt;
-&lt;div id=&#34;understanding&#34; class=&#34;section level3&#34;&gt;
-&lt;h3&gt;Understanding&lt;/h3&gt;
-&lt;p&gt;Now that you have begun working with the console and creating objects, let’s take a look at the most important family of data type in R, the vectors. Vectors are the foundation on which more complex objects and structures are built. Vectors come in two flavors in R: &lt;em&gt;atomic&lt;/em&gt; and &lt;em&gt;lists&lt;/em&gt; &lt;span class=&#34;citation&#34;&gt;(Wickham 2019)&lt;/span&gt;. We can define them as follow:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;em&gt;atomic vectors&lt;/em&gt;: a series of one or more values were all elements must have the same data type.&lt;/li&gt;
-&lt;li&gt;&lt;em&gt;lists&lt;/em&gt;: a series of one or more values were elements can have different types.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Underlining the vectors are two core concepts to keep in mind. First, these are one-dimensional structures. Think of them like a line of values all along the same axis. Second, they fall into two categories homogeneous (atomic vectors) and heterogeneous (lists). More complex data structures build upon those two core concepts. For instance, &lt;em&gt;matrices&lt;/em&gt; are two-dimensional homogeneous data structures. This is to say, they must contain the same type of values, but can have an x and y axis (think of columns and rows). Similarly, &lt;em&gt;data frames&lt;/em&gt; are also two-dimensional, but they can include different types of atomic vectors. Hadley Wickham, Chief Scientist at RStudio, summarizes &lt;span class=&#34;citation&#34;&gt;(Wickham 2015a)&lt;/span&gt; these data types as follows:&lt;a href=&#34;#fn1&#34; class=&#34;footnoteRef&#34; id=&#34;fnref1&#34;&gt;&lt;sup&gt;1&lt;/sup&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;center&gt;
-&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th style=&#34;text-align:left;&#34;&gt;
-&lt;/th&gt;
-&lt;th style=&#34;text-align:left;&#34;&gt;
-Homogeneous
-&lt;/th&gt;
-&lt;th style=&#34;text-align:left;&#34;&gt;
-Heterogenous
-&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td style=&#34;text-align:left;&#34;&gt;
-1D
-&lt;/td&gt;
-&lt;td style=&#34;text-align:left;&#34;&gt;
-Atomic Vector
-&lt;/td&gt;
-&lt;td style=&#34;text-align:left;&#34;&gt;
-List
-&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td style=&#34;text-align:left;&#34;&gt;
-2D
-&lt;/td&gt;
-&lt;td style=&#34;text-align:left;&#34;&gt;
-Matrix
-&lt;/td&gt;
-&lt;td style=&#34;text-align:left;&#34;&gt;
-Data Frame
-&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-&lt;/center&gt;
-&lt;div id=&#34;atomic-vectors&#34; class=&#34;section level4&#34;&gt;
-&lt;h4&gt;Atomic Vectors&lt;/h4&gt;
-&lt;p&gt;These are homogeneous in nature, containing a single sequence of values of the same type, making them one-dimensional by design. The four relevant atomic vector types to statistical analysis&lt;a href=&#34;#fn2&#34; class=&#34;footnoteRef&#34; id=&#34;fnref2&#34;&gt;&lt;sup&gt;2&lt;/sup&gt;&lt;/a&gt; are:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;code&gt;logical&lt;/code&gt;: &lt;code&gt;TRUE&lt;/code&gt; or &lt;code&gt;FALSE&lt;/code&gt;, but can be abbreviated to &lt;code&gt;T&lt;/code&gt; and &lt;code&gt;F&lt;/code&gt; respectively.&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;double&lt;/code&gt;: A numeric class for floating point numbers. You may encounter doubles in decimal (e.g., &lt;code&gt;1.0&lt;/code&gt;, &lt;code&gt;1.2&lt;/code&gt;, etc.), scientific (&lt;code&gt;1.23e4&lt;/code&gt;), or &lt;a href=&#34;https://en.wikipedia.org/wiki/Hexadecimal&#34;&gt;hexadecimal&lt;/a&gt; (e.g., &lt;code&gt;0xa&lt;/code&gt;, &lt;code&gt;0xab&lt;/code&gt;, &lt;code&gt;0xabc&lt;/code&gt;, etc.). Keep in mind that there are three special values associated with doubles, these are:
-&lt;ul&gt;
-&lt;li&gt;&lt;code&gt;Inf&lt;/code&gt;: Infinity.&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;-Inf&lt;/code&gt;: Negative infinity.&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;NaN&lt;/code&gt;: Not a number.&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;integer&lt;/code&gt;: Much like doubles, these are numbers, but written followed by the &lt;code&gt;L&lt;/code&gt; and do not contain fractional values (e.g., &lt;code&gt;1L&lt;/code&gt;, &lt;code&gt;1e4L&lt;/code&gt;, &lt;code&gt;0xaL&lt;/code&gt;).&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;character&lt;/code&gt;: These contain text &lt;em&gt;strings&lt;/em&gt; , which is to say any alphanumeric value or character surrounded by &lt;code&gt;&amp;quot;&lt;/code&gt; or &lt;code&gt;&#39;&lt;/code&gt; (e.g., &lt;code&gt;&amp;quot;hello&amp;quot;&lt;/code&gt;, &lt;code&gt;&amp;quot;hello world&amp;quot;&lt;/code&gt;, etc.).&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;The simplest way to create an atomic vector is using the &lt;code&gt;c()&lt;/code&gt; function, which is short for combine and will allow you to bind multiple values, like so:&lt;/p&gt;
-&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;vector_lgl   &amp;lt;- c(TRUE, FALSE, TRUE)
-vector_dbl    &amp;lt;- c(0x1, 2.0 , 3e0)
-vector_int   &amp;lt;- c(1L, 2L, 1:3L)
-vector_chr &amp;lt;- c(&amp;quot;Hello&amp;quot;, &amp;quot;world&amp;quot;, &amp;quot;!&amp;quot;)&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;Much like with any object, you can print out the bound values by typing the name into the console. For instance, type the following into your console:&lt;/p&gt;
-&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;vector_lgl
-vector_dbl
-vector_int
-vector_chr&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;Before we move away from atomic vectors and into more complex data structures, we should become a familiarized with the &lt;code&gt;typeof()&lt;/code&gt; and &lt;code&gt;lenght()&lt;/code&gt; functions. Both of these are part of base R and are fundamental tools in understanding crucial characteristics of a vector such as its type and dimensions.&lt;/p&gt;
-&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;typeof(vector_lgl)&lt;/code&gt;&lt;/pre&gt;
-&lt;pre&gt;&lt;code&gt;## [1] &amp;quot;logical&amp;quot;&lt;/code&gt;&lt;/pre&gt;
-&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;length(vector_lgl)&lt;/code&gt;&lt;/pre&gt;
-&lt;pre&gt;&lt;code&gt;## [1] 3&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;Knowing the type of vector will be crucial down the line when you begin working with larger data. Each data type has specific attributes associated with it. In practical terms this means that each data type has “do’s” and “don’t”. For instance, you should be able to perform basic arithmetic on doubles and integers, but not on characters or logicals.&lt;/p&gt;
-&lt;/div&gt;
-&lt;div id=&#34;lists&#34; class=&#34;section level4&#34;&gt;
-&lt;h4&gt;Lists&lt;/h4&gt;
-&lt;p&gt;&lt;em&gt;Lists&lt;/em&gt; are similar to atomic vectors, but with the crucial difference that they can and usually contain a variety data types. Think of them as a sequence were you can have all four vector types mentioned above, as well as, other types (e.g., other lists, matrices, and data frames). This means that the object along that sequence don’t have to be the same length or dimensions (1D v. 2D). This flexibility makes lists very versatile at storing multiple different type so data under one object name.&lt;/p&gt;
-&lt;p&gt;In order to create a list, you will enlist the aptly named function &lt;code&gt;list()&lt;/code&gt;, which constructs or coerces data into a list type &lt;span class=&#34;citation&#34;&gt;(R Core Team 2018)&lt;/span&gt;. Let’s put that into motion:&lt;/p&gt;
-&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;my_list &amp;lt;- list(vector_lgl, vector_dbl, vector_int, vector_chr)
-my_list&lt;/code&gt;&lt;/pre&gt;
-&lt;pre&gt;&lt;code&gt;## [[1]]
-## [1]  TRUE FALSE  TRUE
-## 
-## [[2]]
-## [1] 1 2 3
-## 
-## [[3]]
-## [1] 1 2 1 2 3
-## 
-## [[4]]
-## [1] &amp;quot;Hello&amp;quot; &amp;quot;world&amp;quot; &amp;quot;!&amp;quot;&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;Notice that the list a above contains four objects, all atomic vectors, but of different flavors. However, each object is a single item on a sequence of objects. This means that we can go a step further and name each item along that sequence, much like naming the sequence itself:&lt;/p&gt;
-&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;my_list &amp;lt;- list(lgl = vector_lgl,
-                dbl = vector_dbl,
-                int = vector_int,
-                chr = vector_chr)
-my_list&lt;/code&gt;&lt;/pre&gt;
-&lt;pre&gt;&lt;code&gt;## $lgl
-## [1]  TRUE FALSE  TRUE
-## 
-## $dbl
-## [1] 1 2 3
-## 
-## $int
-## [1] 1 2 1 2 3
-## 
-## $chr
-## [1] &amp;quot;Hello&amp;quot; &amp;quot;world&amp;quot; &amp;quot;!&amp;quot;&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;A way to read the code above is “create an object named &lt;code&gt;my_list&lt;/code&gt; which composed of a sequence of objects, named &lt;code&gt;logicals&lt;/code&gt;, &lt;code&gt;doubles&lt;/code&gt;, &lt;code&gt;integers&lt;/code&gt;, and &lt;code&gt;characters&lt;/code&gt;, which contain the values of the aforementioned atomic vectors”. Here we have an object name pointing at other object names, which enhances our ability to store data into more complex structures. To get a better sense of the list structure, use the &lt;code&gt;str()&lt;/code&gt; function to display the internal structure of the R object &lt;span class=&#34;citation&#34;&gt;(R Core Team 2018)&lt;/span&gt;, like so:&lt;/p&gt;
-&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;str(my_list)&lt;/code&gt;&lt;/pre&gt;
-&lt;pre&gt;&lt;code&gt;## List of 4
-##  $ lgl: logi [1:3] TRUE FALSE TRUE
-##  $ dbl: num [1:3] 1 2 3
-##  $ int: int [1:5] 1 2 1 2 3
-##  $ chr: chr [1:3] &amp;quot;Hello&amp;quot; &amp;quot;world&amp;quot; &amp;quot;!&amp;quot;&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;Keep in mind that you are also able to gain a sense as to whether an object is a list using the &lt;code&gt;typeof()&lt;/code&gt; function. Additionally, you may also want to evaluate the dimensions of this object by enlisting the &lt;code&gt;lenght()&lt;/code&gt; function.&lt;/p&gt;
-&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;typeof(my_list)
-length(my_list)&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-&lt;div id=&#34;matrices&#34; class=&#34;section level4&#34;&gt;
-&lt;h4&gt;Matrices&lt;/h4&gt;
-&lt;p&gt;A &lt;em&gt;matrix&lt;/em&gt; is a two-dimensional data structure in which each element must be the same type (e.g., all logical, double, character, or integer.). Matrices are created with the &lt;code&gt;matrix()&lt;/code&gt; function, like so:&lt;/p&gt;
-&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;my_matrix &amp;lt;- matrix(vector_dbl,
-                    nrow = length(vector_dbl),
-                    ncol = length(vector_dbl))
-my_matrix&lt;/code&gt;&lt;/pre&gt;
-&lt;pre&gt;&lt;code&gt;##      [,1] [,2] [,3]
-## [1,]    1    1    1
-## [2,]    2    2    2
-## [3,]    3    3    3&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;Let’s unpack the statement above. The &lt;code&gt;matrix()&lt;/code&gt; function receives the first argument, &lt;code&gt;double_vector&lt;/code&gt;, which serves as the data vector distributed among the x and y axis accordingly. In this instance, we are using the length of the numeric vector so as to set the dimensions of the matrix. The output is a 3 x 3 square were the initial vector is repeated accordingly.&lt;/p&gt;
-&lt;p&gt;Here we will not work with matrices extensively. However, keep in mind that these are a useful way to represent, manipulate, and study a liner map between finite-dimensional vectors. Put differently, matrices are crucial for the storage of data used in many mathematical and statistical analysis, particularly in linear algebra and graph theory.&lt;/p&gt;
-&lt;/div&gt;
-&lt;div id=&#34;data-frames&#34; class=&#34;section level4&#34;&gt;
-&lt;h4&gt;Data Frames&lt;/h4&gt;
-&lt;p&gt;The last structure to discuss is the &lt;em&gt;data frame&lt;/em&gt;, which is perhaps the most useful and intuitive. First, let’s define it. Wickham’s table above states that this structure is two-dimensional and contains a variety of data types. More formally, you can think of data frames as rectangular collections of two or more named atomic vectors, were the object names serves as column names, and row names (in R &lt;code&gt;row.names&lt;/code&gt;). Informally, you may think of these as a table-like structure similar to those used in SQL or other tabular data storage frameworks. Within R, a large portion of statisticians, scientists, programmers, and all-around users prefer storing their data in this format.&lt;/p&gt;
-&lt;p&gt;In order to create a data frame in R, you must use the &lt;code&gt;data.frame()&lt;/code&gt; function. Like so:&lt;/p&gt;
-&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;my_df &amp;lt;- data.frame(vector_lgl,
-                    vector_dbl,
-                    vector_chr)
-my_df&lt;/code&gt;&lt;/pre&gt;
-&lt;pre&gt;&lt;code&gt;##   vector_lgl vector_dbl vector_chr
-## 1       TRUE          1      Hello
-## 2      FALSE          2      world
-## 3       TRUE          3          !&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;Notice that the column headers inherit the vector object name. Because data frames have both column and row names, you can use the &lt;code&gt;colnames()&lt;/code&gt; and &lt;code&gt;rownames()&lt;/code&gt; functions to obtain more information on the data frame. You can use column names in conjunction of different operators:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;The &lt;code&gt;$&lt;/code&gt; operator should allow you to call out a single column at a time, like so:&lt;/li&gt;
-&lt;/ul&gt;
-&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;my_df$vector_dbl&lt;/code&gt;&lt;/pre&gt;
-&lt;pre&gt;&lt;code&gt;## [1] 1 2 3&lt;/code&gt;&lt;/pre&gt;
-&lt;ul&gt;
-&lt;li&gt;Similarly, the &lt;code&gt;[&lt;/code&gt; and &lt;code&gt;]&lt;/code&gt; used in conjunction with a comma and quotes (see code chunk below). Keep in mind that this operator combination accesses rows first, then columns (e.g., &lt;code&gt;[rows, columns]&lt;/code&gt;):&lt;/li&gt;
-&lt;/ul&gt;
-&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;my_df[ ,&amp;quot;vector_dbl&amp;quot;]&lt;/code&gt;&lt;/pre&gt;
-&lt;pre&gt;&lt;code&gt;## [1] 1 2 3&lt;/code&gt;&lt;/pre&gt;
-&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;# or
-my_df[&amp;quot;2&amp;quot;, ]&lt;/code&gt;&lt;/pre&gt;
-&lt;pre&gt;&lt;code&gt;##   vector_lgl vector_dbl vector_chr
-## 2      FALSE          2      world&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;Unlike lists, which can also contain multiple types of vectors, here all vectors must have the same length. This is why we can think of data frames as rectangular structures. This property also means that in addition to length a data frame can have width. Put differently, we can count the row and column lengths with functions like &lt;code&gt;nrow()&lt;/code&gt; or &lt;code&gt;ncol()&lt;/code&gt;.&lt;/p&gt;
-&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;nrow(my_df)
-ncol(my_df)&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div id=&#34;functions&#34; class=&#34;section level2&#34;&gt;
-&lt;h2&gt;Functions&lt;/h2&gt;
-&lt;p&gt;Throughout this document you have been exposed to some functions (e.g., &lt;code&gt;c()&lt;/code&gt;, &lt;code&gt;tyepof()&lt;/code&gt;, etc.) As mentioned previously, functions are repeatable instructions for the program to execute. As with any set of instructions, these can by simple or complex. However, the basic recipe for creating a function is rather straight forward:&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;function_name &amp;lt;- function(argument_1, argument2, ... ){
-    
-    body
-
-}&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;Let’s break down the recipe above:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;We are using an assignment operator (&lt;code&gt;&amp;lt;-&lt;/code&gt;) to create a new object containing our function. As such, much like with vectors, a function is an object with a name bound to it. However, in this case the object will contain a series of instructions.&lt;/li&gt;
-&lt;li&gt;To define a function, we must enlist the &lt;code&gt;function()&lt;/code&gt; command.&lt;/li&gt;
-&lt;li&gt;A user defined function can take any number of &lt;em&gt;argments&lt;/em&gt; (e.g., &lt;code&gt;argument_1&lt;/code&gt;, etc.), also called &lt;em&gt;formals&lt;/em&gt;. These can be any number of objects such as numbers, data frames, to name a few. These are inputs needed for the function to run.&lt;/li&gt;
-&lt;li&gt;All the content between &lt;code&gt;{&lt;/code&gt; and &lt;code&gt;}&lt;/code&gt; is the &lt;em&gt;body&lt;/em&gt; of a function. This is were you will define the statements or instructions for the functions. Note that the last line in a function body will be automatically returned.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;With these basic building blocks in mind, let’s create a basic function. Our first task is to create a function tasked with printing the string “hello world!” each time it is called:&lt;/p&gt;
-&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;say_hello &amp;lt;- function() {
-  print(&amp;quot;hello world!&amp;quot;)
-}&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;Now that we have defined our first function, you may proceed to call it by typing its name into the console:&lt;/p&gt;
-&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;say_hello()&lt;/code&gt;&lt;/pre&gt;
-&lt;pre&gt;&lt;code&gt;## [1] &amp;quot;hello world!&amp;quot;&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;Let’s elevate the level of difficulty a bit further, while using the basic components highlighted through this document. Many R users compile functions into bundles aimed at streamlining different tasks (e.g., data cleaning, analyzing, visualizing, sharing, etc.) These bundled sets of code are commonly known as R packages and are freely distributed through the CRAN. The following code chunk is intended to check whether or not a package is locally available and either launch it locally or run the remote installation.&lt;/p&gt;
-&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;check_packages &amp;lt;- function(.dependencies) {
-  for (i in seq_along(.dependencies)) {
-    if (!requireNamespace(.dependencies[[i]], quietly = TRUE)) {
-      install.packages(.dependencies[[i]], dependencies = TRUE)
-    }
-  }
-}&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;Let’s break down the code chunk above. First, we defined a new function named &lt;code&gt;check_packages&lt;/code&gt;, which expects an argument named &lt;code&gt;.dependencies&lt;/code&gt;. The function will then generate a sequence up to the length of the vector (&lt;code&gt;for (i in seq_along(.dependencies)) {}&lt;/code&gt;). Each value on that vector will be evaluated in order to determine whether or not a package can be loaded into your environment (&lt;code&gt;if (!requireNamespace(.dependencies[[i]], quietly = TRUE)) {}&lt;/code&gt;). If a package cannot be loaded, the next step is to quietly attempt to install the missing package (&lt;code&gt;install.packages(.dependencies[[i]], dependencies = TRUE)&lt;/code&gt;).&lt;/p&gt;
-&lt;p&gt;Now that you have a basic understanding of the &lt;code&gt;check_packages()&lt;/code&gt; function, let’s put it to use. In the following set of tutorials we will be working with the &lt;a href=&#34;https://www.tidyverse.org/&#34;&gt;&lt;em&gt;tidyverse&lt;/em&gt;&lt;/a&gt;, a set of packages designed to work together that share a common philosophy of data and R programming. As such, it seems fitting to test whether or not this library is present on your machine:&lt;/p&gt;
-&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;packages &amp;lt;- c(&amp;quot;tidyverse&amp;quot;)
-
-check_packages(.dependencies = packages)&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;Should the &lt;em&gt;tidyverse&lt;/em&gt; be already installed on your computer, you will see no output on the console. However, should this library be missing, the installation process will take place quietly in the background.&lt;/p&gt;
-&lt;p&gt;If function writing does not appeal to you, don’ worry! Not all R users need to write functions. Much of your work in R can be done by leveraging others functions. However, it is important that you get a sense for the basic mechanics behind this incredibly empowering process.&lt;/p&gt;
-&lt;/div&gt;
-&lt;div id=&#34;syntax-quirks-and-words-of-advise&#34; class=&#34;section level2&#34;&gt;
-&lt;h2&gt;Syntax Quirks and Words of Advise&lt;/h2&gt;
-&lt;p&gt;As mentioned earlier in the document, R is a bit quirky, particularly if you have any experience programming in any other language. Keep in mid the following for your sanity (and to discourage you from quitting learning R early on):&lt;/p&gt;
-&lt;p&gt;A. Syntax, syntax, syntax (!!!): R - like other programming languages- reads what you type on the screen literally. As such, it fails to understand human syntax. For example, we understand that the words “John”, “john”, &amp;quot; John&amp;quot; and “John” are all the same word, but slightly different based on capitalization and trailing or leading spaces. However, R fails to differentiate between these four options, instead itemizing them all as individual observations. Broadly speaking, these are two main types of syntactic errors to keep an eye out for: capitalization and spacing.&lt;/p&gt;
-&lt;p&gt;A.1. Capitalization: We are accustomed to capitalizing letters at the beginning of new sentences. However, keep in mind that programming is not like general writing; for the most part you are hoping that the machine understands your commands and not a layman reader. To test this point begin by copying and pasting the following function into your R console:&lt;/p&gt;
-&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;Sys.time()&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;As mentioned previously, functions are statements that performs a specific task in R. We call them by providing the object name and some arguments. Above we used the &lt;code&gt;Sys.time()&lt;/code&gt; function, which is a base R function that return the system’s idea of the current time and date &lt;span class=&#34;citation&#34;&gt;(R Core Team 2018)&lt;/span&gt;. Notice that the first letter in this function is capitalized. Now copy and paste the following command:&lt;/p&gt;
-&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;sys.time()&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;This time you should see a red error message reading &lt;code&gt;Error in sys.time() : could not find function &amp;quot;sys.time&amp;quot;&lt;/code&gt;. A way to read this is “R could not find the &lt;code&gt;sys.time()&lt;/code&gt; function because the computer cannot recognize the difference between the properly capitalized function and the incorrectly written command.”&amp;quot;&lt;/p&gt;
-&lt;p&gt;A.2. Spacing: Spacing: Much like casing, spacing matters. However, unlike casing, R is not as cut and dry on how you must space certain items. The &lt;a href=&#34;https://google.github.io/styleguide/Rguide.xml&#34;&gt;Google’s R Style Guide&lt;/a&gt; provides multiple examples of when spacing matters. Here we will only focus on one scenario: placing spaces around binary operators (&lt;code&gt;=&lt;/code&gt;,&lt;code&gt;+&lt;/code&gt;,&lt;code&gt;-&lt;/code&gt;,&lt;code&gt;&amp;lt;-&lt;/code&gt;, etc.). Try copying and pasting the following example into the R console:&lt;/p&gt;
-&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;x&amp;lt;-1&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;In the example above &lt;code&gt;x&amp;lt;-1&lt;/code&gt; is an assignment, where you have used &lt;code&gt;&amp;lt;-&lt;/code&gt; to assign the number &lt;code&gt;1&lt;/code&gt; to the &lt;code&gt;x&lt;/code&gt; character. As such, &lt;code&gt;x&lt;/code&gt; now equals to &lt;code&gt;1&lt;/code&gt;. To test this, type &lt;code&gt;x&lt;/code&gt; into your console, the output should be a number &lt;code&gt;1&lt;/code&gt;. Now, let’s add some strategically placed spaces to the previous code as such:&lt;/p&gt;
-&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;x &amp;lt; -1&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;What output did you get from the code above? The output you should see is a &lt;code&gt;FALSE&lt;/code&gt; message stating that the object &lt;code&gt;x&lt;/code&gt; is in fact not larger than the value &lt;code&gt;-1&lt;/code&gt;. Why do you think the output is different? The short answer is that the additional spacing changed the input, so that in the second example R reads the command as the following test: “is &lt;code&gt;x&lt;/code&gt; smaller than &lt;code&gt;-1&lt;/code&gt;”, to which the answer is “no” or &lt;code&gt;FALSE&lt;/code&gt;.&lt;/p&gt;
-&lt;p&gt;B. Document your code: It is a good idea to comment on your code regularly. Much like with any type of project, workflow, and/or documentation, consistent note taking is key to keeping your sanity. This point is especially pertinent when you are sharing code or if you have to step away from your code for a few days or even longer. Imagine this document with only code chunks. How long do you think it would take you to understand the code and our logic behind it?&lt;/p&gt;
-&lt;p&gt;Although your notes do not need to be as extensive as the narrative in this tutorial, they should be enough for you to understand what you are looking at, why you are doing something in a specific manner, etc. Luckily, R allows you to add notes and comments in your scripts and documentation. In order to insert notes or comments into your code, you should use the &lt;code&gt;#&lt;/code&gt; symbol, which tells R to ignore the content to the right of the symbol. For example, try copying and pasting the following commands into R console:&lt;/p&gt;
-&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;Sys.time() #The Sys.time() function return the system&amp;#39;s idea of the current time and date&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;As opposed to:&lt;/p&gt;
-&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;#Sys.time() The Sys.time() function return the system&amp;#39;s idea of the current time and date&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;What is the difference between these commands? Using the &lt;code&gt;#&lt;/code&gt; symbol to the right of a function allows for the function to run, while you are still able to include notes or comments. Alternatively, including a &lt;code&gt;#&lt;/code&gt; before the function disables it.&lt;/p&gt;
-&lt;p&gt;C. Work smarter, not harder: No need to memorize everything, just remember how to find help. For example, should you forget how to work with a specific function or package, you may type &lt;code&gt;?&lt;/code&gt; or &lt;code&gt;??&lt;/code&gt; followed by the name of the function or package into your console. To get more information on the &lt;strong&gt;base&lt;/strong&gt; R package, for instance, type the following into your R console:&lt;/p&gt;
-&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;?base&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;If you wanted to get information on the all help pages related to &lt;strong&gt;base&lt;/strong&gt;, type &lt;code&gt;??base&lt;/code&gt; into your console. This process also will work with functions. For example, if you forget how to use the &lt;code&gt;Sys.time()&lt;/code&gt; function, you may check the documentation using &lt;code&gt;?Sys.time&lt;/code&gt;.&lt;/p&gt;
-&lt;p&gt;D. Leverage the open-source community: Most R users are proud to belong to the open-source community where R, source code and its packages are available to the general public for use or modification. This means that we all continue experimenting with code to achieve better and more efficient results. It also means that we all learn from each others’ work. As such, there are a variety of platforms for learning and sharing programming knowledge. The preferred, and sometimes feared, platform for asking question on R code is &lt;a href=&#34;https://stackoverflow.com/&#34;&gt;StackOverflow&lt;/a&gt;. However, be warned that editors and contributors frown upon asking bad, poorly researched, badly documented, or repeat questions. In other words, you are encouraged to a little research before asking questions online. It is very likely that others have a blog post, tutorial, or Stack Overflow thread with the answer to your question. That being said, should you not find an answer around the internet, keep in mind &lt;a href=&#34;https://stackoverflow.com/help/how-to-ask&#34;&gt;these&lt;/a&gt; parameters as you use Stack overflow.&lt;/p&gt;
-&lt;/div&gt;
-&lt;div id=&#34;parting-thoughs-and-additional-resources&#34; class=&#34;section level2&#34;&gt;
-&lt;h2&gt;Parting Thoughs and Additional Resources&lt;/h2&gt;
-&lt;p&gt;This document was intended to serve as a top level guide introducing you to programming with R. As such, many specifics have not been covered in detail. Here the focus was on introducing you to foundation building blocks from which you will continue building you understanding of working with data in R. To recap, in this document you have been exposed to:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Objects&lt;/li&gt;
-&lt;li&gt;Functions&lt;/li&gt;
-&lt;li&gt;Assignments&lt;/li&gt;
-&lt;li&gt;Vectors (e.g., atomic and lists)&lt;/li&gt;
-&lt;li&gt;Data types (e.g., character, double, integer, and logical)&lt;/li&gt;
-&lt;li&gt;Differences between homogeneous and heterogeneous data classes (e.g., atomic vectors and matrices v. lists and data frames)&lt;/li&gt;
-&lt;li&gt;Functions: writing and using them&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Using these building blocks, you should now be able to begin exploring the R ecosystem with some basic knowledge of the component upon which most tools operate. Keep in mind that learning this new programming language is an iterative process with an early high cost for learning. Yet, many tools and resources have been laid out for you to use. Keep the following set of resources on your back-pocket:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.datacamp.com/&#34;&gt;Data Camp&lt;/a&gt;, an online platform for learning data science. The early modules on R are free.&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://r4ds.had.co.nz/&#34;&gt;R for Data Science&lt;/a&gt; from Hadley Wickham. An essential read for those invested in learning data science with R. The author is the Chief Scientist at RStudio and principal author of many R packages.&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://stat545.com/&#34;&gt;Stat 545 course&lt;/a&gt; from the University of British Columbia, which is an online course on data wrangling, exploration and analysis with R.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Happy R learning! 😆&lt;/p&gt;
-&lt;/div&gt;
-&lt;div id=&#34;references&#34; class=&#34;section level2 unnumbered&#34;&gt;
-&lt;h2&gt;References&lt;/h2&gt;
-&lt;div id=&#34;refs&#34; class=&#34;references&#34;&gt;
-&lt;div id=&#34;ref-economist2018&#34;&gt;
-&lt;p&gt;“Python Has Brought Computer Programming to a Vast New Audience.” 2018. &lt;em&gt;The Economist&lt;/em&gt;. Jul. 19. &lt;a href=&#34;https://www.economist.com/science-and-technology/2018/07/19/python-has-brought-computer-programming-to-a-vast-new-audience&#34; class=&#34;uri&#34;&gt;https://www.economist.com/science-and-technology/2018/07/19/python-has-brought-computer-programming-to-a-vast-new-audience&lt;/a&gt;.&lt;/p&gt;
-&lt;/div&gt;
-&lt;div id=&#34;ref-R&#34;&gt;
-&lt;p&gt;R Core Team. 2018. &lt;em&gt;R: A Language and Environment for Statistical Computing&lt;/em&gt;. Vienna, Austria: R Foundation for Statistical Computing. &lt;a href=&#34;https://www.R-project.org/&#34; class=&#34;uri&#34;&gt;https://www.R-project.org/&lt;/a&gt;.&lt;/p&gt;
-&lt;/div&gt;
-&lt;div id=&#34;ref-Wickham2015.2&#34;&gt;
-&lt;p&gt;Wickham, Hadley. 2015a. &lt;em&gt;Advanced R&lt;/em&gt;. 1st ed. O’Reilly Media, Inc.&lt;/p&gt;
-&lt;/div&gt;
-&lt;div id=&#34;ref-Wickham2015&#34;&gt;
-&lt;p&gt;———. 2015b. &lt;em&gt;R Packages: Organize, Test, and Share Your Code&lt;/em&gt;. 1st ed. O’Reilly Media, Inc.&lt;/p&gt;
-&lt;/div&gt;
-&lt;div id=&#34;ref-Wickham2019&#34;&gt;
-&lt;p&gt;———. 2019. &lt;em&gt;Advanced R&lt;/em&gt;. 2nd ed. Chapman &amp;amp; Hall/CRC The R Series.&lt;/p&gt;
-&lt;/div&gt;
-&lt;div id=&#34;ref-Wickham2017&#34;&gt;
-&lt;p&gt;Wickham, Hadley, and Garrett Grolemund. 2017. &lt;em&gt;R for Data Science: Import, Tidy, Transform, Visualize, and Model Data&lt;/em&gt;. 1st ed. O’Reilly Media, Inc.&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&#34;footnotes&#34;&gt;
-&lt;hr /&gt;
-&lt;ol&gt;
-&lt;li id=&#34;fn1&#34;&gt;&lt;p&gt;Note that &lt;code&gt;arrays&lt;/code&gt; are not included in this framework as they are outside of the scope of this document.&lt;a href=&#34;#fnref1&#34;&gt;↩&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
-&lt;li id=&#34;fn2&#34;&gt;&lt;p&gt;&lt;code&gt;complex&lt;/code&gt; and &lt;code&gt;raw&lt;/code&gt; are not included as these have little relevance to statistical analysis.&lt;a href=&#34;#fnref2&#34;&gt;↩&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
-&lt;/ol&gt;
-&lt;/div&gt;
 </description>
     </item>
     
@@ -466,77 +59,21 @@ check_packages(.dependencies = packages)&lt;/code&gt;&lt;/pre&gt;
       <link>/talk/indianapolis-november-2019/</link>
       <pubDate>Mon, 18 Nov 2019 00:00:00 +0000</pubDate>
       <guid>/talk/indianapolis-november-2019/</guid>
-      <description>&lt;!-- raw HTML omitted --&gt;
+      <description>&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Click on the &lt;strong&gt;Slides&lt;/strong&gt; button above to view the built-in slides feature.
+  &lt;/div&gt;
+&lt;/div&gt;
+
 &lt;p&gt;Slides can be added in a few ways:&lt;/p&gt;
+
 &lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Create&lt;/strong&gt; slides using Academic&#39;s &lt;a href=&#34;https://sourcethemes.com/academic/docs/managing-content/#create-slides&#34;&gt;&lt;em&gt;Slides&lt;/em&gt;&lt;/a&gt; feature and link using &lt;code&gt;slides&lt;/code&gt; parameter in the front matter of the talk file&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Create&lt;/strong&gt; slides using Academic&amp;rsquo;s &lt;a href=&#34;https://sourcethemes.com/academic/docs/managing-content/#create-slides&#34; target=&#34;_blank&#34;&gt;&lt;em&gt;Slides&lt;/em&gt;&lt;/a&gt; feature and link using &lt;code&gt;slides&lt;/code&gt; parameter in the front matter of the talk file&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Upload&lt;/strong&gt; an existing slide deck to &lt;code&gt;static/&lt;/code&gt; and link using &lt;code&gt;url_slides&lt;/code&gt; parameter in the front matter of the talk file&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Embed&lt;/strong&gt; your slides (e.g. Google Slides) or presentation video on this page using &lt;a href=&#34;https://sourcethemes.com/academic/docs/writing-markdown-latex/&#34;&gt;shortcodes&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Embed&lt;/strong&gt; your slides (e.g. Google Slides) or presentation video on this page using &lt;a href=&#34;https://sourcethemes.com/academic/docs/writing-markdown-latex/&#34; target=&#34;_blank&#34;&gt;shortcodes&lt;/a&gt;.&lt;/li&gt;
 &lt;/ul&gt;
+
 &lt;p&gt;Further talk details can easily be added to this page using &lt;em&gt;Markdown&lt;/em&gt; and $\rm \LaTeX$ math code.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>birdcage</title>
-      <link>/project/birdcage/</link>
-      <pubDate>Thu, 24 Oct 2019 00:00:00 +0000</pubDate>
-      <guid>/project/birdcage/</guid>
-      <description>&lt;h2 id=&#34;background&#34;&gt;Background&lt;/h2&gt;
-&lt;p&gt;The purpose of this document is provide a general introduction to the Twitter analysis tool, &lt;strong&gt;{birdcage}&lt;/strong&gt;. Under the sponsorship of CTTSO, the CORE Lab developed this custom tool to improve efficiency in the analysis of the social media information environment.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;{birdcage}&lt;/strong&gt; is an open source analytic tool that enables users to search, explore, and analyze social media data efficiently. Based on practitioners’ feedback, this custom analytic tool offers &lt;em&gt;Summary&lt;/em&gt;, &lt;em&gt;Knowledge Graph&lt;/em&gt;, &lt;em&gt;Communities and Topics&lt;/em&gt;, and &lt;em&gt;Explore Data&lt;/em&gt; windows to facilitate descriptive, temporal, and relational analyses.&lt;/p&gt;
-&lt;p&gt;For demonstration purposes, we will start with the first window (i.e., &lt;em&gt;Summary&lt;/em&gt;) and work through subsequent windows’ features. Users do not have to work in this manner, however. Each window offers different features that might be relevant to a specific project.&lt;/p&gt;
-&lt;p&gt;Please consider the following as you walk through this tutorial:&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;This tool is not designed to be an “enterprise” solution; the goal is to fill analytic gaps by integrating it with existing systems.&lt;/li&gt;
-&lt;li&gt;Though it can ingest data from existing systems that make their data available, the CORE Lab will continue to work on incorporating new data sources.&lt;/li&gt;
-&lt;/ol&gt;
-&lt;h2 id=&#34;accessing-the-tool-and-selecting-a-project&#34;&gt;Accessing the Tool and Selecting a Project&lt;/h2&gt;
-&lt;p&gt;Upon accessing the app via the web browser, you will be presented with the &lt;em&gt;Select Project&lt;/em&gt; window. As of the time of writing this tutorial, the app offers access to Twitter data of projects from an existing enterprise system, namely Pulse; however, the Lab is working on additional integration options. Note that when you select a project, it may take a few second to load.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;login.gif&#34; alt=&#34; Figure 1. Accessing birdcage Tool &#34;&gt;&lt;/p&gt;
-&lt;h2 id=&#34;global-date-filter&#34;&gt;Global Date Filter&lt;/h2&gt;
-&lt;p&gt;It is often useful to filter a data set based on a specific time frame.  The &lt;em&gt;Global Date Filter&lt;/em&gt; permits analysts to interact with the data to observe trends during a specific period of time. For instance, we can see the data from this project range from February 19, 2019 through March 20, 2019.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;figure_2.png&#34; alt=&#34; Figure 2. Global Date Filter &#34;&gt;&lt;/p&gt;
-&lt;p&gt;Two key features to keep in mind:&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;The default date range is based on the date range in the underlying data.&lt;/li&gt;
-&lt;li&gt;The filter applies to all the subsequent windows. For example, a filter created in the &lt;em&gt;Summary&lt;/em&gt; window will apply to the &lt;em&gt;Knowledge Graph&lt;/em&gt; as well.&lt;/li&gt;
-&lt;/ol&gt;
-&lt;h2 id=&#34;summary-statistics&#34;&gt;Summary Statistics&lt;/h2&gt;
-&lt;p&gt;Once you have selected a data set and a date range using the &lt;em&gt;Global Date Filter&lt;/em&gt;, the &lt;em&gt;Summary&lt;/em&gt; window provides analysts with project aggregate statistics, including number of users, tweets, hashtags, URLs, media, and social network clusters. For instance, we can see that our data set in this example contains 9,283 users, 16,041 tweets, 1,446 hashtags, etc.&lt;/p&gt;
-&lt;p&gt;Moreover, the &lt;em&gt;Summary&lt;/em&gt; section offers interactive timelines that visualize reply, retweet, and quote activity over time. For example, we can see a spike in retweets on February 24th.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;timeline1.png&#34; alt=&#34; Figure 3. Summary Timeline: Search &#34;&gt;&lt;/p&gt;
-&lt;p&gt;We can zoom into time frames of interest by drawing a box over the area. Note you can return to the global view by simply double, left-clicking on the timeline.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;timeline2.png&#34; alt=&#34; Figure 4. Summary Timeline: Search &#34;&gt;&lt;/p&gt;
-&lt;p&gt;Finally, the &lt;em&gt;Summary&lt;/em&gt; section outlines a project&#39;s most active accounts, most common hashtags, and most common languages.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;most_active_entities.png&#34; alt=&#34;  Figure 5. Summary Timeline: Search &#34;&gt;&lt;/p&gt;
-&lt;!-- raw HTML omitted --&gt;
-&lt;h2 id=&#34;knowledge-graph&#34;&gt;Knowledge Graph&lt;/h2&gt;
-&lt;p&gt;The inherent relational nature of social media means analysts have to consider how accounts and other entities of interest are embedded in larger social structures.  The &lt;em&gt;Knowledge Graph&lt;/em&gt; is intended for users to do just that. You will see an interactive table that permits you to search for users, statuses (e.g., tweets), and entities (e.g., hashtag and URLs) of interest.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;knowledge_graph1.png&#34; alt=&#34; Figure 6. Knowledge Graph: Entity Type Tabs &#34;&gt;&lt;/p&gt;
-&lt;p&gt;In this example, we will select a user (note you can select multiple users or a combination of users, statuses, and hashtags) and locate the &lt;em&gt;Update Graph with Selected Rows&lt;/em&gt; button to visualize and interact the user&#39;s network &lt;em&gt;two&lt;/em&gt; steps out (i.e., direct and indirect connections).&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;knowledge_graph2.png&#34; alt=&#34; Figure 7. Knowledge Graph: Selecting an Entity &#34;&gt;&lt;/p&gt;
-&lt;p&gt;Once you have visualized an entity&#39;s (or multiple entities) network, you will see the legend and the &lt;em&gt;Select by&lt;/em&gt; feature. The former describes the entity and relationship types on the graph whereas the latter permits you to set your interactive options. For instance, the default choice is &lt;em&gt;node_class&lt;/em&gt;, which allows you to identify and highlight all hashtags, users, etc. Note you can always choose to search your graph by node Id with the &lt;em&gt;Select by Id&lt;/em&gt; drop-down.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;knowledge_graph3.png&#34; alt=&#34; Figure 8. Knowledge Graph: Selections and Legend &#34;&gt;&lt;/p&gt;
-&lt;p&gt;Additionally, you can select any node of the graph to obtain attribute information.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;knowledge_graph4.png&#34; alt=&#34; Figure 9. Knowledge Graph: Accessing Attribute Data &#34;&gt;&lt;/p&gt;
-&lt;p&gt;Finally, you can simply select &lt;em&gt;Clear User Rows&lt;/em&gt; followed by &lt;em&gt;Update Graph with Selected Rows&lt;/em&gt; to clear your graph (note you would select &lt;em&gt;Clear Status Rows&lt;/em&gt; and/or &lt;em&gt;Clear Entity Rows&lt;/em&gt; if your initial search focuses on tweets or other entities.)&lt;/p&gt;
-&lt;!-- raw HTML omitted --&gt;
-&lt;h2 id=&#34;communities-and-topics&#34;&gt;Communities and Topics&lt;/h2&gt;
-&lt;p&gt;Similar to the &lt;em&gt;Knowledge Graph&lt;/em&gt;, the &lt;em&gt;Communities and Topics&lt;/em&gt; window allows analysts to search and filter users, statuses, and entities for network analysis. A major motivation in social network analysis of communication and information-based networks is to identify subgroups/clusters of nodes who interact relatively more frequently with one another than with other groups of entities. For instance, sets of nodes may cluster because they are speaking the same language, talking about the same topic(s), and/or have similar views or beliefs about an issue.  The goal of the &lt;em&gt;Communities and Topics&lt;/em&gt; window is to use a &amp;ldquo;community-detection&amp;rdquo; algorithm to identify clusters for analysts so they can see the &amp;ldquo;surrounding&amp;rdquo; community containing users, tweets, and/or other entities of interest.&lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;comms_tops1.png&#34; alt=&#34; Figure 10. Communities and Topics: Searchable Table &#34;&gt;&lt;/p&gt;
-&lt;p&gt;Once you&#39;ve identified and selected users, tweets, and/or entities of interest, you can select &lt;em&gt;Find Community&lt;/em&gt; and a second table will appear below the first one. In this table you will be able to explore other users, tweets, and hashtags within your initial search node&#39;s cluster, such as the text of their tweets. As with the &lt;em&gt;Knowledge Graph&lt;/em&gt;, you can simply select &lt;em&gt;Clear User Rows&lt;/em&gt; followed by &lt;em&gt;Update Graph with Selected Rows&lt;/em&gt; to clear your graph (Note you would select &lt;em&gt;Clear Status Rows&lt;/em&gt; and/or &lt;em&gt;Clear Entity Rows&lt;/em&gt; if your initial search focuses on tweets or other entities.)&lt;/p&gt;
-&lt;h2 id=&#34;explore-data&#34;&gt;Explore Data&lt;/h2&gt;
-&lt;p&gt;The purpose of this final window is to allow analysts to search their data in a tabular format. This capability, though it may seem straightforward, is incredibly useful because Excel cannot create filters and sort large data sets without freezing.&lt;/p&gt;
-&lt;p&gt;Finally, the &lt;em&gt;About&lt;/em&gt; window provides general information about this tool, including our sponsor and contact information.&lt;/p&gt;
-&lt;section class=&#34;footnotes&#34; role=&#34;doc-endnotes&#34;&gt;
-&lt;hr&gt;
-&lt;ol&gt;
-&lt;li id=&#34;fn:1&#34; role=&#34;doc-endnote&#34;&gt;
-&lt;p&gt;We leverage the Louvain method for identifying clusters, see Blondel, Vincent D; Guillaume, Jean-Loup; Lambiotte, Renaud; Lefebvre, Etienne (9 October 2008). &amp;ldquo;Fast unfolding of communities in large networks&amp;rdquo;. Journal of Statistical Mechanics: Theory and Experiment. 2008 (10): P10008.&lt;a href=&#34;#fnref:1&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ol&gt;
-&lt;/section&gt;
 </description>
     </item>
     
@@ -553,8 +90,119 @@ check_packages(.dependencies = packages)&lt;/code&gt;&lt;/pre&gt;
       <link>/project/sna-for-le/</link>
       <pubDate>Thu, 24 Oct 2019 00:00:00 +0000</pubDate>
       <guid>/project/sna-for-le/</guid>
-      <description>&lt;h2 id=&#34;background&#34;&gt;Background&lt;/h2&gt;
+      <description>
+
+&lt;h2 id=&#34;background&#34;&gt;Background&lt;/h2&gt;
+
 &lt;p&gt;The CORE Lab is proud to partner with law enfocerment practioners (LE) under the guidance and sponsorship of the Office of the Assistant Secretary of Defense through the Domestic Preparedness Support Initiative, the Combating Terrorism Techinical Support Office, and the Western Regional Counterdrug Training Center. Our goal is to share knoweledge, skills, and abilities related to several analytical methodologies to include SNA.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>birdcage</title>
+      <link>/project/birdcage/</link>
+      <pubDate>Thu, 24 Oct 2019 00:00:00 +0000</pubDate>
+      <guid>/project/birdcage/</guid>
+      <description>
+
+&lt;h2 id=&#34;background&#34;&gt;Background&lt;/h2&gt;
+
+&lt;p&gt;The purpose of this document is provide a general introduction to the Twitter analysis tool, &lt;strong&gt;{birdcage}&lt;/strong&gt;. Under the sponsorship of CTTSO, the CORE Lab developed this custom tool to improve efficiency in the analysis of the social media information environment.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;{birdcage}&lt;/strong&gt; is an open source analytic tool that enables users to search, explore, and analyze social media data efficiently. Based on practitioners’ feedback, this custom analytic tool offers &lt;em&gt;Summary&lt;/em&gt;, &lt;em&gt;Knowledge Graph&lt;/em&gt;, &lt;em&gt;Communities and Topics&lt;/em&gt;, and &lt;em&gt;Explore Data&lt;/em&gt; windows to facilitate descriptive, temporal, and relational analyses.&lt;/p&gt;
+
+&lt;p&gt;For demonstration purposes, we will start with the first window (i.e., &lt;em&gt;Summary&lt;/em&gt;) and work through subsequent windows’ features. Users do not have to work in this manner, however. Each window offers different features that might be relevant to a specific project.&lt;/p&gt;
+
+&lt;p&gt;Please consider the following as you walk through this tutorial:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;This tool is not designed to be an “enterprise” solution; the goal is to fill analytic gaps by integrating it with existing systems.&lt;/li&gt;
+&lt;li&gt;Though it can ingest data from existing systems that make their data available, the CORE Lab will continue to work on incorporating new data sources.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&#34;accessing-the-tool-and-selecting-a-project&#34;&gt;Accessing the Tool and Selecting a Project&lt;/h2&gt;
+
+&lt;p&gt;Upon accessing the app via the web browser, you will be presented with the &lt;em&gt;Select Project&lt;/em&gt; window. As of the time of writing this tutorial, the app offers access to Twitter data of projects from an existing enterprise system, namely Pulse; however, the Lab is working on additional integration options. Note that when you select a project, it may take a few second to load.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;login.gif&#34; alt=&#34;&amp;lt;small&amp;gt; Figure 1. Accessing birdcage Tool &amp;lt;/small&amp;gt;&#34; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;global-date-filter&#34;&gt;Global Date Filter&lt;/h2&gt;
+
+&lt;p&gt;It is often useful to filter a data set based on a specific time frame.  The &lt;em&gt;Global Date Filter&lt;/em&gt; permits analysts to interact with the data to observe trends during a specific period of time. For instance, we can see the data from this project range from February 19, 2019 through March 20, 2019.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;figure_2.png&#34; alt=&#34;&amp;lt;small&amp;gt; Figure 2. Global Date Filter &amp;lt;/small&amp;gt;&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Two key features to keep in mind:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;The default date range is based on the date range in the underlying data.&lt;/li&gt;
+&lt;li&gt;The filter applies to all the subsequent windows. For example, a filter created in the &lt;em&gt;Summary&lt;/em&gt; window will apply to the &lt;em&gt;Knowledge Graph&lt;/em&gt; as well.
+&lt;br /&gt;
+&lt;br /&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&#34;summary-statistics&#34;&gt;Summary Statistics&lt;/h2&gt;
+
+&lt;p&gt;Once you have selected a data set and a date range using the &lt;em&gt;Global Date Filter&lt;/em&gt;, the &lt;em&gt;Summary&lt;/em&gt; window provides analysts with project aggregate statistics, including number of users, tweets, hashtags, URLs, media, and social network clusters. For instance, we can see that our data set in this example contains 9,283 users, 16,041 tweets, 1,446 hashtags, etc.&lt;/p&gt;
+
+&lt;p&gt;Moreover, the &lt;em&gt;Summary&lt;/em&gt; section offers interactive timelines that visualize reply, retweet, and quote activity over time. For example, we can see a spike in retweets on February 24th.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;timeline1.png&#34; alt=&#34;&amp;lt;small&amp;gt; Figure 3. Summary Timeline: Search &amp;lt;/small&amp;gt;&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;We can zoom into time frames of interest by drawing a box over the area. Note you can return to the global view by simply double, left-clicking on the timeline.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;timeline2.png&#34; alt=&#34;&amp;lt;small&amp;gt; Figure 4. Summary Timeline: Search &amp;lt;/small&amp;gt;&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Finally, the &lt;em&gt;Summary&lt;/em&gt; section outlines a project&amp;rsquo;s most active accounts, most common hashtags, and most common languages.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;most_active_entities.png&#34; alt=&#34;&amp;lt;small&amp;gt;  Figure 5. Summary Timeline: Search &amp;lt;/small&amp;gt;&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;/br&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;knowledge-graph&#34;&gt;Knowledge Graph&lt;/h2&gt;
+
+&lt;p&gt;The inherent relational nature of social media means analysts have to consider how accounts and other entities of interest are embedded in larger social structures.  The &lt;em&gt;Knowledge Graph&lt;/em&gt; is intended for users to do just that. You will see an interactive table that permits you to search for users, statuses (e.g., tweets), and entities (e.g., hashtag and URLs) of interest.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;knowledge_graph1.png&#34; alt=&#34;&amp;lt;small&amp;gt; Figure 6. Knowledge Graph: Entity Type Tabs &amp;lt;/small&amp;gt;&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;In this example, we will select a user (note you can select multiple users or a combination of users, statuses, and hashtags) and locate the &lt;em&gt;Update Graph with Selected Rows&lt;/em&gt; button to visualize and interact the user&amp;rsquo;s network &lt;em&gt;two&lt;/em&gt; steps out (i.e., direct and indirect connections).&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;knowledge_graph2.png&#34; alt=&#34;&amp;lt;small&amp;gt; Figure 7. Knowledge Graph: Selecting an Entity &amp;lt;/small&amp;gt;&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Once you have visualized an entity&amp;rsquo;s (or multiple entities) network, you will see the legend and the &lt;em&gt;Select by&lt;/em&gt; feature. The former describes the entity and relationship types on the graph whereas the latter permits you to set your interactive options. For instance, the default choice is &lt;em&gt;node_class&lt;/em&gt;, which allows you to identify and highlight all hashtags, users, etc. Note you can always choose to search your graph by node Id with the &lt;em&gt;Select by Id&lt;/em&gt; drop-down.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;knowledge_graph3.png&#34; alt=&#34;&amp;lt;small&amp;gt; Figure 8. Knowledge Graph: Selections and Legend &amp;lt;/small&amp;gt;&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Additionally, you can select any node of the graph to obtain attribute information.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;knowledge_graph4.png&#34; alt=&#34;&amp;lt;small&amp;gt; Figure 9. Knowledge Graph: Accessing Attribute Data &amp;lt;/small&amp;gt;&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Finally, you can simply select &lt;em&gt;Clear User Rows&lt;/em&gt; followed by &lt;em&gt;Update Graph with Selected Rows&lt;/em&gt; to clear your graph (note you would select &lt;em&gt;Clear Status Rows&lt;/em&gt; and/or &lt;em&gt;Clear Entity Rows&lt;/em&gt; if your initial search focuses on tweets or other entities.)&lt;/p&gt;
+
+&lt;p&gt;&lt;/br&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;communities-and-topics&#34;&gt;Communities and Topics&lt;/h2&gt;
+
+&lt;p&gt;Similar to the &lt;em&gt;Knowledge Graph&lt;/em&gt;, the &lt;em&gt;Communities and Topics&lt;/em&gt; window allows analysts to search and filter users, statuses, and entities for network analysis. A major motivation in social network analysis of communication and information-based networks is to identify subgroups/clusters of nodes who interact relatively more frequently with one another than with other groups of entities. For instance, sets of nodes may cluster because they are speaking the same language, talking about the same topic(s), and/or have similar views or beliefs about an issue.  The goal of the &lt;em&gt;Communities and Topics&lt;/em&gt; window is to use a &amp;ldquo;community-detection&amp;rdquo; algorithm to identify clusters for analysts so they can see the &amp;ldquo;surrounding&amp;rdquo; community containing users, tweets, and/or other entities of interest.&lt;sup class=&#34;footnote-ref&#34; id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;comms_tops1.png&#34; alt=&#34;&amp;lt;small&amp;gt; Figure 10. Communities and Topics: Searchable Table &amp;lt;/small&amp;gt;&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Once you&amp;rsquo;ve identified and selected users, tweets, and/or entities of interest, you can select &lt;em&gt;Find Community&lt;/em&gt; and a second table will appear below the first one. In this table you will be able to explore other users, tweets, and hashtags within your initial search node&amp;rsquo;s cluster, such as the text of their tweets. As with the &lt;em&gt;Knowledge Graph&lt;/em&gt;, you can simply select &lt;em&gt;Clear User Rows&lt;/em&gt; followed by &lt;em&gt;Update Graph with Selected Rows&lt;/em&gt; to clear your graph (Note you would select &lt;em&gt;Clear Status Rows&lt;/em&gt; and/or &lt;em&gt;Clear Entity Rows&lt;/em&gt; if your initial search focuses on tweets or other entities.)&lt;/p&gt;
+
+&lt;h2 id=&#34;explore-data&#34;&gt;Explore Data&lt;/h2&gt;
+
+&lt;p&gt;The purpose of this final window is to allow analysts to search their data in a tabular format. This capability, though it may seem straightforward, is incredibly useful because Excel cannot create filters and sort large data sets without freezing.&lt;/p&gt;
+
+&lt;p&gt;Finally, the &lt;em&gt;About&lt;/em&gt; window provides general information about this tool, including our sponsor and contact information.&lt;/p&gt;
+&lt;div class=&#34;footnotes&#34;&gt;
+
+&lt;hr /&gt;
+
+&lt;ol&gt;
+&lt;li id=&#34;fn:1&#34;&gt;We leverage the Louvain method for identifying clusters, see Blondel, Vincent D; Guillaume, Jean-Loup; Lambiotte, Renaud; Lefebvre, Etienne (9 October 2008). &amp;ldquo;Fast unfolding of communities in large networks&amp;rdquo;. Journal of Statistical Mechanics: Theory and Experiment. 2008 (10): P10008.
+ &lt;a class=&#34;footnote-return&#34; href=&#34;#fnref:1&#34;&gt;&lt;sup&gt;^&lt;/sup&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
 </description>
     </item>
     
@@ -563,8 +211,13 @@ check_packages(.dependencies = packages)&lt;/code&gt;&lt;/pre&gt;
       <link>/publication/preprint/</link>
       <pubDate>Sun, 07 Apr 2019 00:00:00 +0000</pubDate>
       <guid>/publication/preprint/</guid>
-      <description>&lt;!-- raw HTML omitted --&gt;
-&lt;p&gt;Supplementary notes can be added here, including &lt;a href=&#34;https://sourcethemes.com/academic/docs/writing-markdown-latex/&#34;&gt;code and math&lt;/a&gt;.&lt;/p&gt;
+      <description>&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Click the &lt;em&gt;Slides&lt;/em&gt; button above to demo Academic&amp;rsquo;s Markdown slides feature.
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Supplementary notes can be added here, including &lt;a href=&#34;https://sourcethemes.com/academic/docs/writing-markdown-latex/&#34; target=&#34;_blank&#34;&gt;code and math&lt;/a&gt;.&lt;/p&gt;
 </description>
     </item>
     
@@ -573,18 +226,27 @@ check_packages(.dependencies = packages)&lt;/code&gt;&lt;/pre&gt;
       <link>/slides/example/</link>
       <pubDate>Tue, 05 Feb 2019 00:00:00 +0000</pubDate>
       <guid>/slides/example/</guid>
-      <description>&lt;h1 id=&#34;welcome-to-slides&#34;&gt;Welcome to Slides&lt;/h1&gt;
-&lt;p&gt;&lt;a href=&#34;https://sourcethemes.com/academic/&#34;&gt;Academic&lt;/a&gt;&lt;/p&gt;
-&lt;hr&gt;
+      <description>
+
+&lt;h1 id=&#34;welcome-to-slides&#34;&gt;Welcome to Slides&lt;/h1&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://sourcethemes.com/academic/&#34; target=&#34;_blank&#34;&gt;Academic&lt;/a&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
 &lt;h2 id=&#34;features&#34;&gt;Features&lt;/h2&gt;
+
 &lt;ul&gt;
 &lt;li&gt;Efficiently write slides in Markdown&lt;/li&gt;
 &lt;li&gt;3-in-1: Create, Present, and Publish your slides&lt;/li&gt;
 &lt;li&gt;Supports speaker notes&lt;/li&gt;
 &lt;li&gt;Mobile friendly slides&lt;/li&gt;
 &lt;/ul&gt;
-&lt;hr&gt;
+
+&lt;hr /&gt;
+
 &lt;h2 id=&#34;controls&#34;&gt;Controls&lt;/h2&gt;
+
 &lt;ul&gt;
 &lt;li&gt;Next: &lt;code&gt;Right Arrow&lt;/code&gt; or &lt;code&gt;Space&lt;/code&gt;&lt;/li&gt;
 &lt;li&gt;Previous: &lt;code&gt;Left Arrow&lt;/code&gt;&lt;/li&gt;
@@ -594,60 +256,91 @@ check_packages(.dependencies = packages)&lt;/code&gt;&lt;/pre&gt;
 &lt;li&gt;Speaker notes: &lt;code&gt;S&lt;/code&gt;&lt;/li&gt;
 &lt;li&gt;Fullscreen: &lt;code&gt;F&lt;/code&gt;&lt;/li&gt;
 &lt;li&gt;Zoom: &lt;code&gt;Alt + Click&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/hakimel/reveal.js#pdf-export&#34;&gt;PDF Export&lt;/a&gt;: &lt;code&gt;E&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/hakimel/reveal.js#pdf-export&#34; target=&#34;_blank&#34;&gt;PDF Export&lt;/a&gt;: &lt;code&gt;E&lt;/code&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;hr&gt;
+
+&lt;hr /&gt;
+
 &lt;h2 id=&#34;code-highlighting&#34;&gt;Code Highlighting&lt;/h2&gt;
+
 &lt;p&gt;Inline code: &lt;code&gt;variable&lt;/code&gt;&lt;/p&gt;
+
 &lt;p&gt;Code block:&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;porridge &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;blueberry&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;&lt;/span&gt;
-&lt;span style=&#34;color:#66d9ef&#34;&gt;if&lt;/span&gt; porridge &lt;span style=&#34;color:#f92672&#34;&gt;==&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;blueberry&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;&lt;/span&gt;:
-    &lt;span style=&#34;color:#66d9ef&#34;&gt;print&lt;/span&gt;(&lt;span style=&#34;color:#e6db74&#34;&gt;&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;Eating...&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;&lt;/span&gt;)
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;hr&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;porridge = &amp;quot;blueberry&amp;quot;
+if porridge == &amp;quot;blueberry&amp;quot;:
+    print(&amp;quot;Eating...&amp;quot;)
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;hr /&gt;
+
 &lt;h2 id=&#34;math&#34;&gt;Math&lt;/h2&gt;
+
 &lt;p&gt;In-line math: $x + y = z$&lt;/p&gt;
+
 &lt;p&gt;Block math:&lt;/p&gt;
+
 &lt;p&gt;$$
-f\left( x \right) = ;\frac{{2\left( {x + 4} \right)\left( {x - 4} \right)}}{{\left( {x + 4} \right)\left( {x + 1} \right)}}
+f\left( x \right) = \;\frac{{2\left( {x + 4} \right)\left( {x - 4} \right)}}{{\left( {x + 4} \right)\left( {x + 1} \right)}}
 $$&lt;/p&gt;
-&lt;hr&gt;
+
+&lt;hr /&gt;
+
 &lt;h2 id=&#34;fragments&#34;&gt;Fragments&lt;/h2&gt;
+
 &lt;p&gt;Make content appear incrementally&lt;/p&gt;
+
 &lt;pre&gt;&lt;code&gt;{{% fragment %}} One {{% /fragment %}}
 {{% fragment %}} **Two** {{% /fragment %}}
 {{% fragment %}} Three {{% /fragment %}}
-&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;Press &lt;code&gt;Space&lt;/code&gt; to play!&lt;/p&gt;
-&lt;p&gt;&lt;!-- raw HTML omitted --&gt;
-One
-&lt;!-- raw HTML omitted --&gt;
-&lt;!-- raw HTML omitted --&gt;
-&lt;strong&gt;Two&lt;/strong&gt;
-&lt;!-- raw HTML omitted --&gt;
-&lt;!-- raw HTML omitted --&gt;
-Three
-&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;
-&lt;hr&gt;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Press &lt;code&gt;Space&lt;/code&gt; to play!&lt;/p&gt;
+
+&lt;p&gt;&lt;span class=&#34;fragment &#34; &gt;
+   One
+&lt;/span&gt;
+&lt;span class=&#34;fragment &#34; &gt;
+   &lt;strong&gt;Two&lt;/strong&gt;
+&lt;/span&gt;
+&lt;span class=&#34;fragment &#34; &gt;
+   Three
+&lt;/span&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
 &lt;p&gt;A fragment can accept two optional parameters:&lt;/p&gt;
+
 &lt;ul&gt;
 &lt;li&gt;&lt;code&gt;class&lt;/code&gt;: use a custom style (requires definition in custom CSS)&lt;/li&gt;
 &lt;li&gt;&lt;code&gt;weight&lt;/code&gt;: sets the order in which a fragment appears&lt;/li&gt;
 &lt;/ul&gt;
-&lt;hr&gt;
+
+&lt;hr /&gt;
+
 &lt;h2 id=&#34;speaker-notes&#34;&gt;Speaker Notes&lt;/h2&gt;
+
 &lt;p&gt;Add speaker notes to your presentation&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-markdown&#34; data-lang=&#34;markdown&#34;&gt;{{% speaker_note %}}
-&lt;span style=&#34;color:#66d9ef&#34;&gt;-&lt;/span&gt; Only the speaker can read these notes
-&lt;span style=&#34;color:#66d9ef&#34;&gt;-&lt;/span&gt; Press &lt;span style=&#34;color:#e6db74&#34;&gt;`S`&lt;/span&gt; key to view
+
+&lt;pre&gt;&lt;code class=&#34;language-markdown&#34;&gt;{{% speaker_note %}}
+- Only the speaker can read these notes
+- Press `S` key to view
 {{% /speaker_note %}}
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Press the &lt;code&gt;S&lt;/code&gt; key to view the speaker notes!&lt;/p&gt;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Press the &lt;code&gt;S&lt;/code&gt; key to view the speaker notes!&lt;/p&gt;
+
 &lt;aside class=&#34;notes&#34;&gt;
   &lt;ul&gt;
 &lt;li&gt;Only the speaker can read these notes&lt;/li&gt;
 &lt;li&gt;Press &lt;code&gt;S&lt;/code&gt; key to view&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/aside&gt;
-&lt;hr&gt;
+
+&lt;hr /&gt;
+
 &lt;h2 id=&#34;themes&#34;&gt;Themes&lt;/h2&gt;
+
 &lt;ul&gt;
 &lt;li&gt;black: Black background, white text, blue links (default)&lt;/li&gt;
 &lt;li&gt;white: White background, black text, blue links&lt;/li&gt;
@@ -655,14 +348,18 @@ Three
 &lt;li&gt;beige: Beige background, dark text, brown links&lt;/li&gt;
 &lt;li&gt;sky: Blue background, thin dark text, blue links&lt;/li&gt;
 &lt;/ul&gt;
-&lt;hr&gt;
+
+&lt;hr /&gt;
+
 &lt;ul&gt;
 &lt;li&gt;night: Black background, thick white text, orange links&lt;/li&gt;
 &lt;li&gt;serif: Cappuccino background, gray text, brown links&lt;/li&gt;
 &lt;li&gt;simple: White background, black text, blue links&lt;/li&gt;
 &lt;li&gt;solarized: Cream-colored background, dark green text, blue links&lt;/li&gt;
 &lt;/ul&gt;
-&lt;hr&gt;
+
+&lt;hr /&gt;
+
 
 &lt;section data-noprocess data-shortcode-slide
   
@@ -670,24 +367,38 @@ Three
       data-background-image=&#34;/img/boards.jpg&#34;
   &gt;
 
+
 &lt;h2 id=&#34;custom-slide&#34;&gt;Custom Slide&lt;/h2&gt;
+
 &lt;p&gt;Customize the slide style and background&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-markdown&#34; data-lang=&#34;markdown&#34;&gt;{{&amp;lt; slide background-image=&amp;#34;/img/boards.jpg&amp;#34; &amp;gt;}}
-{{&amp;lt; slide background-color=&amp;#34;#0000FF&amp;#34; &amp;gt;}}
-{{&amp;lt; slide class=&amp;#34;my-style&amp;#34; &amp;gt;}}
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;hr&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-markdown&#34;&gt;{{&amp;lt; slide background-image=&amp;quot;/img/boards.jpg&amp;quot; &amp;gt;}}
+{{&amp;lt; slide background-color=&amp;quot;#0000FF&amp;quot; &amp;gt;}}
+{{&amp;lt; slide class=&amp;quot;my-style&amp;quot; &amp;gt;}}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;hr /&gt;
+
 &lt;h2 id=&#34;custom-css-example&#34;&gt;Custom CSS Example&lt;/h2&gt;
-&lt;p&gt;Let&#39;s make headers navy colored.&lt;/p&gt;
+
+&lt;p&gt;Let&amp;rsquo;s make headers navy colored.&lt;/p&gt;
+
 &lt;p&gt;Create &lt;code&gt;assets/css/reveal_custom.css&lt;/code&gt; with:&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-css&#34; data-lang=&#34;css&#34;&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;reveal&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;section&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;h1&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;,&lt;/span&gt;
-.&lt;span style=&#34;color:#a6e22e&#34;&gt;reveal&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;section&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;h2&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;,&lt;/span&gt;
-.&lt;span style=&#34;color:#a6e22e&#34;&gt;reveal&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;section&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;h3&lt;/span&gt; {
-  &lt;span style=&#34;color:#66d9ef&#34;&gt;color&lt;/span&gt;: &lt;span style=&#34;color:#66d9ef&#34;&gt;navy&lt;/span&gt;;
+
+&lt;pre&gt;&lt;code class=&#34;language-css&#34;&gt;.reveal section h1,
+.reveal section h2,
+.reveal section h3 {
+  color: navy;
 }
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;hr&gt;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;hr /&gt;
+
 &lt;h1 id=&#34;questions&#34;&gt;Questions?&lt;/h1&gt;
-&lt;p&gt;&lt;a href=&#34;https://discourse.gohugo.io&#34;&gt;Ask&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://sourcethemes.com/academic/docs/&#34;&gt;Documentation&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://discourse.gohugo.io&#34; target=&#34;_blank&#34;&gt;Ask&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://sourcethemes.com/academic/docs/&#34; target=&#34;_blank&#34;&gt;Documentation&lt;/a&gt;&lt;/p&gt;
 </description>
     </item>
     
@@ -714,9 +425,19 @@ Three
       <link>/publication/journal-article/</link>
       <pubDate>Tue, 01 Sep 2015 00:00:00 +0000</pubDate>
       <guid>/publication/journal-article/</guid>
-      <description>&lt;!-- raw HTML omitted --&gt;
-&lt;!-- raw HTML omitted --&gt;
-&lt;p&gt;Supplementary notes can be added here, including &lt;a href=&#34;https://sourcethemes.com/academic/docs/writing-markdown-latex/&#34;&gt;code and math&lt;/a&gt;.&lt;/p&gt;
+      <description>&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Click the &lt;em&gt;Cite&lt;/em&gt; button above to demo the feature to enable visitors to import publication metadata into their reference management software.
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Click the &lt;em&gt;Slides&lt;/em&gt; button above to demo Academic&amp;rsquo;s Markdown slides feature.
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Supplementary notes can be added here, including &lt;a href=&#34;https://sourcethemes.com/academic/docs/writing-markdown-latex/&#34; target=&#34;_blank&#34;&gt;code and math&lt;/a&gt;.&lt;/p&gt;
 </description>
     </item>
     
@@ -725,9 +446,19 @@ Three
       <link>/publication/conference-paper/</link>
       <pubDate>Mon, 01 Jul 2013 00:00:00 +0000</pubDate>
       <guid>/publication/conference-paper/</guid>
-      <description>&lt;!-- raw HTML omitted --&gt;
-&lt;!-- raw HTML omitted --&gt;
-&lt;p&gt;Supplementary notes can be added here, including &lt;a href=&#34;https://sourcethemes.com/academic/docs/writing-markdown-latex/&#34;&gt;code and math&lt;/a&gt;.&lt;/p&gt;
+      <description>&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Click the &lt;em&gt;Cite&lt;/em&gt; button above to demo the feature to enable visitors to import publication metadata into their reference management software.
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Click the &lt;em&gt;Slides&lt;/em&gt; button above to demo Academic&amp;rsquo;s Markdown slides feature.
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Supplementary notes can be added here, including &lt;a href=&#34;https://sourcethemes.com/academic/docs/writing-markdown-latex/&#34; target=&#34;_blank&#34;&gt;code and math&lt;/a&gt;.&lt;/p&gt;
 </description>
     </item>
     
